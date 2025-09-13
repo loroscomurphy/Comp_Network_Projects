@@ -9,8 +9,18 @@
 #include <sys/stat.h>
 #include <errno.h>
 
-#define PORT 65432
+#define PORT 5432
 #define BUFSIZE 4096
+
+//Originally had issues with send and recv not sending/receiving files
+//Used CHATGPT to help me with this code
+//prompt: "I'm currently having an issue with doing get and push where when I when push the "client.txt" file to the server, the .txt is blank while when trying to get 
+//the "server.txt" file from the server, it will download the file but, will also have the file size along with it. 
+//Can you help modify my code to properly get and push files without these issues?"
+
+
+//Implemtented send_all,recv_all, and a handshake to ensure all data is sent and received
+//Also modified recv_line to read until newline character
 
 static ssize_t send_all(int sock, const void *buf, size_t len) 
 {
@@ -148,14 +158,15 @@ static int handle_get(int client, const char *filename)
     send_all(client, "DONE\n", 5);
     return 0;
 }
-
+//Using example from Ch01 slides added in verification checks for connection
 int main(void) 
 {
     int server_fd = socket(AF_INET, SOCK_STREAM, 0);
 
     if (server_fd < 0) 
     { 
-        perror("socket"); exit(1);
+        perror("socket"); 
+        exit(1);
     }
 
     // Allow quick restart
@@ -171,12 +182,16 @@ int main(void)
 
     if (bind(server_fd, (struct sockaddr *)&addr, sizeof(addr)) < 0) 
     {
-        perror("bind"); close(server_fd); exit(1);
+        perror("bind"); 
+        close(server_fd); 
+        exit(1);
     }
 
     if (listen(server_fd, 8) < 0) 
     {
-        perror("listen"); close(server_fd); exit(1);
+        perror("listen"); 
+        close(server_fd); 
+        exit(1);
     }
 
     printf("Server listening on %d...\n", PORT);
@@ -184,7 +199,9 @@ int main(void)
     int client_fd = accept(server_fd, (struct sockaddr *)&addr, &addrlen);
     if (client_fd < 0) 
     { 
-        perror("accept"); close(server_fd); exit(1); 
+        perror("accept"); 
+        close(server_fd); 
+        exit(1); 
     }
 
     printf("Client connected.\n");
@@ -193,9 +210,12 @@ int main(void)
     for (;;) 
     {
         ssize_t ln = recv_line(client_fd, line, sizeof(line));
-        if (ln <= 0) break; // client disconnected
-        // Expect: "push <file>\n", "get <file>\n", or "quit\n"
+        if (ln <= 0) 
+        {
+            break; // client disconnected
+        }
 
+        // Expect: "push <file>\n", "get <file>\n", or "quit\n"
         if (strncmp(line, "push ", 5) == 0) 
         {
             // strip newline

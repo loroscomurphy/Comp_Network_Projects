@@ -8,9 +8,18 @@
 #include <netinet/in.h>
 #include <sys/stat.h>
 
-#define SERVER_IP "127.0.0.1"
-#define PORT 65432
+#define SERVER_IP "127.0.0.1" //Added this for automatic remote connection to server. Won't work if server is on different machine.
+#define PORT 5432
 #define BUFSIZE 4096
+
+//Originally had issues with send and recv not sending/receiving files
+//Used CHATGPT to help me with this code
+//prompt: "I'm currently having an issue with doing get and push where when I when push the "client.txt" file to the server, the .txt is blank while when trying to get 
+//the "server.txt" file from the server, it will download the file but, will also have the file size along with it. 
+//Can you help modify my code to properly get and push files without these issues?"
+
+//Implemtented send_all,recv_all, and a handshake to ensure all data is sent and received
+//Also modified recv_line to read until newline character
 
 static ssize_t send_all(int sock, const void *buf, size_t len) 
 {
@@ -100,7 +109,7 @@ static int do_push(int sock, const char *filename)
         return -1;
     }
 
-    // 4) Wait "OK\n"
+    // 4) Wait for "OK\n"
     ln = recv_line(sock, line, sizeof(line));
     if (ln <= 0 || strcmp(line, "OK\n") != 0) 
     { 
@@ -200,6 +209,7 @@ static int do_get(int sock, const char *filename)
     return 0;
 }
 
+//Using example from Ch01 slides added in verification checks for connection
 int main(void) 
 {
     int sock = socket(AF_INET, SOCK_STREAM, 0);
