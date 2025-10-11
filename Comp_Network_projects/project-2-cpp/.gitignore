@@ -1,0 +1,9 @@
+*.out
+*.o
+*.exe
+exClient
+exServer
+/server/server_storage/*
+!/server/server_storage/local.txt
+/client/client_storage/*
+!/client/client_storage/local.txt
