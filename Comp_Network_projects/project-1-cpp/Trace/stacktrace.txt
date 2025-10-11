@@ -1,0 +1,26 @@
+Client:
+
+enbeeay@DESKTOP-RO4HK2A:/mnt/c/Users/natha/Documents/Projects/Comp_Network_Projects/Comp_Network_projects/project-1-cpp/client$ make run
+g++ client.cpp ../common/CommandHandler.cpp -o a.out
+./a.out localhost
+Client: Connected to server
+$ put client.txt
+Upload succeeded
+$ get server.txt
+Download succeeded: client_storage/server.txt
+$ quit 
+Client: Disconnected from server
+
+
+Server:
+
+enbeeay@DESKTOP-RO4HK2A:/mnt/c/Users/natha/Documents/Projects/Comp_Network_Projects/Comp_Network_projects/project-1-cpp/server$ make run
+g++ server.cpp ../common/CommandHandler.cpp -o a.out
+./a.out
+Server listening on 5432...
+Client connected.
+Received: put 10 50
+PUT ok server_storage/client.txt (50 bytes)
+Received: get 10
+GET ok server_storage/server.txt (36 bytes)
+Client disconnected.
