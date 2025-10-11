@@ -86,7 +86,9 @@ void Client::connectToServer() {
     bzero((char *)&this->sin, sizeof(this->sin));
     this->sin.sin_family = AF_INET;
     bcopy(this->hp->h_addr, (char *)&this->sin.sin_addr, this->hp->h_length);
-    this->sin.sin_port = htons(SERVER_PORT);
+	
+	//changed to from SERVER_PORT to PROXY_PORT
+    this->sin.sin_port = htons(PROXY_PORT);
     if ((this->s = socket(PF_INET, SOCK_STREAM, 0)) < 0) {
         perror("simplex-talk: socket");
         exit(1);
@@ -97,6 +99,10 @@ void Client::connectToServer() {
         exit(1);
     }
     std::cout << "Client: Connected to server" << std::endl;
+	
+	// Send server info from client to proxy
+    std::string serInfo = std::string(this->host) + " " + std::to_string(SERVER_PORT) + "\n";
+    sendAll(this->s, serInfo.data(), serInfo.size());
 }
 
 

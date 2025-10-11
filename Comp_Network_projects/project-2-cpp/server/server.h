@@ -13,6 +13,8 @@
 #include "../common/CommandHandler.h"
 
 #define SERVER_PORT 5432
+//added proxy port
+#define PROXY_PORT 5465
 #define MAX_PENDING 5
 #define MAX_LINE 256
 

@@ -16,6 +16,9 @@
 
 #define MAX_LINE 256
 #define SERVER_PORT 5432
+//added proxy port
+#define PROXY_PORT 5465
+
 
 class Client {
     private:
