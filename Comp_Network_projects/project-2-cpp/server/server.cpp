@@ -92,6 +92,12 @@ void Server::builtin_get(int argc, char* argv[]) {
 // Socket setup: create, configure, bind, and listen
 void Server::setup() {
     int opt = 1;
+    if ((this->listenSocket = socket(PF_INET, SOCK_STREAM, 0)) < 0) 
+    {
+        perror("simplex-talk: socket");
+        exit(1);
+    }
+    
     if (setsockopt(this->listenSocket, SOL_SOCKET, SO_REUSEADDR, &opt, sizeof(opt)) < 0) {
         perror("setsockopt SO_REUSEADDR");
     }
