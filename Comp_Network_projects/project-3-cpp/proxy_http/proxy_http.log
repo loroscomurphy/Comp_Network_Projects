@@ -1,0 +1,819 @@
+[2025-10-14 20:54:17] Proxy listening on port 5465
+[2025-10-22 18:58:37] Proxy listening on port 5465
+[2025-10-22 18:59:20] Received request-line: CONNECT merchandise.opera-api2.com:443 HTTP/1.1
+[2025-10-22 18:59:20] CONNECT request for merchandise.opera-api2.com:443
+[2025-10-22 18:59:20] Received request-line: CONNECT proxy.gxcorner.games:443 HTTP/1.1
+[2025-10-22 18:59:20] CONNECT request for proxy.gxcorner.games:443
+[2025-10-22 18:59:20] Received request-line: CONNECT autoupdate.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:20] CONNECT request for autoupdate.opera.com:443
+[2025-10-22 18:59:20] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:20] CONNECT request for speeddials.opera.com:443
+[2025-10-22 18:59:20] Received request-line: CONNECT lh3.googleusercontent.com:443 HTTP/1.1
+[2025-10-22 18:59:20] CONNECT request for lh3.googleusercontent.com:443
+[2025-10-22 18:59:20] Received request-line: CONNECT autoupdate.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:20] CONNECT request for autoupdate.opera.com:443
+[2025-10-22 18:59:21] Received request-line: CONNECT lh3.googleusercontent.com:443 HTTP/1.1
+[2025-10-22 18:59:21] CONNECT request for lh3.googleusercontent.com:443
+[2025-10-22 18:59:21] Tunnel established to merchandise.opera-api2.com (107.167.96.30:443)
+[2025-10-22 18:59:21] Tunnel established to proxy.gxcorner.games (104.18.6.134:443)
+[2025-10-22 18:59:21] Tunnel established to autoupdate.opera.com (107.167.96.38:443)
+[2025-10-22 18:59:21] Tunnel established to speeddials.opera.com (107.167.110.216:443)
+[2025-10-22 18:59:21] Tunnel established to lh3.googleusercontent.com (192.178.155.132:443)
+[2025-10-22 18:59:21] Tunnel established to autoupdate.opera.com (107.167.96.39:443)
+[2025-10-22 18:59:22] Tunnel established to lh3.googleusercontent.com (192.178.155.132:443)
+[2025-10-22 18:59:23] Received request-line: CONNECT sitecheck.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:23] CONNECT request for sitecheck.opera.com:443
+[2025-10-22 18:59:24] Received request-line: CONNECT accounts.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:24] CONNECT request for accounts.opera.com:443
+[2025-10-22 18:59:24] Received request-line: CONNECT accounts.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:24] CONNECT request for accounts.opera.com:443
+[2025-10-22 18:59:24] Received request-line: CONNECT purdue.brightspace.com:443 HTTP/1.1
+[2025-10-22 18:59:24] CONNECT request for purdue.brightspace.com:443
+[2025-10-22 18:59:24] Received request-line: CONNECT github.com:443 HTTP/1.1
+[2025-10-22 18:59:24] CONNECT request for github.com:443
+[2025-10-22 18:59:24] Received request-line: CONNECT sitecheck.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:24] CONNECT request for sitecheck.opera.com:443
+[2025-10-22 18:59:24] Received request-line: CONNECT sitecheck.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:24] CONNECT request for sitecheck.opera.com:443
+[2025-10-22 18:59:25] Received request-line: CONNECT accounts.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:25] CONNECT request for accounts.opera.com:443
+[2025-10-22 18:59:25] Tunnel established to sitecheck.opera.com (107.167.110.216:443)
+[2025-10-22 18:59:25] Received request-line: CONNECT accounts.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:25] CONNECT request for accounts.opera.com:443
+[2025-10-22 18:59:25] Received request-line: CONNECT accounts.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:25] CONNECT request for accounts.opera.com:443
+[2025-10-22 18:59:25] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:25] Received request-line: CONNECT safebrowsing.googleapis.com:443 HTTP/1.1
+[2025-10-22 18:59:25] CONNECT request for speeddials.opera.com:443
+[2025-10-22 18:59:25] CONNECT request for safebrowsing.googleapis.com:443
+[2025-10-22 18:59:25] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:25] CONNECT request for speeddials.opera.com:443
+[2025-10-22 18:59:25] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:25] CONNECT request for speeddials.opera.com:443
+[2025-10-22 18:59:25] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:25] CONNECT request for speeddials.opera.com:443
+[2025-10-22 18:59:25] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:25] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:25] CONNECT request for speeddials.opera.com:443
+[2025-10-22 18:59:25] CONNECT request for speeddials.opera.com:443
+[2025-10-22 18:59:25] Received request-line: CONNECT safebrowsing.googleapis.com:443 HTTP/1.1
+[2025-10-22 18:59:25] CONNECT request for safebrowsing.googleapis.com:443
+[2025-10-22 18:59:25] Received request-line: CONNECT github.githubassets.com:443 HTTP/1.1
+[2025-10-22 18:59:25] CONNECT request for github.githubassets.com:443
+[2025-10-22 18:59:25] Received request-line: CONNECT addons.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:25] CONNECT request for addons.opera.com:443
+[2025-10-22 18:59:25] Received request-line: CONNECT github.githubassets.com:443 HTTP/1.1
+[2025-10-22 18:59:25] CONNECT request for github.githubassets.com:443
+[2025-10-22 18:59:25] Tunnel established to accounts.opera.com (107.167.96.44:443)
+[2025-10-22 18:59:26] Tunnel closed for autoupdate.opera.com:443
+[2025-10-22 18:59:26] Received request-line: CONNECT github.githubassets.com:443 HTTP/1.1
+[2025-10-22 18:59:26] Received request-line: CONNECT merchandise.opera-api2.com:443 HTTP/1.1
+[2025-10-22 18:59:26] CONNECT request for github.githubassets.com:443
+[2025-10-22 18:59:26] CONNECT request for merchandise.opera-api2.com:443
+[2025-10-22 18:59:26] Tunnel closed for autoupdate.opera.com:443
+[2025-10-22 18:59:26] Tunnel closed for lh3.googleusercontent.com:443
+[2025-10-22 18:59:26] Received request-line: CONNECT merchandise.opera-api2.com:443 HTTP/1.1
+[2025-10-22 18:59:26] CONNECT request for merchandise.opera-api2.com:443
+[2025-10-22 18:59:26] Received request-line: CONNECT addons.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:26] CONNECT request for addons.opera.com:443
+[2025-10-22 18:59:26] Tunnel established to accounts.opera.com (107.167.96.43:443)
+[2025-10-22 18:59:26] Received request-line: CONNECT addons.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:26] CONNECT request for addons.opera.com:443
+[2025-10-22 18:59:26] Received request-line: CONNECT addons.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:26] CONNECT request for addons.opera.com:443
+[2025-10-22 18:59:26] Received request-line: CONNECT extension-updates.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:26] CONNECT request for extension-updates.opera.com:443
+[2025-10-22 18:59:26] Received request-line: CONNECT github.githubassets.com:443 HTTP/1.1
+[2025-10-22 18:59:26] CONNECT request for github.githubassets.com:443
+[2025-10-22 18:59:26] Received request-line: CONNECT github.githubassets.com:443 HTTP/1.1
+[2025-10-22 18:59:26] CONNECT request for github.githubassets.com:443
+[2025-10-22 18:59:26] Received request-line: CONNECT github.githubassets.com:443 HTTP/1.1
+[2025-10-22 18:59:26] CONNECT request for github.githubassets.com:443
+[2025-10-22 18:59:26] Received request-line: CONNECT extension-updates.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:26] CONNECT request for extension-updates.opera.com:443
+[2025-10-22 18:59:26] Received request-line: CONNECT exchange.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:26] CONNECT request for exchange.opera.com:443
+[2025-10-22 18:59:26] Received request-line: CONNECT exchange.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:26] CONNECT request for exchange.opera.com:443
+[2025-10-22 18:59:27] Received request-line: CONNECT exchange.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:27] CONNECT request for exchange.opera.com:443
+[2025-10-22 18:59:27] Tunnel established to purdue.brightspace.com (107.22.243.138:443)
+[2025-10-22 18:59:27] Tunnel closed for accounts.opera.com:443
+[2025-10-22 18:59:27] Received request-line: CONNECT features.opera-api2.com:443 HTTP/1.1
+[2025-10-22 18:59:27] CONNECT request for features.opera-api2.com:443
+[2025-10-22 18:59:27] Received request-line: CONNECT accounts.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:27] CONNECT request for accounts.opera.com:443
+[2025-10-22 18:59:27] Received request-line: CONNECT firebaseremoteconfig.googleapis.com:443 HTTP/1.1
+[2025-10-22 18:59:27] CONNECT request for firebaseremoteconfig.googleapis.com:443
+[2025-10-22 18:59:27] Received request-line: CONNECT firebaseremoteconfig.googleapis.com:443 HTTP/1.1
+[2025-10-22 18:59:27] CONNECT request for firebaseremoteconfig.googleapis.com:443
+[2025-10-22 18:59:27] Received request-line: CONNECT subscriptions.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:27] CONNECT request for subscriptions.opera.com:443
+[2025-10-22 18:59:27] Received request-line: CONNECT auth.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:27] CONNECT request for auth.opera.com:443
+[2025-10-22 18:59:27] Received request-line: CONNECT auth.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:27] CONNECT request for auth.opera.com:443
+[2025-10-22 18:59:27] Received request-line: CONNECT chatgpt.com:443 HTTP/1.1
+[2025-10-22 18:59:27] CONNECT request for chatgpt.com:443
+[2025-10-22 18:59:27] Tunnel established to github.com (140.82.113.4:443)
+[2025-10-22 18:59:27] Tunnel closed for github.com:443
+[2025-10-22 18:59:27] Tunnel closed for speeddials.opera.com:443
+[2025-10-22 18:59:27] Tunnel closed for merchandise.opera-api2.com:443
+[2025-10-22 18:59:27] Tunnel closed for accounts.opera.com:443
+[2025-10-22 18:59:27] Tunnel closed for proxy.gxcorner.games:443
+[2025-10-22 18:59:27] Tunnel closed for purdue.brightspace.com:443
+[2025-10-22 18:59:27] Tunnel closed for sitecheck.opera.com:443
+[2025-10-22 18:59:27] Tunnel closed for lh3.googleusercontent.com:443
+[2025-10-22 18:59:27] Tunnel established to sitecheck.opera.com (107.167.96.30:443)
+[2025-10-22 18:59:27] Tunnel closed for sitecheck.opera.com:443
+[2025-10-22 18:59:27] Tunnel established to sitecheck.opera.com (107.167.110.211:443)
+[2025-10-22 18:59:27] Tunnel closed for sitecheck.opera.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT chatgpt.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for chatgpt.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT mtalk.google.com:5228 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for mtalk.google.com:5228
+[2025-10-22 18:59:28] Received request-line: CONNECT android.clients.google.com:443 HTTP/1.1
+[2025-10-22 18:59:28] Received request-line: CONNECT android.clients.google.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for android.clients.google.com:443
+[2025-10-22 18:59:28] CONNECT request for android.clients.google.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT sync.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for sync.opera.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT sync.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for sync.opera.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT composer.opera-api.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for composer.opera-api.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT sync.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for sync.opera.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT addons.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for addons.opera.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT composer.opera-api.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for composer.opera-api.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT auth.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for auth.opera.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT addons.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for addons.opera.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT addons.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for addons.opera.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT exchange.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for exchange.opera.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT exchange.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for exchange.opera.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT auth.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for auth.opera.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT exchange.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for exchange.opera.com:443
+[2025-10-22 18:59:28] Tunnel established to accounts.opera.com (107.167.96.31:443)
+[2025-10-22 18:59:28] Tunnel closed for accounts.opera.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT features.opera-api2.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for features.opera-api2.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT safebrowsing.googleapis.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for safebrowsing.googleapis.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for speeddials.opera.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for speeddials.opera.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for speeddials.opera.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for speeddials.opera.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for speeddials.opera.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for speeddials.opera.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT subscriptions.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for subscriptions.opera.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT sync.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for sync.opera.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT chatgpt.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for chatgpt.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT composer.opera-api.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for composer.opera-api.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT github.githubassets.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for github.githubassets.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT firebaseremoteconfig.googleapis.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for firebaseremoteconfig.googleapis.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT github.githubassets.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for github.githubassets.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT github.githubassets.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for github.githubassets.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT github.githubassets.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for github.githubassets.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT sync.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for sync.opera.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT merchandise.opera-api2.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for merchandise.opera-api2.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT github.githubassets.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for github.githubassets.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT github.githubassets.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for github.githubassets.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT android.clients.google.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for android.clients.google.com:443
+[2025-10-22 18:59:28] Received request-line: CONNECT extension-updates.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:28] CONNECT request for extension-updates.opera.com:443
+[2025-10-22 18:59:28] Tunnel established to accounts.opera.com (107.167.96.31:443)
+[2025-10-22 18:59:28] Tunnel closed for accounts.opera.com:443
+[2025-10-22 18:59:29] Tunnel established to accounts.opera.com (107.167.96.44:443)
+[2025-10-22 18:59:29] Tunnel closed for accounts.opera.com:443
+[2025-10-22 18:59:29] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.0
+[2025-10-22 18:59:29] CONNECT request for mobile.events.data.microsoft.com:443
+[2025-10-22 18:59:29] Received request-line: CONNECT vscode-sync.trafficmanager.net:443 HTTP/1.1
+[2025-10-22 18:59:29] CONNECT request for vscode-sync.trafficmanager.net:443
+[2025-10-22 18:59:29] Tunnel established to safebrowsing.googleapis.com (172.253.115.95:443)
+[2025-10-22 18:59:29] Tunnel closed for safebrowsing.googleapis.com:443
+[2025-10-22 18:59:29] Tunnel established to speeddials.opera.com (107.167.110.216:443)
+[2025-10-22 18:59:29] Tunnel closed for speeddials.opera.com:443
+[2025-10-22 18:59:29] Received request-line: CONNECT vscode-sync.trafficmanager.net:443 HTTP/1.1
+[2025-10-22 18:59:29] CONNECT request for vscode-sync.trafficmanager.net:443
+[2025-10-22 18:59:29] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.0
+[2025-10-22 18:59:29] CONNECT request for mobile.events.data.microsoft.com:443
+[2025-10-22 18:59:29] Tunnel established to speeddials.opera.com (107.167.110.211:443)
+[2025-10-22 18:59:29] Tunnel closed for speeddials.opera.com:443
+[2025-10-22 18:59:30] Tunnel established to speeddials.opera.com (107.167.110.211:443)
+[2025-10-22 18:59:30] Tunnel closed for speeddials.opera.com:443
+[2025-10-22 18:59:30] Tunnel established to speeddials.opera.com (107.167.110.211:443)
+[2025-10-22 18:59:30] Tunnel closed for speeddials.opera.com:443
+[2025-10-22 18:59:30] Tunnel established to speeddials.opera.com (107.167.110.211:443)
+[2025-10-22 18:59:30] Tunnel closed for speeddials.opera.com:443
+[2025-10-22 18:59:30] Received request-line: CONNECT autoupdate.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:30] CONNECT request for autoupdate.opera.com:443
+[2025-10-22 18:59:30] Tunnel established to safebrowsing.googleapis.com (172.253.115.95:443)
+[2025-10-22 18:59:30] Tunnel closed for safebrowsing.googleapis.com:443
+[2025-10-22 18:59:30] Received request-line: CONNECT desktop-qualityclient-sub.osp.opera.software:443 HTTP/1.1
+[2025-10-22 18:59:30] CONNECT request for desktop-qualityclient-sub.osp.opera.software:443
+[2025-10-22 18:59:30] Received request-line: CONNECT desktop-qualityclient-sub.osp.opera.software:443 HTTP/1.1
+[2025-10-22 18:59:30] CONNECT request for desktop-qualityclient-sub.osp.opera.software:443
+[2025-10-22 18:59:30] Tunnel established to github.githubassets.com (185.199.109.154:443)
+[2025-10-22 18:59:30] Tunnel closed for github.githubassets.com:443
+[2025-10-22 18:59:30] Tunnel established to addons.opera.com (185.26.182.111:443)
+[2025-10-22 18:59:30] Tunnel closed for addons.opera.com:443
+[2025-10-22 18:59:31] Tunnel established to github.githubassets.com (185.199.111.154:443)
+[2025-10-22 18:59:31] Tunnel closed for github.githubassets.com:443
+[2025-10-22 18:59:31] Received request-line: CONNECT config.edge.skype.com:443 HTTP/1.1
+[2025-10-22 18:59:31] CONNECT request for config.edge.skype.com:443
+[2025-10-22 18:59:31] Tunnel established to merchandise.opera-api2.com (107.167.96.30:443)
+[2025-10-22 18:59:31] Tunnel closed for merchandise.opera-api2.com:443
+[2025-10-22 18:59:31] Received request-line: CONNECT cashback-api-production.operacdn.com:443 HTTP/1.1
+[2025-10-22 18:59:31] CONNECT request for cashback-api-production.operacdn.com:443
+[2025-10-22 18:59:31] Tunnel established to github.githubassets.com (185.199.109.154:443)
+[2025-10-22 18:59:31] Tunnel closed for github.githubassets.com:443
+[2025-10-22 18:59:31] Tunnel established to github.githubassets.com (185.199.110.154:443)
+[2025-10-22 18:59:31] Tunnel closed for github.githubassets.com:443
+[2025-10-22 18:59:31] Tunnel established to merchandise.opera-api2.com (107.167.96.30:443)
+[2025-10-22 18:59:31] Tunnel closed for merchandise.opera-api2.com:443
+[2025-10-22 18:59:31] Tunnel established to github.githubassets.com (185.199.109.154:443)
+[2025-10-22 18:59:31] Tunnel closed for github.githubassets.com:443
+[2025-10-22 18:59:31] Tunnel established to extension-updates.opera.com (107.167.96.31:443)
+[2025-10-22 18:59:31] Tunnel closed for extension-updates.opera.com:443
+[2025-10-22 18:59:31] Tunnel established to accounts.opera.com (107.167.96.31:443)
+[2025-10-22 18:59:31] Tunnel closed for accounts.opera.com:443
+[2025-10-22 18:59:31] Tunnel established to extension-updates.opera.com (107.167.96.44:443)
+[2025-10-22 18:59:31] Tunnel closed for extension-updates.opera.com:443
+[2025-10-22 18:59:31] Tunnel established to addons.opera.com (185.26.182.112:443)
+[2025-10-22 18:59:31] Tunnel closed for addons.opera.com:443
+[2025-10-22 18:59:31] Tunnel established to addons.opera.com (185.26.182.112:443)
+[2025-10-22 18:59:31] Tunnel closed for addons.opera.com:443
+[2025-10-22 18:59:31] Tunnel established to addons.opera.com (185.26.182.111:443)
+[2025-10-22 18:59:31] Tunnel closed for addons.opera.com:443
+[2025-10-22 18:59:31] Tunnel established to auth.opera.com (34.54.255.56:443)
+[2025-10-22 18:59:31] Tunnel established to auth.opera.com (34.54.255.56:443)
+[2025-10-22 18:59:31] Tunnel closed for auth.opera.com:443
+[2025-10-22 18:59:31] Tunnel closed for auth.opera.com:443
+[2025-10-22 18:59:31] Tunnel established to chatgpt.com (172.64.155.209:443)
+[2025-10-22 18:59:31] Tunnel closed for chatgpt.com:443
+[2025-10-22 18:59:31] Tunnel established to chatgpt.com (172.64.155.209:443)
+[2025-10-22 18:59:31] Tunnel closed for chatgpt.com:443
+[2025-10-22 18:59:31] Tunnel established to firebaseremoteconfig.googleapis.com (142.251.111.95:443)
+[2025-10-22 18:59:31] Tunnel closed for firebaseremoteconfig.googleapis.com:443
+[2025-10-22 18:59:31] Tunnel established to firebaseremoteconfig.googleapis.com (142.251.111.95:443)
+[2025-10-22 18:59:31] Tunnel closed for firebaseremoteconfig.googleapis.com:443
+[2025-10-22 18:59:31] Tunnel established to features.opera-api2.com (107.167.110.211:443)
+[2025-10-22 18:59:31] Tunnel closed for features.opera-api2.com:443
+[2025-10-22 18:59:31] Tunnel established to android.clients.google.com (142.251.16.101:443)
+[2025-10-22 18:59:31] Tunnel closed for android.clients.google.com:443
+[2025-10-22 18:59:31] Received request-line: CONNECT config.edge.skype.com:443 HTTP/1.1
+[2025-10-22 18:59:31] CONNECT request for config.edge.skype.com:443
+[2025-10-22 18:59:31] Tunnel established to mtalk.google.com (142.251.111.188:5228)
+[2025-10-22 18:59:31] Tunnel established to android.clients.google.com (142.251.16.101:443)
+[2025-10-22 18:59:31] Tunnel closed for android.clients.google.com:443
+[2025-10-22 18:59:31] Tunnel established to exchange.opera.com (107.167.110.216:443)
+[2025-10-22 18:59:31] Tunnel closed for exchange.opera.com:443
+[2025-10-22 18:59:31] Tunnel established to exchange.opera.com (107.167.110.216:443)
+[2025-10-22 18:59:31] Tunnel closed for exchange.opera.com:443
+[2025-10-22 18:59:31] Tunnel established to exchange.opera.com (107.167.110.216:443)
+[2025-10-22 18:59:31] Tunnel closed for exchange.opera.com:443
+[2025-10-22 18:59:31] Received request-line: CONNECT purdue.brightspace.com:443 HTTP/1.1
+[2025-10-22 18:59:31] CONNECT request for purdue.brightspace.com:443
+[2025-10-22 18:59:31] Received request-line: CONNECT cashback-api-production.operacdn.com:443 HTTP/1.1
+[2025-10-22 18:59:31] CONNECT request for cashback-api-production.operacdn.com:443
+[2025-10-22 18:59:31] Received request-line: CONNECT safebrowsing.googleapis.com:443 HTTP/1.1
+[2025-10-22 18:59:31] CONNECT request for safebrowsing.googleapis.com:443
+[2025-10-22 18:59:31] Tunnel established to sync.opera.com (185.26.182.111:443)
+[2025-10-22 18:59:31] Tunnel closed for sync.opera.com:443
+[2025-10-22 18:59:31] Tunnel established to sync.opera.com (185.26.182.111:443)
+[2025-10-22 18:59:31] Tunnel closed for sync.opera.com:443
+[2025-10-22 18:59:31] Tunnel established to subscriptions.opera.com (107.167.96.44:443)
+[2025-10-22 18:59:31] Tunnel closed for subscriptions.opera.com:443
+[2025-10-22 18:59:31] Tunnel established to composer.opera-api.com (107.167.110.211:443)
+[2025-10-22 18:59:31] Tunnel closed for composer.opera-api.com:443
+[2025-10-22 18:59:31] Tunnel established to auth.opera.com (34.54.255.56:443)
+[2025-10-22 18:59:31] Tunnel established to composer.opera-api.com (107.167.110.216:443)
+[2025-10-22 18:59:31] Tunnel closed for composer.opera-api.com:443
+[2025-10-22 18:59:31] Tunnel established to sync.opera.com (185.26.182.111:443)
+[2025-10-22 18:59:31] Tunnel closed for sync.opera.com:443
+[2025-10-22 18:59:31] Tunnel established to auth.opera.com (34.54.255.56:443)
+[2025-10-22 18:59:31] Tunnel closed for auth.opera.com:443
+[2025-10-22 18:59:31] Tunnel established to exchange.opera.com (107.167.96.30:443)
+[2025-10-22 18:59:32] Tunnel established to addons.opera.com (185.26.182.112:443)
+[2025-10-22 18:59:32] Tunnel established to addons.opera.com (185.26.182.112:443)
+[2025-10-22 18:59:32] Tunnel established to safebrowsing.googleapis.com (172.253.115.95:443)
+[2025-10-22 18:59:32] Tunnel established to addons.opera.com (185.26.182.112:443)
+[2025-10-22 18:59:32] Received request-line: CONNECT purdue.brightspace.com:443 HTTP/1.1
+[2025-10-22 18:59:32] CONNECT request for purdue.brightspace.com:443
+[2025-10-22 18:59:32] Tunnel established to speeddials.opera.com (107.167.110.211:443)
+[2025-10-22 18:59:32] Tunnel established to speeddials.opera.com (107.167.110.211:443)
+[2025-10-22 18:59:32] Tunnel established to features.opera-api2.com (107.167.110.216:443)
+[2025-10-22 18:59:32] Tunnel established to speeddials.opera.com (107.167.110.211:443)
+[2025-10-22 18:59:32] Tunnel established to speeddials.opera.com (107.167.110.211:443)
+[2025-10-22 18:59:32] Tunnel established to speeddials.opera.com (107.167.110.216:443)
+[2025-10-22 18:59:32] Tunnel established to exchange.opera.com (107.167.110.216:443)
+[2025-10-22 18:59:32] Tunnel established to speeddials.opera.com (107.167.110.216:443)
+[2025-10-22 18:59:32] Tunnel established to exchange.opera.com (107.167.110.216:443)
+[2025-10-22 18:59:32] Tunnel established to chatgpt.com (172.64.155.209:443)
+[2025-10-22 18:59:32] Tunnel established to github.githubassets.com (185.199.111.154:443)
+[2025-10-22 18:59:32] Tunnel established to subscriptions.opera.com (107.167.96.44:443)
+[2025-10-22 18:59:32] Tunnel established to composer.opera-api.com (107.167.110.211:443)
+[2025-10-22 18:59:32] Tunnel established to github.githubassets.com (185.199.111.154:443)
+[2025-10-22 18:59:32] Tunnel closed for github.githubassets.com:443
+[2025-10-22 18:59:32] Tunnel established to github.githubassets.com (185.199.108.154:443)
+[2025-10-22 18:59:32] Tunnel established to github.githubassets.com (185.199.109.154:443)
+[2025-10-22 18:59:32] Tunnel closed for github.githubassets.com:443
+[2025-10-22 18:59:32] Tunnel closed for github.githubassets.com:443
+[2025-10-22 18:59:32] Tunnel established to firebaseremoteconfig.googleapis.com (142.251.163.95:443)
+[2025-10-22 18:59:32] Tunnel established to sync.opera.com (185.26.182.111:443)
+[2025-10-22 18:59:32] Tunnel established to github.githubassets.com (185.199.110.154:443)
+[2025-10-22 18:59:32] Tunnel closed for github.githubassets.com:443
+[2025-10-22 18:59:32] Tunnel established to github.githubassets.com (185.199.111.154:443)
+[2025-10-22 18:59:32] Tunnel closed for github.githubassets.com:443
+[2025-10-22 18:59:32] Tunnel established to merchandise.opera-api2.com (107.167.96.31:443)
+[2025-10-22 18:59:32] Tunnel established to android.clients.google.com (142.251.167.101:443)
+[2025-10-22 18:59:32] Tunnel established to sync.opera.com (185.26.182.112:443)
+[2025-10-22 18:59:32] Tunnel established to mobile.events.data.microsoft.com (20.189.173.17:443)
+[2025-10-22 18:59:32] Tunnel established to mobile.events.data.microsoft.com (20.189.173.17:443)
+[2025-10-22 18:59:32] Tunnel closed for addons.opera.com:443
+[2025-10-22 18:59:32] Tunnel closed for addons.opera.com:443
+[2025-10-22 18:59:32] Tunnel closed for addons.opera.com:443
+[2025-10-22 18:59:32] Tunnel closed for exchange.opera.com:443
+[2025-10-22 18:59:32] Tunnel closed for exchange.opera.com:443
+[2025-10-22 18:59:32] Tunnel closed for exchange.opera.com:443
+[2025-10-22 18:59:32] Tunnel established to vscode-sync.trafficmanager.net (40.71.11.167:443)
+[2025-10-22 18:59:32] Tunnel closed for features.opera-api2.com:443
+[2025-10-22 18:59:32] Tunnel closed for speeddials.opera.com:443
+[2025-10-22 18:59:32] Tunnel closed for speeddials.opera.com:443
+[2025-10-22 18:59:32] Tunnel closed for speeddials.opera.com:443
+[2025-10-22 18:59:32] Tunnel closed for speeddials.opera.com:443
+[2025-10-22 18:59:32] Tunnel closed for speeddials.opera.com:443
+[2025-10-22 18:59:32] Tunnel closed for speeddials.opera.com:443
+[2025-10-22 18:59:32] Tunnel closed for subscriptions.opera.com:443
+[2025-10-22 18:59:32] Tunnel established to vscode-sync.trafficmanager.net (40.71.11.167:443)
+[2025-10-22 18:59:32] Tunnel established to speeddials.opera.com (107.167.110.216:443)
+[2025-10-22 18:59:32] Tunnel closed for auth.opera.com:443
+[2025-10-22 18:59:32] Tunnel closed for merchandise.opera-api2.com:443
+[2025-10-22 18:59:32] Tunnel closed for speeddials.opera.com:443
+[2025-10-22 18:59:32] Tunnel closed for android.clients.google.com:443
+[2025-10-22 18:59:32] Tunnel closed for safebrowsing.googleapis.com:443
+[2025-10-22 18:59:32] Tunnel closed for github.githubassets.com:443
+[2025-10-22 18:59:32] Tunnel closed for firebaseremoteconfig.googleapis.com:443
+[2025-10-22 18:59:32] Tunnel established to extension-updates.opera.com (107.167.96.44:443)
+[2025-10-22 18:59:32] Tunnel closed for extension-updates.opera.com:443
+[2025-10-22 18:59:32] Tunnel closed for composer.opera-api.com:443
+[2025-10-22 18:59:32] Tunnel closed for sync.opera.com:443
+[2025-10-22 18:59:32] Tunnel established to github.githubassets.com (185.199.109.154:443)
+[2025-10-22 18:59:32] Tunnel closed for github.githubassets.com:443
+[2025-10-22 18:59:32] Tunnel established to autoupdate.opera.com (107.167.96.39:443)
+[2025-10-22 18:59:32] Tunnel established to desktop-qualityclient-sub.osp.opera.software (107.167.125.189:443)
+[2025-10-22 18:59:32] Tunnel closed for desktop-qualityclient-sub.osp.opera.software:443
+[2025-10-22 18:59:32] Tunnel closed for sync.opera.com:443
+[2025-10-22 18:59:32] Received request-line: CONNECT desktop-qualityclient-sub.osp.opera.software:443 HTTP/1.1
+[2025-10-22 18:59:32] CONNECT request for desktop-qualityclient-sub.osp.opera.software:443
+[2025-10-22 18:59:32] Tunnel closed for autoupdate.opera.com:443
+[2025-10-22 18:59:32] Received request-line: CONNECT lh3.googleusercontent.com:443 HTTP/1.1
+[2025-10-22 18:59:32] CONNECT request for lh3.googleusercontent.com:443
+[2025-10-22 18:59:32] Received request-line: CONNECT subscriptions.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:32] CONNECT request for subscriptions.opera.com:443
+[2025-10-22 18:59:32] Received request-line: CONNECT extension-updates.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:32] CONNECT request for extension-updates.opera.com:443
+[2025-10-22 18:59:32] Received request-line: CONNECT purdue.brightspace.com:443 HTTP/1.1
+[2025-10-22 18:59:32] CONNECT request for purdue.brightspace.com:443
+[2025-10-22 18:59:32] Received request-line: CONNECT cashback-api-production.operacdn.com:443 HTTP/1.1
+[2025-10-22 18:59:32] CONNECT request for cashback-api-production.operacdn.com:443
+[2025-10-22 18:59:32] Received request-line: CONNECT composer.opera-api.com:443 HTTP/1.1
+[2025-10-22 18:59:32] CONNECT request for composer.opera-api.com:443
+[2025-10-22 18:59:32] Tunnel established to config.edge.skype.com (150.171.22.17:443)
+[2025-10-22 18:59:32] Received request-line: CONNECT easylist-downloads.adblockplus.org:443 HTTP/1.1
+[2025-10-22 18:59:32] CONNECT request for easylist-downloads.adblockplus.org:443
+[2025-10-22 18:59:32] Tunnel established to cashback-api-production.operacdn.com (23.215.11.237:443)
+[2025-10-22 18:59:32] Tunnel closed for cashback-api-production.operacdn.com:443
+[2025-10-22 18:59:32] Tunnel established to config.edge.skype.com (150.171.22.17:443)
+[2025-10-22 18:59:32] Tunnel established to cashback-api-production.operacdn.com (23.215.11.238:443)
+[2025-10-22 18:59:32] Tunnel closed for cashback-api-production.operacdn.com:443
+[2025-10-22 18:59:32] Tunnel established to purdue.brightspace.com (34.233.215.199:443)
+[2025-10-22 18:59:32] Tunnel closed for purdue.brightspace.com:443
+[2025-10-22 18:59:32] Tunnel established to safebrowsing.googleapis.com (172.253.115.95:443)
+[2025-10-22 18:59:32] Tunnel closed for safebrowsing.googleapis.com:443
+[2025-10-22 18:59:33] Tunnel established to purdue.brightspace.com (34.233.215.199:443)
+[2025-10-22 18:59:33] Tunnel closed for purdue.brightspace.com:443
+[2025-10-22 18:59:33] Tunnel closed for config.edge.skype.com:443
+[2025-10-22 18:59:33] Tunnel closed for config.edge.skype.com:443
+[2025-10-22 18:59:33] Tunnel established to desktop-qualityclient-sub.osp.opera.software (107.167.125.189:443)
+[2025-10-22 18:59:33] Received request-line: CONNECT sync.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:33] CONNECT request for sync.opera.com:443
+[2025-10-22 18:59:33] Tunnel established to extension-updates.opera.com (107.167.96.30:443)
+[2025-10-22 18:59:33] Tunnel established to subscriptions.opera.com (107.167.96.30:443)
+[2025-10-22 18:59:33] Tunnel established to purdue.brightspace.com (34.233.215.199:443)
+[2025-10-22 18:59:33] Tunnel established to cashback-api-production.operacdn.com (23.215.11.237:443)
+[2025-10-22 18:59:33] Tunnel established to lh3.googleusercontent.com (192.178.155.132:443)
+[2025-10-22 18:59:33] Tunnel established to easylist-downloads.adblockplus.org (184.25.113.23:443)
+[2025-10-22 18:59:33] Tunnel established to composer.opera-api.com (107.167.110.216:443)
+[2025-10-22 18:59:33] Received request-line: CONNECT easylist-downloads.adblockplus.org:443 HTTP/1.1
+[2025-10-22 18:59:33] CONNECT request for easylist-downloads.adblockplus.org:443
+[2025-10-22 18:59:33] Tunnel established to sync.opera.com (185.26.182.112:443)
+[2025-10-22 18:59:33] Received request-line: CONNECT sync.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:33] CONNECT request for sync.opera.com:443
+[2025-10-22 18:59:33] Received request-line: CONNECT easylist-downloads.adblockplus.org:443 HTTP/1.1
+[2025-10-22 18:59:33] CONNECT request for easylist-downloads.adblockplus.org:443
+[2025-10-22 18:59:33] Tunnel established to easylist-downloads.adblockplus.org (184.25.113.23:443)
+[2025-10-22 18:59:33] Received request-line: CONNECT easylist-downloads.adblockplus.org:443 HTTP/1.1
+[2025-10-22 18:59:33] CONNECT request for easylist-downloads.adblockplus.org:443
+[2025-10-22 18:59:33] Tunnel established to desktop-qualityclient-sub.osp.opera.software (107.167.125.189:443)
+[2025-10-22 18:59:33] Tunnel closed for desktop-qualityclient-sub.osp.opera.software:443
+[2025-10-22 18:59:33] Received request-line: CONNECT api.gx.me:443 HTTP/1.1
+[2025-10-22 18:59:33] CONNECT request for api.gx.me:443
+[2025-10-22 18:59:33] Received request-line: CONNECT composer.opera-api.com:443 HTTP/1.1
+[2025-10-22 18:59:33] CONNECT request for composer.opera-api.com:443
+[2025-10-22 18:59:33] Tunnel established to sync.opera.com (185.26.182.111:443)
+[2025-10-22 18:59:34] Received request-line: CONNECT api.gx.me:443 HTTP/1.1
+[2025-10-22 18:59:34] CONNECT request for api.gx.me:443
+[2025-10-22 18:59:34] Tunnel established to easylist-downloads.adblockplus.org (184.25.113.26:443)
+[2025-10-22 18:59:34] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
+[2025-10-22 18:59:34] CONNECT request for mobile.events.data.microsoft.com:443
+[2025-10-22 18:59:34] Tunnel established to easylist-downloads.adblockplus.org (184.25.113.23:443)
+[2025-10-22 18:59:34] Tunnel established to api.gx.me (104.18.22.55:443)
+[2025-10-22 18:59:34] Tunnel established to composer.opera-api.com (107.167.110.211:443)
+[2025-10-22 18:59:34] Tunnel established to api.gx.me (104.18.22.55:443)
+[2025-10-22 18:59:34] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
+[2025-10-22 18:59:34] CONNECT request for mobile.events.data.microsoft.com:443
+[2025-10-22 18:59:34] Tunnel established to mobile.events.data.microsoft.com (20.189.173.17:443)
+[2025-10-22 18:59:34] Received request-line: GET http://c.pki.goog/r/r1.crl HTTP/1.1
+[2025-10-22 18:59:34] Received request-line: CONNECT android.clients.google.com:443 HTTP/1.1
+[2025-10-22 18:59:34] CONNECT request for android.clients.google.com:443
+[2025-10-22 18:59:34] Received request-line: CONNECT proxy.gxcorner.games:443 HTTP/1.1
+[2025-10-22 18:59:34] CONNECT request for proxy.gxcorner.games:443
+[2025-10-22 18:59:34] Received request-line: CONNECT sd-images.operacdn.com:443 HTTP/1.1
+[2025-10-22 18:59:34] CONNECT request for sd-images.operacdn.com:443
+[2025-10-22 18:59:34] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:34] CONNECT request for speeddials.opera.com:443
+[2025-10-22 18:59:34] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:34] CONNECT request for speeddials.opera.com:443
+[2025-10-22 18:59:34] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:34] CONNECT request for speeddials.opera.com:443
+[2025-10-22 18:59:34] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:34] CONNECT request for speeddials.opera.com:443
+[2025-10-22 18:59:34] Received request-line: CONNECT android.clients.google.com:443 HTTP/1.1
+[2025-10-22 18:59:34] CONNECT request for android.clients.google.com:443
+[2025-10-22 18:59:34] Tunnel established to mobile.events.data.microsoft.com (20.189.173.17:443)
+[2025-10-22 18:59:35] Received request-line: CONNECT proxy.gxcorner.games:443 HTTP/1.1
+[2025-10-22 18:59:35] CONNECT request for proxy.gxcorner.games:443
+[2025-10-22 18:59:35] Received request-line: CONNECT sd-images.operacdn.com:443 HTTP/1.1
+[2025-10-22 18:59:35] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:35] Received request-line: CONNECT sd-images.operacdn.com:443 HTTP/1.1
+[2025-10-22 18:59:35] CONNECT request for speeddials.opera.com:443
+[2025-10-22 18:59:35] CONNECT request for sd-images.operacdn.com:443
+[2025-10-22 18:59:35] CONNECT request for sd-images.operacdn.com:443
+[2025-10-22 18:59:35] Received request-line: CONNECT weather.opera-api2.com:443 HTTP/1.1
+[2025-10-22 18:59:35] CONNECT request for weather.opera-api2.com:443
+[2025-10-22 18:59:35] GET /r/r1.crl -> c.pki.goog:80 (172.253.122.94)
+[2025-10-22 18:59:35] Received request-line: CONNECT af.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:35] CONNECT request for af.opera.com:443
+[2025-10-22 18:59:35] Received request-line: CONNECT addons-extensions.operacdn.com:443 HTTP/1.1
+[2025-10-22 18:59:35] CONNECT request for addons-extensions.operacdn.com:443
+[2025-10-22 18:59:35] Tunnel established to android.clients.google.com (172.253.62.138:443)
+[2025-10-22 18:59:35] Received request-line: CONNECT weather.opera-api2.com:443 HTTP/1.1
+[2025-10-22 18:59:35] CONNECT request for weather.opera-api2.com:443
+[2025-10-22 18:59:35] Received request-line: CONNECT af.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:35] CONNECT request for af.opera.com:443
+[2025-10-22 18:59:35] Tunnel established to proxy.gxcorner.games (104.18.7.134:443)
+[2025-10-22 18:59:35] Received request-line: CONNECT addons-extensions.operacdn.com:443 HTTP/1.1
+[2025-10-22 18:59:35] CONNECT request for addons-extensions.operacdn.com:443
+[2025-10-22 18:59:35] Tunnel closed for api.gx.me:443
+[2025-10-22 18:59:35] Received request-line: CONNECT cdn.oaistatic.com:443 HTTP/1.1
+[2025-10-22 18:59:35] CONNECT request for cdn.oaistatic.com:443
+[2025-10-22 18:59:35] Received request-line: CONNECT cdn.oaistatic.com:443 HTTP/1.1
+[2025-10-22 18:59:35] CONNECT request for cdn.oaistatic.com:443
+[2025-10-22 18:59:35] Tunnel closed for composer.opera-api.com:443
+[2025-10-22 18:59:35] Tunnel established to sd-images.operacdn.com (23.215.11.237:443)
+[2025-10-22 18:59:35] Received request-line: CONNECT cdn.oaistatic.com:443 HTTP/1.1
+[2025-10-22 18:59:35] CONNECT request for cdn.oaistatic.com:443
+[2025-10-22 18:59:36] Tunnel closed for composer.opera-api.com:443
+[2025-10-22 18:59:36] Tunnel closed for easylist-downloads.adblockplus.org:443
+[2025-10-22 18:59:36] Tunnel closed for easylist-downloads.adblockplus.org:443
+[2025-10-22 18:59:36] Tunnel closed for extension-updates.opera.com:443
+[2025-10-22 18:59:36] Tunnel closed for sync.opera.com:443
+[2025-10-22 18:59:36] Received request-line: CONNECT proxy.gxcorner.games:443 HTTP/1.1
+[2025-10-22 18:59:36] CONNECT request for proxy.gxcorner.games:443
+[2025-10-22 18:59:36] Tunnel closed for desktop-qualityclient-sub.osp.opera.software:443
+[2025-10-22 18:59:36] Tunnel established to speeddials.opera.com (107.167.110.211:443)
+[2025-10-22 18:59:36] Received request-line: CONNECT proxy.gxcorner.games:443 HTTP/1.1
+[2025-10-22 18:59:36] CONNECT request for proxy.gxcorner.games:443
+[2025-10-22 18:59:36] Received request-line: CONNECT proxy.gxcorner.games:443 HTTP/1.1
+[2025-10-22 18:59:36] CONNECT request for proxy.gxcorner.games:443
+[2025-10-22 18:59:36] Received request-line: CONNECT proxy.gxcorner.games:443 HTTP/1.1
+[2025-10-22 18:59:36] CONNECT request for proxy.gxcorner.games:443
+[2025-10-22 18:59:36] Received request-line: CONNECT proxy.gxcorner.games:443 HTTP/1.1
+[2025-10-22 18:59:36] CONNECT request for proxy.gxcorner.games:443
+[2025-10-22 18:59:36] Tunnel established to speeddials.opera.com (107.167.110.216:443)
+[2025-10-22 18:59:36] Received request-line: CONNECT proxy.gxcorner.games:443 HTTP/1.1
+[2025-10-22 18:59:36] CONNECT request for proxy.gxcorner.games:443
+[2025-10-22 18:59:36] Tunnel established to speeddials.opera.com (107.167.110.211:443)
+[2025-10-22 18:59:36] Tunnel established to speeddials.opera.com (107.167.110.216:443)
+[2025-10-22 18:59:36] Tunnel established to android.clients.google.com (172.253.62.138:443)
+[2025-10-22 18:59:36] Tunnel established to proxy.gxcorner.games (104.18.6.134:443)
+[2025-10-22 18:59:36] Tunnel established to sd-images.operacdn.com (23.215.11.238:443)
+[2025-10-22 18:59:36] Tunnel established to speeddials.opera.com (107.167.110.211:443)
+[2025-10-22 18:59:36] Tunnel established to sd-images.operacdn.com (23.215.11.238:443)
+[2025-10-22 18:59:36] Tunnel established to weather.opera-api2.com (107.167.96.31:443)
+[2025-10-22 18:59:36] Tunnel established to af.opera.com (107.167.96.43:443)
+[2025-10-22 18:59:36] Tunnel established to af.opera.com (107.167.96.44:443)
+[2025-10-22 18:59:36] Tunnel established to weather.opera-api2.com (107.167.96.44:443)
+[2025-10-22 18:59:36] Tunnel established to cdn.oaistatic.com (104.18.41.158:443)
+[2025-10-22 18:59:36] Tunnel established to cdn.oaistatic.com (104.18.41.158:443)
+[2025-10-22 18:59:36] Tunnel established to addons-extensions.operacdn.com (23.215.11.237:443)
+[2025-10-22 18:59:36] Tunnel established to addons-extensions.operacdn.com (23.215.11.237:443)
+[2025-10-22 18:59:36] Tunnel established to cdn.oaistatic.com (104.18.41.158:443)
+[2025-10-22 18:59:36] Tunnel closed for cdn.oaistatic.com:443
+[2025-10-22 18:59:36] Tunnel closed for addons-extensions.operacdn.com:443
+[2025-10-22 18:59:36] Tunnel established to proxy.gxcorner.games (104.18.6.134:443)
+[2025-10-22 18:59:36] Tunnel established to proxy.gxcorner.games (104.18.6.134:443)
+[2025-10-22 18:59:36] Tunnel closed for proxy.gxcorner.games:443
+[2025-10-22 18:59:36] Tunnel established to proxy.gxcorner.games (104.18.7.134:443)
+[2025-10-22 18:59:36] Tunnel established to proxy.gxcorner.games (104.18.6.134:443)
+[2025-10-22 18:59:36] Tunnel established to proxy.gxcorner.games (104.18.7.134:443)
+[2025-10-22 18:59:36] Tunnel closed for proxy.gxcorner.games:443
+[2025-10-22 18:59:36] Tunnel closed for proxy.gxcorner.games:443
+[2025-10-22 18:59:36] Tunnel established to proxy.gxcorner.games (104.18.7.134:443)
+[2025-10-22 18:59:37] Received request-line: CONNECT collector.github.com:443 HTTP/1.1
+[2025-10-22 18:59:37] CONNECT request for collector.github.com:443
+[2025-10-22 18:59:37] Tunnel established to collector.github.com (140.82.114.21:443)
+[2025-10-22 18:59:37] Received request-line: CONNECT collector.github.com:443 HTTP/1.1
+[2025-10-22 18:59:37] CONNECT request for collector.github.com:443
+[2025-10-22 18:59:37] Tunnel established to collector.github.com (140.82.114.21:443)
+[2025-10-22 18:59:38] Tunnel closed for chatgpt.com:443
+[2025-10-22 18:59:38] Received request-line: CONNECT chatgpt.com:443 HTTP/1.1
+[2025-10-22 18:59:38] CONNECT request for chatgpt.com:443
+[2025-10-22 18:59:38] Tunnel established to chatgpt.com (172.64.155.209:443)
+[2025-10-22 18:59:38] Received request-line: CONNECT avatars.githubusercontent.com:443 HTTP/1.1
+[2025-10-22 18:59:38] CONNECT request for avatars.githubusercontent.com:443
+[2025-10-22 18:59:38] Tunnel established to avatars.githubusercontent.com (185.199.108.133:443)
+[2025-10-22 18:59:38] Received request-line: CONNECT alive.github.com:443 HTTP/1.1
+[2025-10-22 18:59:38] CONNECT request for alive.github.com:443
+[2025-10-22 18:59:39] Received request-line: CONNECT chatgpt.com:443 HTTP/1.1
+[2025-10-22 18:59:39] CONNECT request for chatgpt.com:443
+[2025-10-22 18:59:39] Tunnel closed for af.opera.com:443
+[2025-10-22 18:59:39] Received request-line: CONNECT avatars.githubusercontent.com:443 HTTP/1.1
+[2025-10-22 18:59:39] CONNECT request for avatars.githubusercontent.com:443
+[2025-10-22 18:59:39] Tunnel established to chatgpt.com (172.64.155.209:443)
+[2025-10-22 18:59:39] Received request-line: CONNECT alive.github.com:443 HTTP/1.1
+[2025-10-22 18:59:39] CONNECT request for alive.github.com:443
+[2025-10-22 18:59:39] Tunnel established to avatars.githubusercontent.com (185.199.111.133:443)
+[2025-10-22 18:59:39] Tunnel established to alive.github.com (140.82.113.25:443)
+[2025-10-22 18:59:39] Tunnel established to alive.github.com (140.82.113.25:443)
+[2025-10-22 18:59:39] Received request-line: CONNECT activity.windows.com:443 HTTP/1.1
+[2025-10-22 18:59:39] CONNECT request for activity.windows.com:443
+[2025-10-22 18:59:39] Received request-line: CONNECT activity.windows.com:443 HTTP/1.1
+[2025-10-22 18:59:39] CONNECT request for activity.windows.com:443
+[2025-10-22 18:59:39] Received request-line: CONNECT af.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:39] CONNECT request for af.opera.com:443
+[2025-10-22 18:59:39] Tunnel established to activity.windows.com (13.68.233.9:443)
+[2025-10-22 18:59:39] Tunnel established to activity.windows.com (13.68.233.9:443)
+[2025-10-22 18:59:39] Tunnel established to af.opera.com (107.167.96.43:443)
+[2025-10-22 18:59:39] Received request-line: CONNECT login.live.com:443 HTTP/1.1
+[2025-10-22 18:59:39] CONNECT request for login.live.com:443
+[2025-10-22 18:59:40] Tunnel established to login.live.com (20.190.157.0:443)
+[2025-10-22 18:59:42] Tunnel closed for alive.github.com:443
+[2025-10-22 18:59:42] Tunnel closed for af.opera.com:443
+[2025-10-22 18:59:42] Received request-line: CONNECT github.com:443 HTTP/1.1
+[2025-10-22 18:59:42] CONNECT request for github.com:443
+[2025-10-22 18:59:42] Tunnel established to github.com (140.82.114.4:443)
+[2025-10-22 18:59:43] Received request-line: CONNECT autoupdate.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:43] CONNECT request for autoupdate.opera.com:443
+[2025-10-22 18:59:43] Tunnel closed for af.opera.com:443
+[2025-10-22 18:59:43] Tunnel established to autoupdate.opera.com (107.167.96.39:443)
+[2025-10-22 18:59:43] Received request-line: CONNECT af.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:43] CONNECT request for af.opera.com:443
+[2025-10-22 18:59:43] Tunnel closed for autoupdate.opera.com:443
+[2025-10-22 18:59:43] Tunnel established to af.opera.com (107.167.96.30:443)
+[2025-10-22 18:59:43] Tunnel closed for af.opera.com:443
+[2025-10-22 18:59:44] Received request-line: CONNECT af.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:44] CONNECT request for af.opera.com:443
+[2025-10-22 18:59:44] Tunnel established to af.opera.com (107.167.96.31:443)
+[2025-10-22 18:59:45] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.0
+[2025-10-22 18:59:45] CONNECT request for mobile.events.data.microsoft.com:443
+[2025-10-22 18:59:46] Tunnel established to mobile.events.data.microsoft.com (20.189.173.17:443)
+[2025-10-22 18:59:48] Tunnel closed for af.opera.com:443
+[2025-10-22 18:59:49] Tunnel closed for android.clients.google.com:443
+[2025-10-22 18:59:49] Received request-line: CONNECT api.github.com:443 HTTP/1.1
+[2025-10-22 18:59:49] CONNECT request for api.github.com:443
+[2025-10-22 18:59:49] Tunnel closed for avatars.githubusercontent.com:443
+[2025-10-22 18:59:49] Tunnel closed for chatgpt.com:443
+[2025-10-22 18:59:49] Received request-line: CONNECT github.githubassets.com:443 HTTP/1.1
+[2025-10-22 18:59:49] CONNECT request for github.githubassets.com:443
+[2025-10-22 18:59:49] Tunnel established to api.github.com (140.82.112.5:443)
+[2025-10-22 18:59:49] Tunnel closed for collector.github.com:443
+[2025-10-22 18:59:49] Tunnel established to github.githubassets.com (185.199.110.154:443)
+[2025-10-22 18:59:50] Received request-line: CONNECT discord.com:443 HTTP/1.1
+[2025-10-22 18:59:50] CONNECT request for discord.com:443
+[2025-10-22 18:59:50] Tunnel established to discord.com (162.159.138.232:443)
+[2025-10-22 18:59:50] Received request-line: CONNECT discord.com:443 HTTP/1.1
+[2025-10-22 18:59:50] CONNECT request for discord.com:443
+[2025-10-22 18:59:50] Tunnel established to discord.com (162.159.135.232:443)
+[2025-10-22 18:59:50] Received request-line: CONNECT www.googleapis.com:443 HTTP/1.1
+[2025-10-22 18:59:50] CONNECT request for www.googleapis.com:443
+[2025-10-22 18:59:50] Received request-line: CONNECT www.googleapis.com:443 HTTP/1.1
+[2025-10-22 18:59:50] CONNECT request for www.googleapis.com:443
+[2025-10-22 18:59:50] Tunnel established to www.googleapis.com (172.253.63.95:443)
+[2025-10-22 18:59:51] Tunnel established to www.googleapis.com (142.251.163.95:443)
+[2025-10-22 18:59:51] Received request-line: CONNECT ab.chatgpt.com:443 HTTP/1.1
+[2025-10-22 18:59:51] CONNECT request for ab.chatgpt.com:443
+[2025-10-22 18:59:51] Tunnel established to ab.chatgpt.com (172.64.155.209:443)
+[2025-10-22 18:59:52] Tunnel closed for proxy.gxcorner.games:443
+[2025-10-22 18:59:52] Received request-line: CONNECT sitecheck.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:52] CONNECT request for sitecheck.opera.com:443
+[2025-10-22 18:59:52] Received request-line: CONNECT wl.mypurdue.purdue.edu:443 HTTP/1.1
+[2025-10-22 18:59:52] CONNECT request for wl.mypurdue.purdue.edu:443
+[2025-10-22 18:59:53] Tunnel established to wl.mypurdue.purdue.edu (128.210.203.148:443)
+[2025-10-22 18:59:53] Tunnel established to sitecheck.opera.com (107.167.110.211:443)
+[2025-10-22 18:59:53] Received request-line: CONNECT sitecheck.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:53] CONNECT request for sitecheck.opera.com:443
+[2025-10-22 18:59:53] Tunnel closed for wl.mypurdue.purdue.edu:443
+[2025-10-22 18:59:53] Tunnel established to sitecheck.opera.com (107.167.96.31:443)
+[2025-10-22 18:59:53] Received request-line: CONNECT sitecheck.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:53] CONNECT request for sitecheck.opera.com:443
+[2025-10-22 18:59:53] Received request-line: CONNECT experience.elluciancloud.com:443 HTTP/1.1
+[2025-10-22 18:59:53] CONNECT request for experience.elluciancloud.com:443
+[2025-10-22 18:59:53] Tunnel established to sitecheck.opera.com (107.167.110.211:443)
+[2025-10-22 18:59:53] Tunnel established to experience.elluciancloud.com (3.211.133.210:443)
+[2025-10-22 18:59:53] Tunnel closed for easylist-downloads.adblockplus.org:443
+[2025-10-22 18:59:53] Tunnel closed for proxy.gxcorner.games:443
+[2025-10-22 18:59:54] Received request-line: CONNECT eee-api.10005.elluciancloud.com:443 HTTP/1.1
+[2025-10-22 18:59:54] CONNECT request for eee-api.10005.elluciancloud.com:443
+[2025-10-22 18:59:54] Tunnel established to eee-api.10005.elluciancloud.com (13.225.47.121:443)
+[2025-10-22 18:59:54] Tunnel closed for proxy.gxcorner.games:443
+[2025-10-22 18:59:54] Received request-line: CONNECT sso.purdue.edu:443 HTTP/1.1
+[2025-10-22 18:59:54] CONNECT request for sso.purdue.edu:443
+[2025-10-22 18:59:54] Tunnel established to sso.purdue.edu (128.210.84.20:443)
+[2025-10-22 18:59:54] Tunnel closed for sd-images.operacdn.com:443
+[2025-10-22 18:59:55] Received request-line: CONNECT sso.purdue.edu:443 HTTP/1.1
+[2025-10-22 18:59:55] CONNECT request for sso.purdue.edu:443
+[2025-10-22 18:59:55] Tunnel established to sso.purdue.edu (128.210.84.20:443)
+[2025-10-22 18:59:56] Tunnel closed for sd-images.operacdn.com:443
+[2025-10-22 18:59:56] Tunnel closed for sd-images.operacdn.com:443
+[2025-10-22 18:59:56] Tunnel closed for speeddials.opera.com:443
+[2025-10-22 18:59:57] Received request-line: CONNECT realtime.chatgpt.com:443 HTTP/1.1
+[2025-10-22 18:59:57] CONNECT request for realtime.chatgpt.com:443
+[2025-10-22 18:59:57] Tunnel closed for speeddials.opera.com:443
+[2025-10-22 18:59:57] Tunnel closed for speeddials.opera.com:443
+[2025-10-22 18:59:57] Received request-line: CONNECT af.opera.com:443 HTTP/1.1
+[2025-10-22 18:59:57] CONNECT request for af.opera.com:443
+[2025-10-22 18:59:57] Tunnel established to realtime.chatgpt.com (172.64.151.87:443)
+[2025-10-22 18:59:57] Tunnel established to af.opera.com (107.167.96.31:443)
+[2025-10-22 18:59:57] Received request-line: CONNECT www.googletagmanager.com:443 HTTP/1.1
+[2025-10-22 18:59:57] CONNECT request for www.googletagmanager.com:443
+[2025-10-22 18:59:57] Tunnel established to www.googletagmanager.com (142.250.31.97:443)
+[2025-10-22 18:59:57] Received request-line: CONNECT realtime.chatgpt.com:443 HTTP/1.1
+[2025-10-22 18:59:57] CONNECT request for realtime.chatgpt.com:443
+[2025-10-22 18:59:57] Tunnel established to realtime.chatgpt.com (172.64.151.87:443)
+[2025-10-22 18:59:57] Received request-line: CONNECT realtime.chatgpt.com:443 HTTP/1.1
+[2025-10-22 18:59:57] CONNECT request for realtime.chatgpt.com:443
+[2025-10-22 18:59:57] Tunnel established to realtime.chatgpt.com (104.18.36.169:443)
+[2025-10-22 18:59:58] Tunnel closed for af.opera.com:443
+[2025-10-22 18:59:58] Received request-line: CONNECT www.google-analytics.com:443 HTTP/1.1
+[2025-10-22 18:59:58] CONNECT request for www.google-analytics.com:443
+[2025-10-22 18:59:58] Received request-line: CONNECT ws.chatgpt.com:443 HTTP/1.1
+[2025-10-22 18:59:58] CONNECT request for ws.chatgpt.com:443
+[2025-10-22 18:59:58] Tunnel established to ws.chatgpt.com (172.64.148.235:443)
+[2025-10-22 18:59:58] Tunnel established to www.google-analytics.com (172.253.63.102:443)
+[2025-10-22 18:59:59] Received request-line: CONNECT ws.chatgpt.com:443 HTTP/1.1
+[2025-10-22 18:59:59] CONNECT request for ws.chatgpt.com:443
+[2025-10-22 18:59:59] Tunnel established to ws.chatgpt.com (104.18.39.21:443)
+[2025-10-22 19:00:00] Tunnel closed for realtime.chatgpt.com:443
+[2025-10-22 19:00:00] Tunnel closed for speeddials.opera.com:443
+[2025-10-22 19:00:00] Received request-line: CONNECT adblockplus.telemetry.eyeo.com:443 HTTP/1.1
+[2025-10-22 19:00:00] CONNECT request for adblockplus.telemetry.eyeo.com:443
+[2025-10-22 19:00:00] Received request-line: CONNECT ipm.adblockplus.dev:443 HTTP/1.1
+[2025-10-22 19:00:00] CONNECT request for ipm.adblockplus.dev:443
+[2025-10-22 19:00:00] Tunnel established to adblockplus.telemetry.eyeo.com (34.110.196.231:443)
+[2025-10-22 19:00:00] Tunnel established to ipm.adblockplus.dev (104.21.65.228:443)
+[2025-10-22 19:00:01] Tunnel closed for speeddials.opera.com:443
+[2025-10-22 19:00:01] Tunnel closed for sso.purdue.edu:443
+[2025-10-22 19:00:01] Tunnel closed for sso.purdue.edu:443
+[2025-10-22 19:00:01] Tunnel closed for sync.opera.com:443
+[2025-10-22 19:00:01] Received request-line: CONNECT adblockplus.org:443 HTTP/1.1
+[2025-10-22 19:00:01] CONNECT request for adblockplus.org:443
+[2025-10-22 19:00:01] Tunnel established to adblockplus.org (199.36.158.100:443)
+[2025-10-22 19:00:01] Received request-line: CONNECT easylist-downloads.adblockplus.org:443 HTTP/1.1
+[2025-10-22 19:00:01] CONNECT request for easylist-downloads.adblockplus.org:443
+[2025-10-22 19:00:01] Received request-line: CONNECT easylist-downloads.adblockplus.org:443 HTTP/1.1
+[2025-10-22 19:00:01] CONNECT request for easylist-downloads.adblockplus.org:443
+[2025-10-22 19:00:01] Received request-line: CONNECT easylist-downloads.adblockplus.org:443 HTTP/1.1
+[2025-10-22 19:00:01] CONNECT request for easylist-downloads.adblockplus.org:443
+[2025-10-22 19:00:01] Tunnel established to easylist-downloads.adblockplus.org (184.25.113.23:443)
+[2025-10-22 19:00:01] Tunnel established to easylist-downloads.adblockplus.org (184.25.113.23:443)
+[2025-10-22 19:00:01] Tunnel established to easylist-downloads.adblockplus.org (184.25.113.23:443)
+[2025-10-22 19:00:02] Tunnel closed for easylist-downloads.adblockplus.org:443
+[2025-10-22 19:00:02] Tunnel closed for easylist-downloads.adblockplus.org:443
+[2025-10-22 19:00:02] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-10-22 19:00:02] CONNECT request for speeddials.opera.com:443
+[2025-10-22 19:00:02] Received request-line: CONNECT cdn.paddle.com:443 HTTP/1.1
+[2025-10-22 19:00:02] CONNECT request for cdn.paddle.com:443
+[2025-10-22 19:00:02] Tunnel established to cdn.paddle.com (172.66.41.13:443)
+[2025-10-22 19:00:02] Tunnel established to speeddials.opera.com (107.167.110.211:443)
+[2025-10-22 19:00:02] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-10-22 19:00:02] CONNECT request for speeddials.opera.com:443
+[2025-10-22 19:00:02] Received request-line: CONNECT cdn.optimizely.com:443 HTTP/1.1
+[2025-10-22 19:00:02] CONNECT request for cdn.optimizely.com:443
+[2025-10-22 19:00:02] Tunnel established to speeddials.opera.com (107.167.110.211:443)
+[2025-10-22 19:00:03] Tunnel established to cdn.optimizely.com (104.18.65.57:443)
+[2025-10-22 19:00:06] Tunnel closed for easylist-downloads.adblockplus.org:443
+[2025-10-22 19:00:06] Tunnel closed for weather.opera-api2.com:443
+[2025-10-22 19:00:06] Received request-line: CONNECT www.googletagmanager.com:443 HTTP/1.1
+[2025-10-22 19:00:06] CONNECT request for www.googletagmanager.com:443
+[2025-10-22 19:00:06] Tunnel established to www.googletagmanager.com (142.250.31.97:443)
+[2025-10-22 19:00:06] Received request-line: CONNECT www.googletagmanager.com:443 HTTP/1.1
+[2025-10-22 19:00:06] CONNECT request for www.googletagmanager.com:443
+[2025-10-22 19:00:06] Tunnel established to www.googletagmanager.com (142.250.31.97:443)
+[2025-10-22 19:00:06] Tunnel closed for www.googletagmanager.com:443
+[2025-10-22 19:00:07] Tunnel closed for weather.opera-api2.com:443
+[2025-10-22 19:00:07] Received request-line: CONNECT www.google-analytics.com:443 HTTP/1.1
+[2025-10-22 19:00:07] CONNECT request for www.google-analytics.com:443
+[2025-10-22 19:00:07] Tunnel established to www.google-analytics.com (172.253.63.113:443)
+[2025-10-22 19:00:07] Received request-line: CONNECT officeclient.microsoft.com:443 HTTP/1.0
+[2025-10-22 19:00:07] CONNECT request for officeclient.microsoft.com:443
+[2025-10-22 19:00:07] Tunnel established to officeclient.microsoft.com (52.109.0.91:443)
+[2025-10-22 19:00:08] Received request-line: CONNECT public.profitwell.com:443 HTTP/1.1
+[2025-10-22 19:00:08] CONNECT request for public.profitwell.com:443
+[2025-10-22 19:00:08] Tunnel established to public.profitwell.com (18.172.134.46:443)
+[2025-10-22 19:00:08] Received request-line: CONNECT odc.officeapps.live.com:443 HTTP/1.0
+[2025-10-22 19:00:08] CONNECT request for odc.officeapps.live.com:443
+[2025-10-22 19:00:08] Tunnel established to odc.officeapps.live.com (52.109.16.52:443)
+[2025-10-22 19:00:09] Tunnel closed for ws.chatgpt.com:443
+[2025-10-22 19:00:09] Tunnel closed for www.googleapis.com:443
+[2025-10-22 19:00:09] Tunnel closed for easylist-downloads.adblockplus.org:443
+[2025-10-22 19:00:09] Tunnel closed for sitecheck.opera.com:443
+[2025-10-22 19:00:09] Tunnel closed for subscriptions.opera.com:443
+[2025-10-22 19:00:09] Tunnel closed for android.clients.google.com:443
+[2025-10-22 19:00:09] Tunnel closed for cdn.oaistatic.com:443
+[2025-10-22 19:00:09] Tunnel closed for cdn.optimizely.com:443
+[2025-10-22 19:00:09] Tunnel closed for proxy.gxcorner.games:443
+[2025-10-22 19:00:09] Tunnel closed for eee-api.10005.elluciancloud.com:443
+[2025-10-22 19:00:09] Tunnel closed for cashback-api-production.operacdn.com:443
+[2025-10-22 19:00:09] Tunnel closed for sitecheck.opera.com:443
+[2025-10-22 19:00:09] Tunnel closed for sitecheck.opera.com:443
+[2025-10-22 19:00:09] Tunnel closed for speeddials.opera.com:443
+[2025-10-22 19:00:09] Tunnel closed for proxy.gxcorner.games:443
+[2025-10-22 19:00:09] Tunnel closed for api.gx.me:443
+[2025-10-22 19:00:09] Tunnel closed for public.profitwell.com:443
+[2025-10-22 19:00:09] Tunnel closed for speeddials.opera.com:443
+[2025-10-22 19:00:09] Tunnel closed for addons-extensions.operacdn.com:443
+[2025-10-22 19:00:09] Tunnel closed for www.google-analytics.com:443
+[2025-10-22 19:00:09] Tunnel closed for www.googletagmanager.com:443
+[2025-10-22 19:00:09] Tunnel closed for ab.chatgpt.com:443
+[2025-10-22 19:00:09] Tunnel closed for github.githubassets.com:443
+[2025-10-22 19:00:09] Tunnel closed for github.com:443
+[2025-10-22 19:00:09] Tunnel closed for api.github.com:443
+[2025-10-22 19:00:09] Tunnel closed for realtime.chatgpt.com:443
+[2025-10-22 19:00:09] Tunnel closed for cdn.paddle.com:443
+[2025-10-22 19:00:09] Tunnel closed for experience.elluciancloud.com:443
+[2025-10-22 19:00:09] Tunnel closed for collector.github.com:443
+[2025-10-22 19:00:09] Tunnel closed for purdue.brightspace.com:443
+[2025-10-22 19:00:09] Tunnel closed for adblockplus.org:443
+[2025-10-22 19:00:09] Tunnel closed for www.googletagmanager.com:443
+[2025-10-22 19:00:09] Tunnel closed for realtime.chatgpt.com:443
+[2025-10-22 19:00:09] Tunnel closed for www.googleapis.com:443
+[2025-10-22 19:00:09] Tunnel closed for ipm.adblockplus.dev:443
+[2025-10-22 19:00:09] Tunnel closed for www.google-analytics.com:443
+[2025-10-22 19:00:09] Tunnel closed for chatgpt.com:443
+[2025-10-22 19:00:09] Tunnel closed for cdn.oaistatic.com:443
+[2025-10-22 19:00:09] Tunnel closed for adblockplus.telemetry.eyeo.com:443
+[2025-10-22 19:00:09] Tunnel closed for avatars.githubusercontent.com:443
+[2025-10-22 19:00:09] Tunnel closed for lh3.googleusercontent.com:443
+[2025-10-22 19:00:10] Received request-line: CONNECT www.google-analytics.com:443 HTTP/1.1
+[2025-10-22 19:00:10] CONNECT request for www.google-analytics.com:443
+[2025-10-22 19:00:10] Tunnel established to www.google-analytics.com (172.253.63.138:443)
+[2025-10-22 19:00:10] Received request-line: CONNECT www.google-analytics.com:443 HTTP/1.1
+[2025-10-22 19:00:10] CONNECT request for www.google-analytics.com:443
+[2025-10-22 19:00:10] Tunnel established to www.google-analytics.com (172.253.63.113:443)
+[2025-10-22 19:00:14] Received request-line: CONNECT collector.github.com:443 HTTP/1.1
+[2025-10-22 19:00:14] CONNECT request for collector.github.com:443
+[2025-10-22 19:00:14] Tunnel established to collector.github.com (140.82.114.21:443)
+[2025-10-22 19:00:14] Received request-line: CONNECT collector.github.com:443 HTTP/1.1
+[2025-10-22 19:00:14] CONNECT request for collector.github.com:443
+[2025-10-22 19:00:14] Tunnel established to collector.github.com (140.82.114.21:443)
