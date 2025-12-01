@@ -9,27 +9,6 @@
 
 #include "proxy_http.h"
 
-// Detect forbidden word inside body text
-static bool containsForbidden(const std::string &body,
-                              const std::vector<std::string> &forbiddenWords)
-{
-    for (const auto &w : forbiddenWords) {
-        if (body.find(w) != std::string::npos)
-            return true;
-    }
-    return false;
-}
-
-static void send503(int clientSock)
-{
-    const char *resp =
-        "HTTP/1.1 503 Service Unavailable\r\n"
-        "Content-Type: text/html\r\n\r\n"
-        "<html><body><h2>Forbidden content detected</h2></body></html>";
-    send(clientSock, resp, strlen(resp), 0);
-}
-
-
 // Forward declarations
 void *client_thread(void *arg);
 
@@ -231,14 +210,14 @@ static std::string toLowerCopy(const std::string &s) {
 }
 
 // check substring match case-insensitive between haystackLower and any forbidden word
-//static bool containsForbidden(const std::string &haystackLower, const std::vector<std::string> &forbidden)
-//{
-	//for (const auto &w : forbidden) {
-	//	if (w.empty()) continue;
-	//	if (haystackLower.find(w) != std::string::npos) return true;
-	//}
-	//return false;
-//}
+static bool containsForbidden(const std::string &haystackLower, const std::vector<std::string> &forbidden)
+{
+	for (const auto &w : forbidden) {
+		if (w.empty()) continue;
+		if (haystackLower.find(w) != std::string::npos) return true;
+	}
+	return false;
+}
 
 // send a simple HTML error response (code like "403", reason like "Forbidden")
 static void sendErrorHtml(int clientSock, const char *code, const char *reason, const char *bodytext)
@@ -441,10 +420,11 @@ static std::map<std::string,std::string> parseHeadersToMap(const std::string &he
 
 // Read chunked response from serverSock. We will collect both raw bytes (including chunk headers and CRLFs)
 // into rawOut (so we can forward the response unchanged) and collect decoded data bytes into decodedOut (for searching).
-// Returns true on success, false on error.
+// Returns true on success, false on error or if forbidden content detected (503 already sent).
 static bool readChunkedResponse(int serverSock, int clientSock, std::string &rawOut, std::string &decodedOut)
 {
 	std::string line;
+	std::string decodedLower; // incremental lowercased decoded data for searching
 	while (true) {
 		// read chunk-size line
 		if (!recvLine(serverSock, line)) return false;
@@ -486,12 +466,15 @@ static bool readChunkedResponse(int serverSock, int clientSock, std::string &raw
 		if (got < 0 || (size_t)got != chunkSize) return false;
 		rawOut.append(chunkData);
 		decodedOut.append(chunkData);
-        // check forbidden content immediately
-        if (containsForbidden(decodedOut, forbiddenWords)) {
-            send503(clientSock);
-            return false;
-        }
-
+		// also append lowercased fragment to decodedLower for incremental search
+		std::string chunkLower = toLowerCopy(chunkData);
+		decodedLower.append(chunkLower);
+		// check forbidden content immediately (incremental)
+		if (containsForbidden(decodedLower, forbiddenWords)) {
+			logf("Detected forbidden content in chunked response, sending 503");
+			sendErrorHtml(clientSock, "503", "Service Unavailable", "The server response contains forbidden content and was blocked by the proxy.");
+			return false;
+		}
 		// after chunk data there is a CRLF we must consume
 		char crlf[2];
 		ssize_t c = recvExact(serverSock, crlf, 2);
@@ -503,38 +486,48 @@ static bool readChunkedResponse(int serverSock, int clientSock, std::string &raw
 }
 
 // Read a response body where Content-Length is used. rawOut will get exact bytes, decodedOut gets same bytes.
+// This function scans incrementally and sends 503 immediately if forbidden content is found.
 static bool readContentLengthResponse(int serverSock, int clientSock, size_t contentLength, std::string &rawOut, std::string &decodedOut)
 {
 	size_t remaining = contentLength;
 	std::vector<char> buffer(BUF_SIZE);
+	std::string decodedLower;
 	while (remaining > 0) {
 		size_t toRead = (remaining < buffer.size())?remaining:buffer.size();
 		ssize_t n = recvExact(serverSock, buffer.data(), toRead);
 		if (n <= 0) return false;
 		rawOut.append(buffer.data(), (size_t)n);
 		decodedOut.append(buffer.data(), (size_t)n);
-        if (containsForbidden(decodedOut, forbiddenWords)) {
-            send503(clientSock);
-            return false;
-        }
-
+		// append lowercased data chunk to decodedLower and search
+		std::string chunk(buffer.data(), (size_t)n);
+		decodedLower.append( toLowerCopy(chunk) );
+		if (containsForbidden(decodedLower, forbiddenWords)) {
+			logf("Detected forbidden content in Content-Length response, sending 503");
+			sendErrorHtml(clientSock, "503", "Service Unavailable", "The server response contains forbidden content and was blocked by the proxy.");
+			return false;
+		}
 		remaining -= (size_t)n;
 	}
 	return true;
 }
 
 // Read until server closes connection (used for HTTP/1.0 or when no length given). Store all bytes into rawOut and decodedOut.
-static bool readUntilCloseResponse(int serverSock,int clientSock, std::string &rawOut, std::string &decodedOut)
+// This scans incrementally and will send 503 immediately if forbidden content is found.
+static bool readUntilCloseResponse(int serverSock, int clientSock, std::string &rawOut, std::string &decodedOut)
 {
 	std::vector<char> buffer(BUF_SIZE);
 	ssize_t n;
+	std::string decodedLower;
 	while ((n = recv(serverSock, buffer.data(), buffer.size(), 0)) > 0) {
 		rawOut.append(buffer.data(), (size_t)n);
 		decodedOut.append(buffer.data(), (size_t)n);
-        if (containsForbidden(decodedOut, forbiddenWords)) {
-            send503(clientSock);
-            return false;
-        }
+		std::string chunk(buffer.data(), (size_t)n);
+		decodedLower.append( toLowerCopy(chunk) );
+		if (containsForbidden(decodedLower, forbiddenWords)) {
+			logf("Detected forbidden content in connection-close response, sending 503");
+			sendErrorHtml(clientSock, "503", "Service Unavailable", "The server response contains forbidden content and was blocked by the proxy.");
+			return false;
+		}
 	}
 	// n==0 is normal EOF
 	return true;
@@ -612,23 +605,34 @@ void *client_thread(void *arg)
 		}
 	}
 
-	// Quick check: if request-line or headers or body contain forbidden words -> 403
-	std::string combinedReqLower = toLowerCopy(reqLine + "\r\n" + headers + reqBody);
+	// Quick check: if request-line (without query) or headers or body contain forbidden words -> 403
+	// We will strip query parameters from the request URI for the request check so query values (which are often echoed
+	// in the response) do not cause a 403 preemptively.
+	std::istringstream issRL(reqLine);
+	std::string method, uri, version;
+	if (!(issRL >> method >> uri >> version)) {
+		sendErrorHtml(clientSock, "400", "Bad Request", "Malformed request line.");
+		close(clientSock);
+		return nullptr;
+	}
+	// remove query string from uri for request filtering
+	std::string uriNoQuery = uri;
+	size_t qpos = uriNoQuery.find('?');
+	if (qpos != std::string::npos) uriNoQuery = uriNoQuery.substr(0, qpos);
+
+	// build the combined request string to scan (lowercased)
+	std::string combinedReq = method + " " + uriNoQuery + " " + version + "\r\n" + headers + reqBody;
+	std::string combinedReqLower = toLowerCopy(combinedReq);
+
 	if (containsForbidden(combinedReqLower, forbiddenWords)) {
-		logf("Blocking request from client: forbidden word in request");
+		logf("Blocking request from client: forbidden word in request (headers/path/body)");
 		sendErrorHtml(clientSock, "403", "Forbidden", "Your request contains forbidden words and was blocked by the proxy.");
 		close(clientSock);
 		return nullptr;
 	}
 
-	// Parse method
-	std::istringstream iss(reqLine);
-	std::string method, uri, version;
-	if (!(iss >> method >> uri >> version)) {
-		sendErrorHtml(clientSock, "400", "Bad Request", "Malformed request line.");
-		close(clientSock);
-		return nullptr;
-	}
+	// Parse method (we already have tokens)
+	// method, uri, version already parsed above
 
 	// For CONNECT requests (HTTPS tunneling): check forbidden sites, then tunnel
 	if (method == "CONNECT") {
@@ -707,15 +711,15 @@ void *client_thread(void *arg)
 
 	// Filter headers: remove Proxy-Connection and replace Connection with close
 	std::istringstream hs(headers);
-	std::string line;
+	std::string line2;
 	bool hasHostHeader = false;
-	while (std::getline(hs, line)) {
-		if (!line.empty() && line.back() == '\r') line.pop_back();
+	while (std::getline(hs, line2)) {
+		if (!line2.empty() && line2.back() == '\r') line2.pop_back();
 		// trim leading
-		size_t a = line.find_first_not_of(" \t");
+		size_t a = line2.find_first_not_of(" \t");
 		if (a==std::string::npos) continue;
-		size_t colonPos = line.find(':');
-		std::string key = (colonPos==std::string::npos) ? line : line.substr(0, colonPos);
+		size_t colonPos = line2.find(':');
+		std::string key = (colonPos==std::string::npos) ? line2 : line2.substr(0, colonPos);
 		std::string lower = key;
 		for (char &c : lower) c = (char)tolower((unsigned char)c);
 		if (lower == "proxy-connection") continue;
@@ -724,7 +728,7 @@ void *client_thread(void *arg)
 			continue;
 		}
 		if (lower == "host") hasHostHeader = true;
-		outReq << line << "\r\n";
+		outReq << line2 << "\r\n";
 	}
 	if (!hasHostHeader) {
 		outReq << "Host: " << host << "\r\n";
@@ -810,7 +814,7 @@ void *client_thread(void *arg)
 	bool readOk = true;
 	if (isChunked) {
 		// read chunked response but preserve raw chunk-stream in rawBody
-		readOk = readChunkedResponse(serverSock,clientSock, rawBody, decodedBody);
+		readOk = readChunkedResponse(serverSock, clientSock, rawBody, decodedBody);
 	} else if (hasContentLength) {
 		readOk = readContentLengthResponse(serverSock, clientSock, contentLength, rawBody, decodedBody);
 	} else {
@@ -819,7 +823,8 @@ void *client_thread(void *arg)
 	}
 
 	if (!readOk) {
-		logf("Failed reading response body from server");
+		// If read failed due to forbidden content, the function already sent 503.
+		// Either way, we should close sockets and stop.
 		close(serverSock); close(clientSock);
 		return nullptr;
 	}
