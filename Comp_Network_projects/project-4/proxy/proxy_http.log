@@ -1,0 +1,1113 @@
+[2025-12-01 05:57:00] Loaded 1 forbidden words and 1 forbidden sites
+[2025-12-01 05:57:00] Proxy listening on port 5465
+[2025-12-01 05:57:24] Received request-line: CONNECT vscode-sync.trafficmanager.net:443 HTTP/1.1
+[2025-12-01 05:57:24] Tunnel established to vscode-sync.trafficmanager.net (40.71.11.167:443)
+[2025-12-01 05:57:26] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
+[2025-12-01 05:57:26] Tunnel established to mobile.events.data.microsoft.com (52.182.143.214:443)
+[2025-12-01 05:57:38] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 05:57:38] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 05:57:38] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 05:57:38] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 05:57:39] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 05:57:39] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 05:57:40] Received request-line: CONNECT cashback-api-production.operacdn.com:443 HTTP/1.1
+[2025-12-01 05:57:40] Tunnel established to cashback-api-production.operacdn.com (23.64.112.5:443)
+[2025-12-01 05:57:42] Received request-line: CONNECT sitecheck.opera.com:443 HTTP/1.1
+[2025-12-01 05:57:42] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:42] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:57:42] Tunnel established to sitecheck.opera.com (107.167.96.43:443)
+[2025-12-01 05:57:43] Received request-line: CONNECT i.ytimg.com:443 HTTP/1.1
+[2025-12-01 05:57:43] Received request-line: CONNECT fonts.googleapis.com:443 HTTP/1.1
+[2025-12-01 05:57:43] Tunnel established to i.ytimg.com (142.250.191.214:443)
+[2025-12-01 05:57:43] Tunnel established to fonts.googleapis.com (142.250.190.106:443)
+[2025-12-01 05:57:44] Received request-line: CONNECT api.config.opr.gg:443 HTTP/1.1
+[2025-12-01 05:57:44] Tunnel established to api.config.opr.gg (104.18.24.17:443)
+[2025-12-01 05:57:44] Received request-line: CONNECT googleads.g.doubleclick.net:443 HTTP/1.1
+[2025-12-01 05:57:44] Tunnel established to googleads.g.doubleclick.net (142.250.190.98:443)
+[2025-12-01 05:57:45] Tunnel closed for fonts.googleapis.com:443
+[2025-12-01 05:57:45] Tunnel closed for googleads.g.doubleclick.net:443
+[2025-12-01 05:57:45] Tunnel closed for api.config.opr.gg:443
+[2025-12-01 05:57:45] Tunnel closed for cashback-api-production.operacdn.com:443
+[2025-12-01 05:57:45] Tunnel closed for www.google.com:443
+[2025-12-01 05:57:45] Tunnel closed for i.ytimg.com:443
+[2025-12-01 05:57:45] Tunnel closed for sitecheck.opera.com:443
+[2025-12-01 05:57:45] Tunnel closed for www.google.com:443
+[2025-12-01 05:57:45] Tunnel closed for www.google.com:443
+[2025-12-01 05:57:45] Received request-line: CONNECT alive.github.com:443 HTTP/1.1
+[2025-12-01 05:57:45] Tunnel established to alive.github.com (140.82.112.25:443)
+[2025-12-01 05:57:45] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:45] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:57:45] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:45] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:57:45] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:45] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:57:45] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:45] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:57:45] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:45] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:57:45] Received request-line: CONNECT rr4---sn-t0a7lnee.googlevideo.com:443 HTTP/1.1
+[2025-12-01 05:57:45] Received request-line: CONNECT rr4---sn-t0a7lnee.googlevideo.com:443 HTTP/1.1
+[2025-12-01 05:57:45] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:45] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:57:45] Received request-line: CONNECT af.opera.com:443 HTTP/1.1
+[2025-12-01 05:57:45] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:45] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:57:46] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:46] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:57:46] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:46] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:57:46] getaddrinfo(rr4---sn-t0a7lnee.googlevideo.com:443) failed: Name or service not known
+[2025-12-01 05:57:46] getaddrinfo(rr4---sn-t0a7lnee.googlevideo.com:443) failed: Name or service not known
+[2025-12-01 05:57:46] Tunnel established to af.opera.com (107.167.96.30:443)
+[2025-12-01 05:57:46] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:46] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:57:46] Received request-line: CONNECT rr4---sn-t0a7lnee.googlevideo.com:443 HTTP/1.1
+[2025-12-01 05:57:46] Received request-line: CONNECT rr4---sn-t0a7lnee.googlevideo.com:443 HTTP/1.1
+[2025-12-01 05:57:46] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:46] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:57:46] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:46] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:57:46] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:46] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:57:46] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:46] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:57:46] getaddrinfo(rr4---sn-t0a7lnee.googlevideo.com:443) failed: Name or service not known
+[2025-12-01 05:57:46] getaddrinfo(rr4---sn-t0a7lnee.googlevideo.com:443) failed: Name or service not known
+[2025-12-01 05:57:46] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:46] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:57:46] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 05:57:46] Received request-line: CONNECT rr4---sn-t0a7lnee.googlevideo.com:443 HTTP/1.1
+[2025-12-01 05:57:46] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 05:57:46] Received request-line: CONNECT rr4---sn-t0a7lnee.googlevideo.com:443 HTTP/1.1
+[2025-12-01 05:57:46] getaddrinfo(rr4---sn-t0a7lnee.googlevideo.com:443) failed: Name or service not known
+[2025-12-01 05:57:46] Received request-line: CONNECT fonts.gstatic.com:443 HTTP/1.1
+[2025-12-01 05:57:46] Received request-line: CONNECT www.gstatic.com:443 HTTP/1.1
+[2025-12-01 05:57:46] Received request-line: CONNECT fonts.gstatic.com:443 HTTP/1.1
+[2025-12-01 05:57:46] getaddrinfo(rr4---sn-t0a7lnee.googlevideo.com:443) failed: Name or service not known
+[2025-12-01 05:57:46] Tunnel established to www.gstatic.com (142.250.191.227:443)
+[2025-12-01 05:57:46] Tunnel established to fonts.gstatic.com (142.250.191.131:443)
+[2025-12-01 05:57:46] Tunnel established to fonts.gstatic.com (142.250.191.131:443)
+[2025-12-01 05:57:46] Received request-line: CONNECT yt3.ggpht.com:443 HTTP/1.1
+[2025-12-01 05:57:46] Tunnel closed for fonts.gstatic.com:443
+[2025-12-01 05:57:46] Tunnel established to yt3.ggpht.com (172.217.5.1:443)
+[2025-12-01 05:57:46] Received request-line: CONNECT fonts.googleapis.com:443 HTTP/1.1
+[2025-12-01 05:57:46] Tunnel established to fonts.googleapis.com (142.250.190.106:443)
+[2025-12-01 05:57:47] Received request-line: CONNECT sitecheck.opera.com:443 HTTP/1.1
+[2025-12-01 05:57:47] Received request-line: CONNECT accounts.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:47] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:47] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:57:47] Tunnel established to accounts.youtube.com (142.250.190.46:443)
+[2025-12-01 05:57:47] Tunnel established to sitecheck.opera.com (107.167.96.44:443)
+[2025-12-01 05:57:47] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:47] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:57:47] Received request-line: CONNECT www.gstatic.com:443 HTTP/1.1
+[2025-12-01 05:57:47] Tunnel established to www.gstatic.com (142.250.191.227:443)
+[2025-12-01 05:57:47] Received request-line: CONNECT static.doubleclick.net:443 HTTP/1.1
+[2025-12-01 05:57:47] Tunnel established to static.doubleclick.net (142.250.190.38:443)
+[2025-12-01 05:57:49] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:49] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:57:53] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 05:57:53] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 05:57:53] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 05:57:53] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 05:57:53] Tunnel closed for www.google.com:443
+[2025-12-01 05:57:54] Received request-line: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1
+[2025-12-01 05:57:54] Received request-line: CONNECT lh3.googleusercontent.com:443 HTTP/1.1
+[2025-12-01 05:57:54] Received request-line: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1
+[2025-12-01 05:57:54] Received request-line: CONNECT lh3.googleusercontent.com:443 HTTP/1.1
+[2025-12-01 05:57:54] Tunnel established to encrypted-tbn0.gstatic.com (142.250.191.174:443)
+[2025-12-01 05:57:54] Tunnel established to lh3.googleusercontent.com (142.250.190.65:443)
+[2025-12-01 05:57:54] Tunnel established to encrypted-tbn0.gstatic.com (142.250.191.174:443)
+[2025-12-01 05:57:54] Tunnel established to lh3.googleusercontent.com (142.250.190.65:443)
+[2025-12-01 05:57:55] Tunnel closed for af.opera.com:443
+[2025-12-01 05:57:55] Tunnel closed for sitecheck.opera.com:443
+[2025-12-01 05:57:55] Tunnel closed for accounts.youtube.com:443
+[2025-12-01 05:57:55] Tunnel closed for www.google.com:443
+[2025-12-01 05:57:55] Tunnel closed for yt3.ggpht.com:443
+[2025-12-01 05:57:55] Tunnel closed for encrypted-tbn0.gstatic.com:443
+[2025-12-01 05:57:55] Tunnel closed for lh3.googleusercontent.com:443
+[2025-12-01 05:57:55] Tunnel closed for www.gstatic.com:443
+[2025-12-01 05:57:55] Tunnel closed for static.doubleclick.net:443
+[2025-12-01 05:57:55] Tunnel closed for lh3.googleusercontent.com:443
+[2025-12-01 05:57:55] Tunnel closed for fonts.googleapis.com:443
+[2025-12-01 05:57:55] Tunnel closed for encrypted-tbn0.gstatic.com:443
+[2025-12-01 05:57:55] Tunnel closed for www.gstatic.com:443
+[2025-12-01 05:57:55] Tunnel closed for fonts.gstatic.com:443
+[2025-12-01 05:57:56] Tunnel closed for vscode-sync.trafficmanager.net:443
+[2025-12-01 05:57:56] Tunnel closed for mobile.events.data.microsoft.com:443
+[2025-12-01 05:57:56] Received request-line: CONNECT lh3.googleusercontent.com:443 HTTP/1.1
+[2025-12-01 05:57:56] Received request-line: CONNECT www.googleadservices.com:443 HTTP/1.1
+[2025-12-01 05:57:56] Tunnel established to lh3.googleusercontent.com (142.250.190.65:443)
+[2025-12-01 05:57:56] Tunnel established to www.googleadservices.com (172.217.4.66:443)
+[2025-12-01 05:57:56] Received request-line: CONNECT ssl.gstatic.com:443 HTTP/1.1
+[2025-12-01 05:57:56] Tunnel established to ssl.gstatic.com (172.217.5.3:443)
+[2025-12-01 05:57:56] Received request-line: CONNECT www.gstatic.com:443 HTTP/1.1
+[2025-12-01 05:57:56] Tunnel established to www.gstatic.com (142.250.191.227:443)
+[2025-12-01 05:57:57] Received request-line: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1
+[2025-12-01 05:57:57] Tunnel established to encrypted-tbn0.gstatic.com (142.250.191.174:443)
+[2025-12-01 05:57:57] Received request-line: CONNECT af.opera.com:443 HTTP/1.1
+[2025-12-01 05:57:57] Tunnel established to af.opera.com (107.167.96.44:443)
+[2025-12-01 05:57:57] Received request-line: CONNECT ogads-pa.clients6.google.com:443 HTTP/1.1
+[2025-12-01 05:57:57] Tunnel established to ogads-pa.clients6.google.com (142.251.32.10:443)
+[2025-12-01 05:57:57] Received request-line: CONNECT ogads-pa.clients6.google.com:443 HTTP/1.1
+[2025-12-01 05:57:57] Tunnel established to ogads-pa.clients6.google.com (142.251.32.10:443)
+[2025-12-01 05:57:57] Received request-line: CONNECT accounts.google.com:443 HTTP/1.1
+[2025-12-01 05:57:57] Tunnel established to accounts.google.com (142.251.4.84:443)
+[2025-12-01 05:57:57] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:57] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:57:58] Received request-line: CONNECT play.google.com:443 HTTP/1.1
+[2025-12-01 05:57:58] Tunnel established to play.google.com (142.251.32.14:443)
+[2025-12-01 05:57:58] Received request-line: CONNECT play.google.com:443 HTTP/1.1
+[2025-12-01 05:57:58] Tunnel established to play.google.com (142.251.32.14:443)
+[2025-12-01 05:57:58] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:57:58] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:58:01] Received request-line: CONNECT sitecheck.opera.com:443 HTTP/1.1
+[2025-12-01 05:58:01] Received request-line: CONNECT ogs.google.com:443 HTTP/1.1
+[2025-12-01 05:58:01] Tunnel established to ogs.google.com (142.250.190.46:443)
+[2025-12-01 05:58:01] Tunnel established to sitecheck.opera.com (107.167.110.216:443)
+[2025-12-01 05:58:02] Received request-line: CONNECT purdue.brightspace.com:443 HTTP/1.1
+[2025-12-01 05:58:02] Tunnel established to purdue.brightspace.com (54.211.104.39:443)
+[2025-12-01 05:58:05] Tunnel closed for af.opera.com:443
+[2025-12-01 05:58:05] Tunnel closed for www.gstatic.com:443
+[2025-12-01 05:58:05] Tunnel closed for play.google.com:443
+[2025-12-01 05:58:05] Tunnel closed for ogs.google.com:443
+[2025-12-01 05:58:05] Tunnel closed for ogads-pa.clients6.google.com:443
+[2025-12-01 05:58:05] Tunnel closed for purdue.brightspace.com:443
+[2025-12-01 05:58:05] Tunnel closed for lh3.googleusercontent.com:443
+[2025-12-01 05:58:05] Tunnel closed for encrypted-tbn0.gstatic.com:443
+[2025-12-01 05:58:05] Tunnel closed for sitecheck.opera.com:443
+[2025-12-01 05:58:05] Tunnel closed for ssl.gstatic.com:443
+[2025-12-01 05:58:05] Tunnel closed for play.google.com:443
+[2025-12-01 05:58:05] Tunnel closed for www.googleadservices.com:443
+[2025-12-01 05:58:05] Tunnel closed for www.google.com:443
+[2025-12-01 05:58:05] Tunnel closed for ogads-pa.clients6.google.com:443
+[2025-12-01 05:58:05] Tunnel closed for accounts.google.com:443
+[2025-12-01 05:58:06] Received request-line: CONNECT main.vscode-cdn.net:443 HTTP/1.1
+[2025-12-01 05:58:06] Tunnel established to main.vscode-cdn.net (13.107.213.38:443)
+[2025-12-01 05:58:16] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:58:16] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:58:26] Received request-line: CONNECT vscode-sync.trafficmanager.net:443 HTTP/1.1
+[2025-12-01 05:58:26] Tunnel established to vscode-sync.trafficmanager.net (40.71.11.167:443)
+[2025-12-01 05:58:28] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
+[2025-12-01 05:58:28] Tunnel established to mobile.events.data.microsoft.com (13.89.179.11:443)
+[2025-12-01 05:58:33] Received request-line: CONNECT play.google.com:443 HTTP/1.1
+[2025-12-01 05:58:33] Tunnel established to play.google.com (142.251.32.14:443)
+[2025-12-01 05:58:36] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:58:36] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:58:47] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:58:47] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:58:47] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:58:47] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:59:18] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 05:59:18] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 05:59:18] Tunnel closed for alive.github.com:443
+[2025-12-01 05:59:19] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 05:59:19] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 06:08:49] Loaded 4 forbidden words and 3 forbidden sites from forbidden.txt
+[2025-12-01 06:08:49] Proxy listening on port 5465
+[2025-12-01 06:09:07] Received request-line: CONNECT vscode-sync.trafficmanager.net:443 HTTP/1.1
+[2025-12-01 06:09:07] Tunnel established to vscode-sync.trafficmanager.net (40.71.11.167:443)
+[2025-12-01 06:09:10] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
+[2025-12-01 06:09:10] Tunnel established to mobile.events.data.microsoft.com (104.46.162.224:443)
+[2025-12-01 06:09:16] Received request-line: CONNECT weather.opera-api2.com:443 HTTP/1.1
+[2025-12-01 06:09:16] Tunnel established to weather.opera-api2.com (107.167.96.30:443)
+[2025-12-01 06:09:18] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 06:09:18] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 06:09:18] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 06:09:19] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 06:09:19] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 06:09:19] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 06:09:19] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 06:09:19] Received request-line: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:09:19] Received request-line: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:09:19] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 06:09:19] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 06:09:19] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 06:09:19] Tunnel established to encrypted-tbn0.gstatic.com (142.250.191.174:443)
+[2025-12-01 06:09:20] Tunnel established to encrypted-tbn0.gstatic.com (142.250.191.174:443)
+[2025-12-01 06:09:21] Received request-line: CONNECT sitecheck.opera.com:443 HTTP/1.1
+[2025-12-01 06:09:21] Received request-line: CONNECT facebook.com:443 HTTP/1.1
+[2025-12-01 06:09:21] Blocking CONNECT to forbidden site facebook.com
+[2025-12-01 06:09:21] Received request-line: CONNECT facebook.com:443 HTTP/1.1
+[2025-12-01 06:09:21] Blocking CONNECT to forbidden site facebook.com
+[2025-12-01 06:09:21] Tunnel established to sitecheck.opera.com (107.167.110.216:443)
+[2025-12-01 06:09:22] Received request-line: CONNECT cashback-api-production.operacdn.com:443 HTTP/1.1
+[2025-12-01 06:09:22] Tunnel established to cashback-api-production.operacdn.com (23.45.46.210:443)
+[2025-12-01 06:09:22] Received request-line: CONNECT facebook.com:443 HTTP/1.1
+[2025-12-01 06:09:22] Blocking CONNECT to forbidden site facebook.com
+[2025-12-01 06:09:22] Received request-line: CONNECT facebook.com:443 HTTP/1.1
+[2025-12-01 06:09:22] Blocking CONNECT to forbidden site facebook.com
+[2025-12-01 06:09:27] Received request-line: CONNECT facebook.com:443 HTTP/1.1
+[2025-12-01 06:09:27] Blocking CONNECT to forbidden site facebook.com
+[2025-12-01 06:09:27] Received request-line: CONNECT facebook.com:443 HTTP/1.1
+[2025-12-01 06:09:27] Blocking CONNECT to forbidden site facebook.com
+[2025-12-01 06:09:29] Tunnel closed for www.google.com:443
+[2025-12-01 06:09:29] Tunnel closed for www.google.com:443
+[2025-12-01 06:09:29] Tunnel closed for www.google.com:443
+[2025-12-01 06:09:29] Tunnel closed for www.google.com:443
+[2025-12-01 06:09:47] Received request-line: CONNECT i.ytimg.com:443 HTTP/1.1
+[2025-12-01 06:09:47] Received request-line: CONNECT fonts.googleapis.com:443 HTTP/1.1
+[2025-12-01 06:09:47] Received request-line: CONNECT fonts.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:09:47] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:09:47] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:09:48] Tunnel established to fonts.googleapis.com (142.250.190.106:443)
+[2025-12-01 06:09:48] Tunnel established to i.ytimg.com (172.217.4.214:443)
+[2025-12-01 06:09:48] Tunnel established to fonts.gstatic.com (142.250.191.131:443)
+[2025-12-01 06:09:48] Received request-line: CONNECT api.config.opr.gg:443 HTTP/1.1
+[2025-12-01 06:09:48] Tunnel established to api.config.opr.gg (104.18.24.17:443)
+[2025-12-01 06:09:48] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:09:48] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:09:48] Received request-line: CONNECT googleads.g.doubleclick.net:443 HTTP/1.1
+[2025-12-01 06:09:48] Tunnel established to googleads.g.doubleclick.net (142.250.190.130:443)
+[2025-12-01 06:09:49] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:09:49] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:09:49] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:09:49] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:09:49] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:09:49] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:09:49] Received request-line: CONNECT af.opera.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Received request-line: CONNECT rr4---sn-q4fl6n6z.googlevideo.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Received request-line: CONNECT rr4---sn-q4fl6n6z.googlevideo.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Tunnel established to af.opera.com (107.167.96.43:443)
+[2025-12-01 06:09:49] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:09:49] Tunnel established to rr4---sn-q4fl6n6z.googlevideo.com (173.194.24.201:443)
+[2025-12-01 06:09:49] Tunnel established to rr4---sn-q4fl6n6z.googlevideo.com (173.194.24.201:443)
+[2025-12-01 06:09:49] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:09:49] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:09:49] Tunnel closed for rr4---sn-q4fl6n6z.googlevideo.com:443
+[2025-12-01 06:09:49] Tunnel closed for rr4---sn-q4fl6n6z.googlevideo.com:443
+[2025-12-01 06:09:49] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:09:49] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Received request-line: CONNECT rr4---sn-q4fl6n6z.googlevideo.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Received request-line: CONNECT rr4---sn-q4fl6n6z.googlevideo.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:09:49] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 06:09:49] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:09:49] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:09:49] Tunnel established to rr4---sn-q4fl6n6z.googlevideo.com (173.194.24.201:443)
+[2025-12-01 06:09:49] Tunnel established to rr4---sn-q4fl6n6z.googlevideo.com (173.194.24.201:443)
+[2025-12-01 06:09:49] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:09:49] Tunnel closed for rr4---sn-q4fl6n6z.googlevideo.com:443
+[2025-12-01 06:09:49] Tunnel closed for rr4---sn-q4fl6n6z.googlevideo.com:443
+[2025-12-01 06:09:49] Received request-line: CONNECT rr4---sn-q4fl6n6z.googlevideo.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Received request-line: CONNECT rr4---sn-q4fl6n6z.googlevideo.com:443 HTTP/1.1
+[2025-12-01 06:09:49] Tunnel established to rr4---sn-q4fl6n6z.googlevideo.com (173.194.24.201:443)
+[2025-12-01 06:09:49] Tunnel established to rr4---sn-q4fl6n6z.googlevideo.com (173.194.24.201:443)
+[2025-12-01 06:09:50] Tunnel closed for rr4---sn-q4fl6n6z.googlevideo.com:443
+[2025-12-01 06:09:50] Tunnel closed for rr4---sn-q4fl6n6z.googlevideo.com:443
+[2025-12-01 06:09:50] Received request-line: CONNECT accounts.youtube.com:443 HTTP/1.1
+[2025-12-01 06:09:50] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:09:50] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:09:50] Tunnel established to accounts.youtube.com (142.250.190.46:443)
+[2025-12-01 06:09:50] Received request-line: CONNECT static.doubleclick.net:443 HTTP/1.1
+[2025-12-01 06:09:50] Tunnel established to static.doubleclick.net (142.250.190.38:443)
+[2025-12-01 06:09:52] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:09:52] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:10:07] Received request-line: CONNECT instagram.com:443 HTTP/1.1
+[2025-12-01 06:10:07] Blocking CONNECT to forbidden site instagram.com
+[2025-12-01 06:10:07] Received request-line: CONNECT instagram.com:443 HTTP/1.1
+[2025-12-01 06:10:07] Blocking CONNECT to forbidden site instagram.com
+[2025-12-01 06:10:08] Received request-line: CONNECT instagram.com:443 HTTP/1.1
+[2025-12-01 06:10:08] Blocking CONNECT to forbidden site instagram.com
+[2025-12-01 06:10:08] Received request-line: CONNECT instagram.com:443 HTTP/1.1
+[2025-12-01 06:10:08] Blocking CONNECT to forbidden site instagram.com
+[2025-12-01 06:10:13] Received request-line: CONNECT instagram.com:443 HTTP/1.1
+[2025-12-01 06:10:13] Blocking CONNECT to forbidden site instagram.com
+[2025-12-01 06:10:13] Received request-line: CONNECT instagram.com:443 HTTP/1.1
+[2025-12-01 06:10:13] Blocking CONNECT to forbidden site instagram.com
+[2025-12-01 06:10:17] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-12-01 06:10:17] Tunnel established to speeddials.opera.com (107.167.110.211:443)
+[2025-12-01 06:10:20] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:10:20] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:10:21] Tunnel closed for weather.opera-api2.com:443
+[2025-12-01 06:10:22] Received request-line: CONNECT merchandise.opera-api2.com:443 HTTP/1.1
+[2025-12-01 06:10:22] Tunnel established to merchandise.opera-api2.com (107.167.96.30:443)
+[2025-12-01 06:10:25] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:10:25] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:10:30] Received request-line: CONNECT lh3.googleusercontent.com:443 HTTP/1.1
+[2025-12-01 06:10:30] Received request-line: CONNECT lh3.googleusercontent.com:443 HTTP/1.1
+[2025-12-01 06:10:30] Tunnel established to lh3.googleusercontent.com (142.250.190.65:443)
+[2025-12-01 06:10:30] Tunnel established to lh3.googleusercontent.com (142.250.190.65:443)
+[2025-12-01 06:10:35] Received request-line: CONNECT www.googleadservices.com:443 HTTP/1.1
+[2025-12-01 06:10:35] Tunnel established to www.googleadservices.com (142.250.191.98:443)
+[2025-12-01 06:10:35] Received request-line: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:10:35] Received request-line: CONNECT img.youtube.com:443 HTTP/1.1
+[2025-12-01 06:10:35] Tunnel established to encrypted-tbn0.gstatic.com (142.250.191.174:443)
+[2025-12-01 06:10:35] Tunnel established to img.youtube.com (142.250.191.206:443)
+[2025-12-01 06:10:35] Received request-line: CONNECT af.opera.com:443 HTTP/1.1
+[2025-12-01 06:10:35] Tunnel established to af.opera.com (107.167.96.43:443)
+[2025-12-01 06:10:36] Received request-line: CONNECT ogads-pa.clients6.google.com:443 HTTP/1.1
+[2025-12-01 06:10:36] Tunnel established to ogads-pa.clients6.google.com (142.250.190.106:443)
+[2025-12-01 06:10:36] Received request-line: CONNECT accounts.google.com:443 HTTP/1.1
+[2025-12-01 06:10:36] Tunnel established to accounts.google.com (142.251.4.84:443)
+[2025-12-01 06:10:36] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:10:36] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:10:37] Received request-line: CONNECT play.google.com:443 HTTP/1.1
+[2025-12-01 06:10:37] Tunnel established to play.google.com (142.251.32.14:443)
+[2025-12-01 06:10:37] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:10:37] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:10:39] Received request-line: CONNECT encrypted-vtbn0.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:10:39] Tunnel established to encrypted-vtbn0.gstatic.com (142.250.191.174:443)
+[2025-12-01 06:10:39] Received request-line: CONNECT www.azlyrics.com:443 HTTP/1.1
+[2025-12-01 06:10:39] Tunnel established to www.azlyrics.com (5.79.76.225:443)
+[2025-12-01 06:10:40] Received request-line: CONNECT ogs.google.com:443 HTTP/1.1
+[2025-12-01 06:10:40] Tunnel established to ogs.google.com (142.250.190.46:443)
+[2025-12-01 06:10:40] Received request-line: CONNECT www.azlyrics.com:443 HTTP/1.1
+[2025-12-01 06:10:40] Received request-line: CONNECT ssl.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:10:40] Received request-line: CONNECT www.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:10:40] Tunnel established to ssl.gstatic.com (172.217.5.3:443)
+[2025-12-01 06:10:40] Tunnel established to www.azlyrics.com (5.79.76.225:443)
+[2025-12-01 06:10:40] Tunnel established to www.gstatic.com (142.250.191.227:443)
+[2025-12-01 06:10:40] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-12-01 06:10:40] Tunnel established to speeddials.opera.com (107.167.110.211:443)
+[2025-12-01 06:10:40] Received request-line: CONNECT maxcdn.bootstrapcdn.com:443 HTTP/1.1
+[2025-12-01 06:10:40] Received request-line: CONNECT consent.cookiebot.com:443 HTTP/1.1
+[2025-12-01 06:10:40] Tunnel established to maxcdn.bootstrapcdn.com (104.18.11.207:443)
+[2025-12-01 06:10:40] Received request-line: CONNECT sd-images.operacdn.com:443 HTTP/1.1
+[2025-12-01 06:10:40] Tunnel established to consent.cookiebot.com (23.64.112.15:443)
+[2025-12-01 06:10:40] Tunnel established to sd-images.operacdn.com (23.45.46.208:443)
+[2025-12-01 06:10:40] Received request-line: CONNECT ajax.googleapis.com:443 HTTP/1.1
+[2025-12-01 06:10:40] Tunnel established to ajax.googleapis.com (142.250.191.138:443)
+[2025-12-01 06:10:40] Tunnel closed for af.opera.com:443
+[2025-12-01 06:10:40] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-12-01 06:10:41] Tunnel established to speeddials.opera.com (107.167.110.211:443)
+[2025-12-01 06:10:41] Tunnel closed for af.opera.com:443
+[2025-12-01 06:10:41] Received request-line: CONNECT config.content-settings.com:443 HTTP/1.1
+[2025-12-01 06:10:41] Tunnel closed for fonts.googleapis.com:443
+[2025-12-01 06:10:41] Received request-line: CONNECT www.googletagmanager.com:443 HTTP/1.1
+[2025-12-01 06:10:41] Tunnel established to config.content-settings.com (34.36.88.89:443)
+[2025-12-01 06:10:41] Tunnel established to www.googletagmanager.com (172.217.5.8:443)
+[2025-12-01 06:10:41] Tunnel closed for fonts.gstatic.com:443
+[2025-12-01 06:10:41] Received request-line: CONNECT sd-images.operacdn.com:443 HTTP/1.1
+[2025-12-01 06:10:41] Tunnel established to sd-images.operacdn.com (23.45.46.210:443)
+[2025-12-01 06:10:41] Tunnel closed for merchandise.opera-api2.com:443
+[2025-12-01 06:10:41] Received request-line: CONNECT maxcdn.bootstrapcdn.com:443 HTTP/1.1
+[2025-12-01 06:10:41] Tunnel closed for sd-images.operacdn.com:443
+[2025-12-01 06:10:41] Received request-line: CONNECT consentcdn.cookiebot.com:443 HTTP/1.1
+[2025-12-01 06:10:41] Tunnel established to maxcdn.bootstrapcdn.com (104.18.11.207:443)
+[2025-12-01 06:10:41] Tunnel established to consentcdn.cookiebot.com (23.10.203.161:443)
+[2025-12-01 06:10:42] Tunnel closed for speeddials.opera.com:443
+[2025-12-01 06:10:42] Received request-line: CONNECT www.google-analytics.com:443 HTTP/1.1
+[2025-12-01 06:10:42] Tunnel established to www.google-analytics.com (172.217.5.14:443)
+[2025-12-01 06:10:42] Tunnel closed for ssl.gstatic.com:443
+[2025-12-01 06:10:42] Received request-line: CONNECT site-config.com:443 HTTP/1.1
+[2025-12-01 06:10:42] Tunnel established to site-config.com (35.190.125.54:443)
+[2025-12-01 06:11:14] Tunnel closed for www.azlyrics.com:443
+[2025-12-01 06:11:14] Received request-line: CONNECT purdue.brightspace.com:443 HTTP/1.1
+[2025-12-01 06:11:14] Tunnel established to purdue.brightspace.com (54.164.83.204:443)
+[2025-12-01 06:11:17] Received request-line: GET http://ipv6.msftconnecttest.com/connecttest.txt HTTP/1.1
+[2025-12-01 06:11:23] Tunnel closed for speeddials.opera.com:443
+[2025-12-01 06:11:29] Tunnel closed for www.gstatic.com:443
+[2025-12-01 06:11:29] Received request-line: CONNECT chatgpt.com:443 HTTP/1.1
+[2025-12-01 06:11:30] Tunnel established to chatgpt.com (104.18.32.47:443)
+[2025-12-01 06:11:36] Tunnel closed for cashback-api-production.operacdn.com:443
+[2025-12-01 06:11:36] Tunnel closed for accounts.google.com:443
+[2025-12-01 06:11:36] Tunnel closed for www.google.com:443
+[2025-12-01 06:11:36] Tunnel closed for encrypted-tbn0.gstatic.com:443
+[2025-12-01 06:11:36] Tunnel closed for api.config.opr.gg:443
+[2025-12-01 06:11:36] Tunnel closed for i.ytimg.com:443
+[2025-12-01 06:11:36] Tunnel closed for googleads.g.doubleclick.net:443
+[2025-12-01 06:11:36] Tunnel closed for accounts.youtube.com:443
+[2025-12-01 06:11:36] Tunnel closed for lh3.googleusercontent.com:443
+[2025-12-01 06:11:36] Tunnel closed for encrypted-tbn0.gstatic.com:443
+[2025-12-01 06:11:36] Tunnel closed for static.doubleclick.net:443
+[2025-12-01 06:11:36] Tunnel closed for www.googletagmanager.com:443
+[2025-12-01 06:11:36] Tunnel closed for www.azlyrics.com:443
+[2025-12-01 06:11:36] Tunnel closed for maxcdn.bootstrapcdn.com:443
+[2025-12-01 06:11:36] Tunnel closed for consentcdn.cookiebot.com:443
+[2025-12-01 06:11:36] Tunnel closed for purdue.brightspace.com:443
+[2025-12-01 06:11:36] Tunnel closed for www.google.com:443
+[2025-12-01 06:11:36] Tunnel closed for chatgpt.com:443
+[2025-12-01 06:11:36] Tunnel closed for config.content-settings.com:443
+[2025-12-01 06:11:36] Tunnel closed for play.google.com:443
+[2025-12-01 06:11:36] Tunnel closed for www.googleadservices.com:443
+[2025-12-01 06:11:36] Tunnel closed for encrypted-tbn0.gstatic.com:443
+[2025-12-01 06:11:36] Tunnel closed for ogads-pa.clients6.google.com:443
+[2025-12-01 06:11:36] Tunnel closed for site-config.com:443
+[2025-12-01 06:11:36] Tunnel closed for www.google-analytics.com:443
+[2025-12-01 06:11:36] Tunnel closed for lh3.googleusercontent.com:443
+[2025-12-01 06:11:36] Tunnel closed for ajax.googleapis.com:443
+[2025-12-01 06:11:36] Tunnel closed for img.youtube.com:443
+[2025-12-01 06:11:36] Tunnel closed for ogs.google.com:443
+[2025-12-01 06:11:36] Tunnel closed for consent.cookiebot.com:443
+[2025-12-01 06:11:36] Tunnel closed for maxcdn.bootstrapcdn.com:443
+[2025-12-01 06:11:36] Tunnel closed for encrypted-vtbn0.gstatic.com:443
+[2025-12-01 06:11:36] Received request-line: CONNECT ab.chatgpt.com:443 HTTP/1.1
+[2025-12-01 06:11:36] Tunnel established to ab.chatgpt.com (104.18.32.47:443)
+[2025-12-01 06:11:40] Received request-line: CONNECT chatgpt.com:443 HTTP/1.1
+[2025-12-01 06:11:40] Tunnel established to chatgpt.com (172.64.155.209:443)
+[2025-12-01 06:11:45] Tunnel closed for speeddials.opera.com:443
+[2025-12-01 06:11:48] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:11:48] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:12:17] Received request-line: CONNECT v10.events.data.microsoft.com:443 HTTP/1.1
+[2025-12-01 06:12:17] Tunnel established to v10.events.data.microsoft.com (20.42.65.89:443)
+[2025-12-01 06:12:18] Tunnel closed for v10.events.data.microsoft.com:443
+[2025-12-01 06:12:19] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.0
+[2025-12-01 06:12:19] Tunnel established to mobile.events.data.microsoft.com (20.50.80.210:443)
+[2025-12-01 06:12:19] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.0
+[2025-12-01 06:12:19] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.0
+[2025-12-01 06:12:19] Tunnel established to mobile.events.data.microsoft.com (20.189.173.16:443)
+[2025-12-01 06:12:19] Tunnel established to mobile.events.data.microsoft.com (20.189.173.16:443)
+[2025-12-01 06:12:32] Tunnel closed for sitecheck.opera.com:443
+[2025-12-01 06:12:34] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 06:12:34] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 06:12:35] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 06:12:35] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 06:12:35] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 06:12:35] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 06:12:35] Received request-line: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:12:35] Received request-line: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:12:36] Tunnel established to encrypted-tbn0.gstatic.com (142.250.191.174:443)
+[2025-12-01 06:12:36] Tunnel established to encrypted-tbn0.gstatic.com (142.250.191.174:443)
+[2025-12-01 06:12:36] Received request-line: CONNECT cashback-api-production.operacdn.com:443 HTTP/1.1
+[2025-12-01 06:12:36] Tunnel established to cashback-api-production.operacdn.com (23.45.46.208:443)
+[2025-12-01 06:12:37] Received request-line: CONNECT lh3.googleusercontent.com:443 HTTP/1.1
+[2025-12-01 06:12:37] Received request-line: CONNECT lh3.googleusercontent.com:443 HTTP/1.1
+[2025-12-01 06:12:37] Tunnel established to lh3.googleusercontent.com (142.250.190.65:443)
+[2025-12-01 06:12:37] Tunnel established to lh3.googleusercontent.com (142.250.190.65:443)
+[2025-12-01 06:12:39] Received request-line: CONNECT www.googleadservices.com:443 HTTP/1.1
+[2025-12-01 06:12:39] Tunnel established to www.googleadservices.com (142.250.191.130:443)
+[2025-12-01 06:12:39] Received request-line: CONNECT www.googletagmanager.com:443 HTTP/1.1
+[2025-12-01 06:12:39] Tunnel established to www.googletagmanager.com (172.217.5.8:443)
+[2025-12-01 06:12:39] Received request-line: CONNECT ogads-pa.clients6.google.com:443 HTTP/1.1
+[2025-12-01 06:12:39] Received request-line: CONNECT af.opera.com:443 HTTP/1.1
+[2025-12-01 06:12:39] Tunnel established to ogads-pa.clients6.google.com (172.217.4.74:443)
+[2025-12-01 06:12:39] Tunnel established to af.opera.com (107.167.96.30:443)
+[2025-12-01 06:12:39] Received request-line: CONNECT sitecheck.opera.com:443 HTTP/1.1
+[2025-12-01 06:12:39] Received request-line: CONNECT accounts.google.com:443 HTTP/1.1
+[2025-12-01 06:12:39] Tunnel established to accounts.google.com (142.251.4.84:443)
+[2025-12-01 06:12:39] Tunnel established to sitecheck.opera.com (107.167.110.211:443)
+[2025-12-01 06:12:40] Received request-line: CONNECT www.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:12:40] Tunnel established to www.gstatic.com (142.250.191.227:443)
+[2025-12-01 06:12:40] Received request-line: CONNECT play.google.com:443 HTTP/1.1
+[2025-12-01 06:12:40] Tunnel established to play.google.com (142.251.32.14:443)
+[2025-12-01 06:12:41] Received request-line: CONNECT www.helloworld.org:443 HTTP/1.1
+[2025-12-01 06:12:41] Blocking request from client: forbidden word in request
+[2025-12-01 06:12:41] Received request-line: CONNECT www.helloworld.org:443 HTTP/1.1
+[2025-12-01 06:12:41] Blocking request from client: forbidden word in request
+[2025-12-01 06:12:41] Received request-line: CONNECT www.helloworld.org:443 HTTP/1.1
+[2025-12-01 06:12:41] Blocking request from client: forbidden word in request
+[2025-12-01 06:12:41] Received request-line: CONNECT www.helloworld.org:443 HTTP/1.1
+[2025-12-01 06:12:41] Blocking request from client: forbidden word in request
+[2025-12-01 06:12:42] Received request-line: CONNECT www.helloworld.org:443 HTTP/1.1
+[2025-12-01 06:12:42] Blocking request from client: forbidden word in request
+[2025-12-01 06:12:42] Received request-line: CONNECT www.helloworld.org:443 HTTP/1.1
+[2025-12-01 06:12:42] Blocking request from client: forbidden word in request
+[2025-12-01 06:12:42] Received request-line: CONNECT www.helloworld.org:443 HTTP/1.1
+[2025-12-01 06:12:42] Blocking request from client: forbidden word in request
+[2025-12-01 06:12:45] Tunnel closed for www.google.com:443
+[2025-12-01 06:12:45] Tunnel closed for www.google.com:443
+[2025-12-01 06:12:47] Received request-line: CONNECT www.helloworld.org:443 HTTP/1.1
+[2025-12-01 06:12:47] Received request-line: CONNECT www.helloworld.org:443 HTTP/1.1
+[2025-12-01 06:12:47] Blocking request from client: forbidden word in request
+[2025-12-01 06:12:47] Blocking request from client: forbidden word in request
+[2025-12-01 06:12:51] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.0
+[2025-12-01 06:12:51] Tunnel established to mobile.events.data.microsoft.com (20.189.173.16:443)
+[2025-12-01 06:12:55] Received request-line: CONNECT safebrowsing.googleapis.com:443 HTTP/1.1
+[2025-12-01 06:12:56] Tunnel established to safebrowsing.googleapis.com (142.250.190.106:443)
+[2025-12-01 06:13:03] Received request-line: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:13:03] Tunnel established to encrypted-tbn0.gstatic.com (142.250.191.174:443)
+[2025-12-01 06:13:04] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:13:04] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:13:05] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:13:05] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:13:07] Received request-line: CONNECT main.vscode-cdn.net:443 HTTP/1.1
+[2025-12-01 06:13:07] Tunnel established to main.vscode-cdn.net (13.107.246.38:443)
+[2025-12-01 06:13:07] Received request-line: CONNECT www.amazon.com:443 HTTP/1.1
+[2025-12-01 06:13:07] Tunnel established to www.amazon.com (18.154.182.84:443)
+[2025-12-01 06:13:07] Received request-line: CONNECT www.amazon.com:443 HTTP/1.1
+[2025-12-01 06:13:07] Received request-line: CONNECT m.media-amazon.com:443 HTTP/1.1
+[2025-12-01 06:13:07] Received request-line: CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1
+[2025-12-01 06:13:07] Tunnel established to www.amazon.com (18.154.182.84:443)
+[2025-12-01 06:13:07] Tunnel established to images-na.ssl-images-amazon.com (23.54.76.9:443)
+[2025-12-01 06:13:07] Tunnel established to m.media-amazon.com (23.54.76.9:443)
+[2025-12-01 06:13:07] Received request-line: CONNECT ogs.google.com:443 HTTP/1.1
+[2025-12-01 06:13:07] Tunnel established to ogs.google.com (142.250.190.46:443)
+[2025-12-01 06:13:08] Received request-line: CONNECT m.media-amazon.com:443 HTTP/1.1
+[2025-12-01 06:13:08] Tunnel established to m.media-amazon.com (23.54.76.31:443)
+[2025-12-01 06:13:08] Received request-line: CONNECT fls-na.amazon.com:443 HTTP/1.1
+[2025-12-01 06:13:08] Tunnel established to fls-na.amazon.com (54.145.3.234:443)
+[2025-12-01 06:13:09] Received request-line: CONNECT aax-events-cell01-cf.us-east.ono.axp.amazon-adsystem.com:443 HTTP/1.1
+[2025-12-01 06:13:09] Tunnel established to aax-events-cell01-cf.us-east.ono.axp.amazon-adsystem.com (54.192.55.115:443)
+[2025-12-01 06:13:09] Received request-line: CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1
+[2025-12-01 06:13:09] Received request-line: CONNECT d2lbyuknrhysf9.cloudfront.net:443 HTTP/1.1
+[2025-12-01 06:13:09] Tunnel established to images-na.ssl-images-amazon.com (23.54.76.31:443)
+[2025-12-01 06:13:09] Received request-line: CONNECT images-na.ssl-images-amazon.com:443 HTTP/1.1
+[2025-12-01 06:13:09] Tunnel established to d2lbyuknrhysf9.cloudfront.net (108.156.105.112:443)
+[2025-12-01 06:13:09] Tunnel established to images-na.ssl-images-amazon.com (23.54.76.31:443)
+[2025-12-01 06:13:10] Received request-line: CONNECT aes.us-east.ono.axp.amazon-adsystem.com:443 HTTP/1.1
+[2025-12-01 06:13:10] Received request-line: CONNECT aax-us-east-retail-direct.amazon.com:443 HTTP/1.1
+[2025-12-01 06:13:10] Received request-line: CONNECT aax-us-east-retail-direct.amazon.com:443 HTTP/1.1
+[2025-12-01 06:13:10] Tunnel established to aax-us-east-retail-direct.amazon.com (54.192.55.115:443)
+[2025-12-01 06:13:10] Tunnel established to aes.us-east.ono.axp.amazon-adsystem.com (54.85.191.146:443)
+[2025-12-01 06:13:10] Tunnel established to aax-us-east-retail-direct.amazon.com (54.192.55.20:443)
+[2025-12-01 06:13:10] Tunnel closed for aax-us-east-retail-direct.amazon.com:443
+[2025-12-01 06:13:11] Received request-line: CONNECT completion.amazon.com:443 HTTP/1.1
+[2025-12-01 06:13:11] Tunnel established to completion.amazon.com (44.215.128.78:443)
+[2025-12-01 06:13:11] Received request-line: CONNECT af.opera.com:443 HTTP/1.1
+[2025-12-01 06:13:11] Tunnel established to af.opera.com (107.167.96.31:443)
+[2025-12-01 06:13:11] Received request-line: CONNECT d1nruqhae353qc.cloudfront.net:443 HTTP/1.1
+[2025-12-01 06:13:11] Tunnel established to d1nruqhae353qc.cloudfront.net (18.172.124.231:443)
+[2025-12-01 06:13:11] Tunnel closed for aax-events-cell01-cf.us-east.ono.axp.amazon-adsystem.com:443
+[2025-12-01 06:13:11] Received request-line: CONNECT data.amazon.com:443 HTTP/1.1
+[2025-12-01 06:13:11] Tunnel established to data.amazon.com (13.32.201.158:443)
+[2025-12-01 06:13:11] Tunnel closed for aes.us-east.ono.axp.amazon-adsystem.com:443
+[2025-12-01 06:13:11] Received request-line: CONNECT data.amazon.com:443 HTTP/1.1
+[2025-12-01 06:13:11] Tunnel established to data.amazon.com (13.32.201.158:443)
+[2025-12-01 06:13:12] Tunnel closed for af.opera.com:443
+[2025-12-01 06:13:12] Received request-line: CONNECT unagi-na.amazon.com:443 HTTP/1.1
+[2025-12-01 06:13:12] Received request-line: CONNECT d2h8zr0m6mus4x.cloudfront.net:443 HTTP/1.1
+[2025-12-01 06:13:12] Tunnel established to unagi-na.amazon.com (44.215.137.192:443)
+[2025-12-01 06:13:12] Tunnel established to d2h8zr0m6mus4x.cloudfront.net (13.225.41.179:443)
+[2025-12-01 06:13:12] Tunnel closed for af.opera.com:443
+[2025-12-01 06:13:12] Received request-line: CONNECT af.opera.com:443 HTTP/1.1
+[2025-12-01 06:13:12] Tunnel established to af.opera.com (107.167.96.43:443)
+[2025-12-01 06:13:12] Tunnel closed for completion.amazon.com:443
+[2025-12-01 06:13:12] Received request-line: CONNECT unagi-na.amazon.com:443 HTTP/1.1
+[2025-12-01 06:13:12] Tunnel established to unagi-na.amazon.com (44.215.137.166:443)
+[2025-12-01 06:13:12] Tunnel closed for af.opera.com:443
+[2025-12-01 06:13:12] Received request-line: CONNECT unagi.amazon.com:443 HTTP/1.1
+[2025-12-01 06:13:12] Tunnel established to unagi.amazon.com (44.199.181.5:443)
+[2025-12-01 06:13:13] Tunnel closed for d1nruqhae353qc.cloudfront.net:443
+[2025-12-01 06:13:13] Received request-line: CONNECT unagi.amazon.com:443 HTTP/1.1
+[2025-12-01 06:13:13] Tunnel established to unagi.amazon.com (44.199.181.5:443)
+[2025-12-01 06:13:17] Tunnel closed for d2h8zr0m6mus4x.cloudfront.net:443
+[2025-12-01 06:13:17] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:13:17] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:13:18] Tunnel closed for ogs.google.com:443
+[2025-12-01 06:13:18] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:13:18] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:13:19] Received request-line: CONNECT ogs.google.com:443 HTTP/1.1
+[2025-12-01 06:13:19] Tunnel established to ogs.google.com (142.250.190.46:443)
+[2025-12-01 06:13:20] Tunnel closed for unagi-na.amazon.com:443
+[2025-12-01 06:13:20] Received request-line: CONNECT www.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:13:20] Tunnel closed for unagi-na.amazon.com:443
+[2025-12-01 06:13:20] Received request-line: CONNECT ssl.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:13:20] Tunnel established to www.gstatic.com (142.250.191.227:443)
+[2025-12-01 06:13:20] Tunnel established to ssl.gstatic.com (172.217.5.3:443)
+[2025-12-01 06:13:23] Tunnel closed for vscode-sync.trafficmanager.net:443
+[2025-12-01 06:13:23] Tunnel closed for mobile.events.data.microsoft.com:443
+[2025-12-01 06:13:29] Tunnel closed for ssl.gstatic.com:443
+[2025-12-01 06:13:29] Received request-line: CONNECT minecraft.wiki:443 HTTP/1.1
+[2025-12-01 06:13:29] Tunnel established to minecraft.wiki (104.26.6.107:443)
+[2025-12-01 06:13:29] Tunnel closed for unagi.amazon.com:443
+[2025-12-01 06:13:30] Received request-line: CONNECT minecraft.wiki:443 HTTP/1.1
+[2025-12-01 06:13:30] Tunnel established to minecraft.wiki (104.26.7.107:443)
+[2025-12-01 06:13:30] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-12-01 06:13:30] Tunnel established to speeddials.opera.com (107.167.110.216:443)
+[2025-12-01 06:13:31] Tunnel closed for minecraft.wiki:443
+[2025-12-01 06:13:31] Received request-line: CONNECT af.opera.com:443 HTTP/1.1
+[2025-12-01 06:13:31] Tunnel closed for unagi.amazon.com:443
+[2025-12-01 06:13:31] Tunnel closed for www.amazon.com:443
+[2025-12-01 06:13:31] Tunnel established to af.opera.com (107.167.96.43:443)
+[2025-12-01 06:13:31] Received request-line: CONNECT meta.weirdgloop.org:443 HTTP/1.1
+[2025-12-01 06:13:31] Received request-line: CONNECT meta.weirdgloop.org:443 HTTP/1.1
+[2025-12-01 06:13:31] Tunnel established to meta.weirdgloop.org (104.26.15.178:443)
+[2025-12-01 06:13:31] Tunnel established to meta.weirdgloop.org (104.26.15.178:443)
+[2025-12-01 06:13:31] Tunnel closed for meta.weirdgloop.org:443
+[2025-12-01 06:13:36] Received request-line: CONNECT purdue.brightspace.com:443 HTTP/1.1
+[2025-12-01 06:13:37] Tunnel established to purdue.brightspace.com (54.164.83.204:443)
+[2025-12-01 06:13:43] Tunnel closed for af.opera.com:443
+[2025-12-01 06:13:43] Received request-line: CONNECT sd-images.operacdn.com:443 HTTP/1.1
+[2025-12-01 06:13:43] Tunnel established to sd-images.operacdn.com (23.45.46.210:443)
+[2025-12-01 06:13:47] Tunnel closed for sd-images.operacdn.com:443
+[2025-12-01 06:13:47] Received request-line: CONNECT img.youtube.com:443 HTTP/1.1
+[2025-12-01 06:13:47] Tunnel established to img.youtube.com (142.250.190.110:443)
+[2025-12-01 06:13:48] Tunnel closed for www.gstatic.com:443
+[2025-12-01 06:13:48] Received request-line: CONNECT af.opera.com:443 HTTP/1.1
+[2025-12-01 06:13:48] Tunnel established to af.opera.com (107.167.96.43:443)
+[2025-12-01 06:13:48] Tunnel closed for af.opera.com:443
+[2025-12-01 06:13:48] Tunnel closed for accounts.google.com:443
+[2025-12-01 06:13:48] Tunnel closed for img.youtube.com:443
+[2025-12-01 06:13:48] Received request-line: CONNECT encrypted-tbn2.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:13:48] Tunnel closed for encrypted-tbn0.gstatic.com:443
+[2025-12-01 06:13:48] Tunnel closed for www.googleadservices.com:443
+[2025-12-01 06:13:48] Tunnel closed for cashback-api-production.operacdn.com:443
+[2025-12-01 06:13:48] Tunnel closed for images-na.ssl-images-amazon.com:443
+[2025-12-01 06:13:48] Tunnel closed for www.gstatic.com:443
+[2025-12-01 06:13:48] Tunnel closed for encrypted-tbn0.gstatic.com:443
+[2025-12-01 06:13:48] Tunnel closed for ogads-pa.clients6.google.com:443
+[2025-12-01 06:13:48] Tunnel closed for meta.weirdgloop.org:443
+[2025-12-01 06:13:48] Tunnel closed for chatgpt.com:443
+[2025-12-01 06:13:48] Tunnel closed for minecraft.wiki:443
+[2025-12-01 06:13:48] Tunnel closed for www.google.com:443
+[2025-12-01 06:13:48] Tunnel closed for play.google.com:443
+[2025-12-01 06:13:48] Tunnel closed for ab.chatgpt.com:443
+[2025-12-01 06:13:48] Tunnel closed for m.media-amazon.com:443
+[2025-12-01 06:13:48] Tunnel closed for images-na.ssl-images-amazon.com:443
+[2025-12-01 06:13:48] Tunnel closed for d2lbyuknrhysf9.cloudfront.net:443
+[2025-12-01 06:13:48] Tunnel closed for fls-na.amazon.com:443
+[2025-12-01 06:13:48] Tunnel closed for images-na.ssl-images-amazon.com:443
+[2025-12-01 06:13:48] Tunnel closed for www.googletagmanager.com:443
+[2025-12-01 06:13:48] Tunnel closed for lh3.googleusercontent.com:443
+[2025-12-01 06:13:48] Tunnel closed for data.amazon.com:443
+[2025-12-01 06:13:48] Tunnel closed for data.amazon.com:443
+[2025-12-01 06:13:48] Tunnel closed for m.media-amazon.com:443
+[2025-12-01 06:13:48] Tunnel closed for www.amazon.com:443
+[2025-12-01 06:13:48] Tunnel closed for purdue.brightspace.com:443
+[2025-12-01 06:13:48] Tunnel closed for aax-us-east-retail-direct.amazon.com:443
+[2025-12-01 06:13:48] Tunnel closed for ogs.google.com:443
+[2025-12-01 06:13:48] Tunnel closed for encrypted-tbn0.gstatic.com:443
+[2025-12-01 06:13:48] Tunnel closed for lh3.googleusercontent.com:443
+[2025-12-01 06:13:48] Received request-line: CONNECT encrypted-tbn3.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:13:48] Tunnel established to encrypted-tbn2.gstatic.com (142.250.190.142:443)
+[2025-12-01 06:13:48] Tunnel established to encrypted-tbn3.gstatic.com (142.250.191.206:443)
+[2025-12-01 06:13:48] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 06:13:48] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 06:13:48] Received request-line: CONNECT ogads-pa.clients6.google.com:443 HTTP/1.1
+[2025-12-01 06:13:48] Tunnel established to ogads-pa.clients6.google.com (172.217.4.74:443)
+[2025-12-01 06:13:48] Received request-line: CONNECT accounts.google.com:443 HTTP/1.1
+[2025-12-01 06:13:48] Received request-line: CONNECT img.youtube.com:443 HTTP/1.1
+[2025-12-01 06:13:48] Received request-line: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:13:48] Tunnel established to img.youtube.com (142.250.191.238:443)
+[2025-12-01 06:13:48] Tunnel established to accounts.google.com (142.251.4.84:443)
+[2025-12-01 06:13:48] Tunnel established to encrypted-tbn0.gstatic.com (142.250.191.174:443)
+[2025-12-01 06:13:49] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:13:49] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:13:49] Received request-line: CONNECT www.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:13:49] Tunnel established to www.gstatic.com (142.250.191.227:443)
+[2025-12-01 06:13:49] Received request-line: CONNECT play.google.com:443 HTTP/1.1
+[2025-12-01 06:13:49] Tunnel established to play.google.com (142.251.32.14:443)
+[2025-12-01 06:13:50] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:13:50] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:13:52] Received request-line: CONNECT ogs.google.com:443 HTTP/1.1
+[2025-12-01 06:13:52] Tunnel established to ogs.google.com (142.250.190.46:443)
+[2025-12-01 06:13:52] Received request-line: CONNECT www.instructables.com:443 HTTP/1.1
+[2025-12-01 06:13:52] Tunnel established to www.instructables.com (146.75.79.52:443)
+[2025-12-01 06:13:52] Received request-line: CONNECT www.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:13:52] Received request-line: CONNECT ssl.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:13:52] Tunnel established to www.gstatic.com (142.250.191.227:443)
+[2025-12-01 06:13:52] Tunnel established to ssl.gstatic.com (172.217.5.3:443)
+[2025-12-01 06:13:52] Received request-line: CONNECT www.instructables.com:443 HTTP/1.1
+[2025-12-01 06:13:52] Tunnel established to www.instructables.com (146.75.79.52:443)
+[2025-12-01 06:13:53] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-12-01 06:13:53] Received request-line: CONNECT images.ctfassets.net:443 HTTP/1.1
+[2025-12-01 06:13:53] Tunnel established to images.ctfassets.net (52.85.12.111:443)
+[2025-12-01 06:13:53] Received request-line: CONNECT tags.tiqcdn.com:443 HTTP/1.1
+[2025-12-01 06:13:53] Tunnel established to speeddials.opera.com (107.167.110.216:443)
+[2025-12-01 06:13:53] Tunnel established to tags.tiqcdn.com (3.171.22.115:443)
+[2025-12-01 06:13:53] Received request-line: CONNECT sd-images.operacdn.com:443 HTTP/1.1
+[2025-12-01 06:13:53] Tunnel established to sd-images.operacdn.com (23.45.46.210:443)
+[2025-12-01 06:13:54] Received request-line: CONNECT www.instructables.com:443 HTTP/1.1
+[2025-12-01 06:13:54] Tunnel established to www.instructables.com (146.75.79.52:443)
+[2025-12-01 06:13:54] Received request-line: CONNECT tms.wape.autodesk.com:443 HTTP/1.1
+[2025-12-01 06:13:54] Received request-line: CONNECT akamai.tiqcdn.com:443 HTTP/1.1
+[2025-12-01 06:13:54] Tunnel established to tms.wape.autodesk.com (52.85.12.8:443)
+[2025-12-01 06:13:54] Tunnel established to akamai.tiqcdn.com (23.10.220.78:443)
+[2025-12-01 06:13:54] Received request-line: CONNECT af.opera.com:443 HTTP/1.1
+[2025-12-01 06:13:54] Tunnel established to af.opera.com (107.167.96.44:443)
+[2025-12-01 06:13:55] Received request-line: CONNECT content.instructables.com:443 HTTP/1.1
+[2025-12-01 06:13:55] Received request-line: CONNECT content.instructables.com:443 HTTP/1.1
+[2025-12-01 06:13:55] Received request-line: CONNECT content.instructables.com:443 HTTP/1.1
+[2025-12-01 06:13:55] Received request-line: CONNECT content.instructables.com:443 HTTP/1.1
+[2025-12-01 06:13:55] Tunnel established to content.instructables.com (146.75.79.52:443)
+[2025-12-01 06:13:55] Tunnel established to content.instructables.com (146.75.79.52:443)
+[2025-12-01 06:13:55] Tunnel established to content.instructables.com (146.75.79.52:443)
+[2025-12-01 06:13:55] Tunnel established to content.instructables.com (146.75.79.52:443)
+[2025-12-01 06:13:55] Tunnel closed for content.instructables.com:443
+[2025-12-01 06:13:55] Tunnel closed for content.instructables.com:443
+[2025-12-01 06:13:55] Received request-line: CONNECT www.google-analytics.com:443 HTTP/1.1
+[2025-12-01 06:13:55] Tunnel established to www.google-analytics.com (172.217.5.14:443)
+[2025-12-01 06:13:55] Received request-line: CONNECT google-analytics.com:443 HTTP/1.1
+[2025-12-01 06:13:55] Received request-line: CONNECT www.googletagmanager.com:443 HTTP/1.1
+[2025-12-01 06:13:55] Tunnel established to www.googletagmanager.com (172.217.5.8:443)
+[2025-12-01 06:13:55] Received request-line: CONNECT damassets.autodesk.net:443 HTTP/1.1
+[2025-12-01 06:13:55] Tunnel established to google-analytics.com (172.217.4.36:443)
+[2025-12-01 06:13:55] Tunnel established to damassets.autodesk.net (23.198.34.16:443)
+[2025-12-01 06:13:55] Received request-line: CONNECT analytics.google.com:443 HTTP/1.1
+[2025-12-01 06:13:55] Received request-line: CONNECT stats.g.doubleclick.net:443 HTTP/1.1
+[2025-12-01 06:13:55] Tunnel established to analytics.google.com (216.239.36.181:443)
+[2025-12-01 06:13:55] Tunnel established to stats.g.doubleclick.net (142.251.182.156:443)
+[2025-12-01 06:14:09] Tunnel closed for mobile.events.data.microsoft.com:443
+[2025-12-01 06:14:09] Tunnel closed for mobile.events.data.microsoft.com:443
+[2025-12-01 06:14:09] Tunnel closed for mobile.events.data.microsoft.com:443
+[2025-12-01 06:14:14] Received request-line: GET http://ipv6.msftncsi.com/connecttest.txt HTTP/1.1
+[2025-12-01 06:14:15] Received request-line: CONNECT www.googleadservices.com:443 HTTP/1.1
+[2025-12-01 06:14:15] Tunnel established to www.googleadservices.com (142.250.191.130:443)
+[2025-12-01 06:14:15] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:14:15] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:14:16] Received request-line: CONNECT encrypted-tbn1.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:14:16] Tunnel established to encrypted-tbn1.gstatic.com (142.250.191.110:443)
+[2025-12-01 06:14:17] Tunnel closed for af.opera.com:443
+[2025-12-01 06:14:17] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:14:17] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:14:37] Tunnel closed for main.vscode-cdn.net:443
+[2025-12-01 06:14:41] Tunnel closed for mobile.events.data.microsoft.com:443
+[2025-12-01 06:14:41] Received request-line: CONNECT vscode-sync.trafficmanager.net:443 HTTP/1.1
+[2025-12-01 06:14:41] Tunnel established to vscode-sync.trafficmanager.net (40.71.11.167:443)
+[2025-12-01 06:14:58] Loaded 5 forbidden words and 3 forbidden sites from forbidden.txt
+[2025-12-01 06:14:58] Proxy listening on port 5465
+[2025-12-01 06:14:58] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
+[2025-12-01 06:14:58] Tunnel established to mobile.events.data.microsoft.com (20.50.201.203:443)
+[2025-12-01 06:14:58] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
+[2025-12-01 06:14:58] Tunnel established to mobile.events.data.microsoft.com (20.50.201.203:443)
+[2025-12-01 06:15:00] Received request-line: CONNECT vscode-sync.trafficmanager.net:443 HTTP/1.1
+[2025-12-01 06:15:00] Tunnel established to vscode-sync.trafficmanager.net (40.71.11.167:443)
+[2025-12-01 06:15:06] Received request-line: CONNECT safebrowsing.googleapis.com:443 HTTP/1.1
+[2025-12-01 06:15:06] Received request-line: CONNECT purdue.brightspace.com:443 HTTP/1.1
+[2025-12-01 06:15:06] Blocking request from client: forbidden word in request
+[2025-12-01 06:15:06] Received request-line: CONNECT s.brightspace.com:443 HTTP/1.1
+[2025-12-01 06:15:06] Blocking request from client: forbidden word in request
+[2025-12-01 06:15:06] Received request-line: CONNECT purdue.brightspace.com:443 HTTP/1.1
+[2025-12-01 06:15:06] Blocking request from client: forbidden word in request
+[2025-12-01 06:15:06] Received request-line: CONNECT purdue.brightspace.com:443 HTTP/1.1
+[2025-12-01 06:15:06] Blocking request from client: forbidden word in request
+[2025-12-01 06:15:06] Tunnel established to safebrowsing.googleapis.com (142.250.190.106:443)
+[2025-12-01 06:15:08] Received request-line: CONNECT purdue.brightspace.com:443 HTTP/1.1
+[2025-12-01 06:15:08] Blocking request from client: forbidden word in request
+[2025-12-01 06:15:08] Received request-line: CONNECT s.brightspace.com:443 HTTP/1.1
+[2025-12-01 06:15:08] Blocking request from client: forbidden word in request
+[2025-12-01 06:15:08] Received request-line: CONNECT purdue.brightspace.com:443 HTTP/1.1
+[2025-12-01 06:15:08] Blocking request from client: forbidden word in request
+[2025-12-01 06:15:13] Received request-line: CONNECT purdue.brightspace.com:443 HTTP/1.1
+[2025-12-01 06:15:13] Blocking request from client: forbidden word in request
+[2025-12-01 06:15:13] Received request-line: CONNECT s.brightspace.com:443 HTTP/1.1
+[2025-12-01 06:15:13] Blocking request from client: forbidden word in request
+[2025-12-01 06:15:13] Received request-line: CONNECT purdue.brightspace.com:443 HTTP/1.1
+[2025-12-01 06:15:13] Blocking request from client: forbidden word in request
+[2025-12-01 06:18:37] Loaded 5 forbidden words and 3 forbidden sites from forbidden.txt
+[2025-12-01 06:18:37] Proxy listening on port 5465
+[2025-12-01 06:18:59] Received request-line: CONNECT chatgpt.com:443 HTTP/1.1
+[2025-12-01 06:18:59] Tunnel established to chatgpt.com (172.64.155.209:443)
+[2025-12-01 06:18:59] Received request-line: CONNECT ws.chatgpt.com:443 HTTP/1.1
+[2025-12-01 06:18:59] Tunnel established to ws.chatgpt.com (104.18.39.21:443)
+[2025-12-01 06:19:01] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
+[2025-12-01 06:19:01] Tunnel established to mobile.events.data.microsoft.com (104.208.16.92:443)
+[2025-12-01 06:19:01] Received request-line: CONNECT vscode-sync.trafficmanager.net:443 HTTP/1.1
+[2025-12-01 06:19:01] Tunnel established to vscode-sync.trafficmanager.net (40.71.11.167:443)
+[2025-12-01 06:19:06] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.0
+[2025-12-01 06:19:07] Tunnel established to mobile.events.data.microsoft.com (20.50.80.209:443)
+[2025-12-01 06:19:10] Received request-line: CONNECT sitecheck.opera.com:443 HTTP/1.1
+[2025-12-01 06:19:10] Received request-line: CONNECT google.com:443 HTTP/1.1
+[2025-12-01 06:19:10] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 06:19:10] Received request-line: CONNECT google.com:443 HTTP/1.1
+[2025-12-01 06:19:11] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 06:19:11] Tunnel established to google.com (172.217.4.206:443)
+[2025-12-01 06:19:11] Tunnel established to google.com (172.217.4.206:443)
+[2025-12-01 06:19:11] Tunnel established to sitecheck.opera.com (107.167.110.211:443)
+[2025-12-01 06:19:11] Tunnel closed for google.com:443
+[2025-12-01 06:19:11] Received request-line: CONNECT cashback-api-production.operacdn.com:443 HTTP/1.1
+[2025-12-01 06:19:11] Tunnel established to cashback-api-production.operacdn.com (23.64.112.5:443)
+[2025-12-01 06:19:12] Received request-line: CONNECT www.googleadservices.com:443 HTTP/1.1
+[2025-12-01 06:19:12] Tunnel established to www.googleadservices.com (172.217.5.2:443)
+[2025-12-01 06:19:13] Received request-line: CONNECT ogads-pa.clients6.google.com:443 HTTP/1.1
+[2025-12-01 06:19:13] Tunnel established to ogads-pa.clients6.google.com (142.250.191.138:443)
+[2025-12-01 06:19:13] Received request-line: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:19:13] Tunnel established to encrypted-tbn0.gstatic.com (142.250.191.174:443)
+[2025-12-01 06:19:13] Received request-line: CONNECT af.opera.com:443 HTTP/1.1
+[2025-12-01 06:19:13] Tunnel established to af.opera.com (107.167.96.44:443)
+[2025-12-01 06:19:13] Received request-line: CONNECT www.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:19:13] Tunnel established to www.gstatic.com (142.250.191.227:443)
+[2025-12-01 06:19:14] Received request-line: CONNECT play.google.com:443 HTTP/1.1
+[2025-12-01 06:19:14] Tunnel established to play.google.com (142.251.32.14:443)
+[2025-12-01 06:19:14] Received request-line: CONNECT accounts.google.com:443 HTTP/1.1
+[2025-12-01 06:19:14] Tunnel established to accounts.google.com (142.251.4.84:443)
+[2025-12-01 06:19:14] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:19:14] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:19:15] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:19:15] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:19:17] Received request-line: CONNECT ogs.google.com:443 HTTP/1.1
+[2025-12-01 06:19:17] Tunnel established to ogs.google.com (142.250.190.46:443)
+[2025-12-01 06:19:17] Received request-line: CONNECT www.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:19:17] Received request-line: CONNECT ssl.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:19:17] Tunnel established to www.gstatic.com (142.250.191.227:443)
+[2025-12-01 06:19:17] Tunnel established to ssl.gstatic.com (172.217.5.3:443)
+[2025-12-01 06:20:06] Received request-line: CONNECT ab.chatgpt.com:443 HTTP/1.1
+[2025-12-01 06:20:06] Tunnel established to ab.chatgpt.com (172.64.155.209:443)
+[2025-12-01 06:20:16] Tunnel closed for sitecheck.opera.com:443
+[2025-12-01 06:20:18] Tunnel closed for af.opera.com:443
+[2025-12-01 06:20:56] Tunnel closed for mobile.events.data.microsoft.com:443
+[2025-12-01 06:21:10] Tunnel closed for ssl.gstatic.com:443
+[2025-12-01 06:21:10] Tunnel closed for www.gstatic.com:443
+[2025-12-01 06:21:12] Received request-line: CONNECT af.opera.com:443 HTTP/1.1
+[2025-12-01 06:21:12] Tunnel established to af.opera.com (107.167.96.44:443)
+[2025-12-01 06:21:13] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:21:13] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:21:14] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:21:14] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:21:18] Received request-line: GET http://ipv6.msftconnecttest.com/connecttest.txt HTTP/1.1
+[2025-12-01 06:21:30] Tunnel closed for vscode-sync.trafficmanager.net:443
+[2025-12-01 06:21:39] Received request-line: CONNECT sitecheck.opera.com:443 HTTP/1.1
+[2025-12-01 06:21:39] Received request-line: CONNECT purdue.brightspace.com:443 HTTP/1.1
+[2025-12-01 06:21:39] Blocking request from client: forbidden word in request
+[2025-12-01 06:21:39] Tunnel established to sitecheck.opera.com (107.167.96.43:443)
+[2025-12-01 06:21:59] Received request-line: CONNECT www.googletagmanager.com:443 HTTP/1.1
+[2025-12-01 06:21:59] Tunnel established to www.googletagmanager.com (172.217.5.8:443)
+[2025-12-01 06:22:00] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:22:00] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:22:01] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:22:01] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:22:03] Received request-line: CONNECT ssl.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:22:03] Received request-line: CONNECT www.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:22:03] Tunnel established to ssl.gstatic.com (172.217.5.3:443)
+[2025-12-01 06:22:03] Tunnel established to www.gstatic.com (142.250.191.227:443)
+[2025-12-01 06:22:45] Tunnel closed for sitecheck.opera.com:443
+[2025-12-01 06:23:03] Tunnel closed for cashback-api-production.operacdn.com:443
+[2025-12-01 06:23:04] Tunnel closed for af.opera.com:443
+[2025-12-01 06:23:07] Received request-line: CONNECT main.vscode-cdn.net:443 HTTP/1.1
+[2025-12-01 06:23:07] Tunnel established to main.vscode-cdn.net (13.107.246.38:443)
+[2025-12-01 06:23:11] Tunnel closed for google.com:443
+[2025-12-01 06:23:22] Received request-line: CONNECT vscode-sync.trafficmanager.net:443 HTTP/1.1
+[2025-12-01 06:23:22] Tunnel established to vscode-sync.trafficmanager.net (40.71.11.167:443)
+[2025-12-01 06:23:57] Tunnel closed for ssl.gstatic.com:443
+[2025-12-01 06:23:57] Tunnel closed for www.gstatic.com:443
+[2025-12-01 06:23:57] Received request-line: CONNECT tools.keycdn.com:443 HTTP/1.1
+[2025-12-01 06:23:57] Tunnel established to tools.keycdn.com (185.172.148.96:443)
+[2025-12-01 06:23:57] Received request-line: CONNECT sitecheck.opera.com:443 HTTP/1.1
+[2025-12-01 06:23:57] Received request-line: CONNECT tools.keycdn.com:443 HTTP/1.1
+[2025-12-01 06:23:57] Tunnel established to sitecheck.opera.com (107.167.110.216:443)
+[2025-12-01 06:23:57] Tunnel established to tools.keycdn.com (185.172.148.96:443)
+[2025-12-01 06:23:58] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-12-01 06:23:58] Tunnel established to speeddials.opera.com (107.167.110.211:443)
+[2025-12-01 06:23:58] Received request-line: CONNECT www.googletagmanager.com:443 HTTP/1.1
+[2025-12-01 06:23:58] Received request-line: CONNECT tools-7.kxcdn.com:443 HTTP/1.1
+[2025-12-01 06:23:58] Received request-line: CONNECT cashback-api-production.operacdn.com:443 HTTP/1.1
+[2025-12-01 06:23:58] Received request-line: CONNECT tools-7.kxcdn.com:443 HTTP/1.1
+[2025-12-01 06:23:58] Received request-line: CONNECT tools-7.kxcdn.com:443 HTTP/1.1
+[2025-12-01 06:23:58] Tunnel established to www.googletagmanager.com (172.217.5.8:443)
+[2025-12-01 06:23:58] Tunnel established to tools-7.kxcdn.com (68.70.205.2:443)
+[2025-12-01 06:23:58] Tunnel established to tools-7.kxcdn.com (68.70.205.3:443)
+[2025-12-01 06:23:58] Tunnel established to cashback-api-production.operacdn.com (23.64.112.20:443)
+[2025-12-01 06:23:58] Tunnel established to tools-7.kxcdn.com (68.70.205.3:443)
+[2025-12-01 06:23:58] Tunnel closed for tools-7.kxcdn.com:443
+[2025-12-01 06:23:58] Tunnel closed for tools-7.kxcdn.com:443
+[2025-12-01 06:23:58] Received request-line: CONNECT www.google-analytics.com:443 HTTP/1.1
+[2025-12-01 06:23:58] Tunnel established to www.google-analytics.com (172.217.5.14:443)
+[2025-12-01 06:23:59] Received request-line: CONNECT af.opera.com:443 HTTP/1.1
+[2025-12-01 06:23:59] Tunnel established to af.opera.com (107.167.96.30:443)
+[2025-12-01 06:23:59] Received request-line: CONNECT tools-7.kxcdn.com:443 HTTP/1.1
+[2025-12-01 06:23:59] Tunnel established to tools-7.kxcdn.com (68.70.205.2:443)
+[2025-12-01 06:24:09] Tunnel closed for tools-7.kxcdn.com:443
+[2025-12-01 06:24:09] Tunnel closed for tools-7.kxcdn.com:443
+[2025-12-01 06:24:14] Received request-line: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:24:14] Tunnel established to encrypted-tbn0.gstatic.com (142.250.191.174:443)
+[2025-12-01 06:24:14] Received request-line: GET http://ipv6.msftncsi.com/connecttest.txt HTTP/1.1
+[2025-12-01 06:24:14] Received request-line: CONNECT lh3.googleusercontent.com:443 HTTP/1.1
+[2025-12-01 06:24:14] Received request-line: CONNECT lh3.googleusercontent.com:443 HTTP/1.1
+[2025-12-01 06:24:15] Tunnel established to lh3.googleusercontent.com (142.250.190.65:443)
+[2025-12-01 06:24:15] Received request-line: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:24:15] Tunnel established to lh3.googleusercontent.com (142.250.190.65:443)
+[2025-12-01 06:24:15] Tunnel established to encrypted-tbn0.gstatic.com (142.250.191.174:443)
+[2025-12-01 06:24:20] Received request-line: CONNECT www.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:24:20] Tunnel established to www.gstatic.com (142.250.191.227:443)
+[2025-12-01 06:24:21] Received request-line: CONNECT af.opera.com:443 HTTP/1.1
+[2025-12-01 06:24:21] Tunnel established to af.opera.com (107.167.96.44:443)
+[2025-12-01 06:24:25] Received request-line: CONNECT csp.withgoogle.com:443 HTTP/1.1
+[2025-12-01 06:24:25] Received request-line: CONNECT ssl.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:24:25] Tunnel established to ssl.gstatic.com (172.217.5.3:443)
+[2025-12-01 06:24:25] Tunnel established to csp.withgoogle.com (142.250.190.17:443)
+[2025-12-01 06:24:27] Tunnel closed for tools.keycdn.com:443
+[2025-12-01 06:24:37] Tunnel closed for main.vscode-cdn.net:443
+[2025-12-01 06:24:57] Tunnel closed for tools.keycdn.com:443
+[2025-12-01 06:25:02] Tunnel closed for sitecheck.opera.com:443
+[2025-12-01 06:25:03] Tunnel closed for speeddials.opera.com:443
+[2025-12-01 06:25:04] Tunnel closed for af.opera.com:443
+[2025-12-01 06:25:27] Tunnel closed for af.opera.com:443
+[2025-12-01 06:25:28] Received request-line: CONNECT v20.events.data.microsoft.com:443 HTTP/1.1
+[2025-12-01 06:25:28] Tunnel established to v20.events.data.microsoft.com (20.189.173.7:443)
+[2025-12-01 06:25:28] Tunnel closed for v20.events.data.microsoft.com:443
+[2025-12-01 06:25:33] Tunnel closed for vscode-sync.trafficmanager.net:443
+[2025-12-01 06:25:58] Tunnel closed for cashback-api-production.operacdn.com:443
+[2025-12-01 06:25:58] Tunnel closed for www.gstatic.com:443
+[2025-12-01 06:25:58] Tunnel closed for ssl.gstatic.com:443
+[2025-12-01 06:25:58] Received request-line: CONNECT purdue.brightspace.com:443 HTTP/1.1
+[2025-12-01 06:25:58] Blocking request from client: forbidden word in request
+[2025-12-01 06:25:58] Received request-line: CONNECT cashback-api-production.operacdn.com:443 HTTP/1.1
+[2025-12-01 06:25:58] Tunnel established to cashback-api-production.operacdn.com (23.64.112.5:443)
+[2025-12-01 06:26:06] Received request-line: CONNECT vscode-sync.trafficmanager.net:443 HTTP/1.1
+[2025-12-01 06:26:06] Tunnel established to vscode-sync.trafficmanager.net (40.71.11.167:443)
+[2025-12-01 06:26:11] Tunnel closed for www.googletagmanager.com:443
+[2025-12-01 06:26:12] Tunnel closed for encrypted-tbn0.gstatic.com:443
+[2025-12-01 06:27:58] Tunnel closed for www.googletagmanager.com:443
+[2025-12-01 06:27:59] Tunnel closed for cashback-api-production.operacdn.com:443
+[2025-12-01 06:28:03] Tunnel closed for www.google-analytics.com:443
+[2025-12-01 06:28:07] Received request-line: CONNECT main.vscode-cdn.net:443 HTTP/1.1
+[2025-12-01 06:28:07] Tunnel established to main.vscode-cdn.net (13.107.213.38:443)
+[2025-12-01 06:28:15] Tunnel closed for lh3.googleusercontent.com:443
+[2025-12-01 06:28:15] Tunnel closed for encrypted-tbn0.gstatic.com:443
+[2025-12-01 06:28:15] Tunnel closed for lh3.googleusercontent.com:443
+[2025-12-01 06:28:15] Tunnel closed for encrypted-tbn0.gstatic.com:443
+[2025-12-01 06:28:17] Received request-line: CONNECT sitecheck.opera.com:443 HTTP/1.1
+[2025-12-01 06:28:17] Received request-line: CONNECT httpbin.org:443 HTTP/1.1
+[2025-12-01 06:28:17] Tunnel established to sitecheck.opera.com (107.167.110.211:443)
+[2025-12-01 06:28:17] Tunnel established to httpbin.org (3.219.87.227:443)
+[2025-12-01 06:28:18] Received request-line: CONNECT cashback-api-production.operacdn.com:443 HTTP/1.1
+[2025-12-01 06:28:18] Tunnel established to cashback-api-production.operacdn.com (23.64.112.5:443)
+[2025-12-01 06:28:18] Tunnel closed for vscode-sync.trafficmanager.net:443
+[2025-12-01 06:28:21] Tunnel closed for www.googleadservices.com:443
+[2025-12-01 06:28:21] Tunnel closed for ogads-pa.clients6.google.com:443
+[2025-12-01 06:28:22] Tunnel closed for www.gstatic.com:443
+[2025-12-01 06:28:22] Tunnel closed for accounts.google.com:443
+[2025-12-01 06:28:25] Tunnel closed for ogs.google.com:443
+[2025-12-01 06:28:25] Tunnel closed for csp.withgoogle.com:443
+[2025-12-01 06:28:27] Received request-line: CONNECT speeddials.opera.com:443 HTTP/1.1
+[2025-12-01 06:28:27] Tunnel established to speeddials.opera.com (107.167.110.216:443)
+[2025-12-01 06:28:43] Tunnel closed for www.google.com:443
+[2025-12-01 06:28:56] Tunnel closed for play.google.com:443
+[2025-12-01 06:29:14] Received request-line: CONNECT vscode-sync.trafficmanager.net:443 HTTP/1.1
+[2025-12-01 06:29:14] Tunnel established to vscode-sync.trafficmanager.net (40.71.11.167:443)
+[2025-12-01 06:29:22] Tunnel closed for sitecheck.opera.com:443
+[2025-12-01 06:29:32] Tunnel closed for httpbin.org:443
+[2025-12-01 06:29:32] Tunnel closed for speeddials.opera.com:443
+[2025-12-01 06:29:37] Tunnel closed for main.vscode-cdn.net:443
+[2025-12-01 06:30:18] Tunnel closed for cashback-api-production.operacdn.com:443
+[2025-12-01 06:30:33] Received request-line: CONNECT v20.events.data.microsoft.com:443 HTTP/1.1
+[2025-12-01 06:30:33] Tunnel established to v20.events.data.microsoft.com (40.79.150.120:443)
+[2025-12-01 06:30:33] Received request-line: CONNECT purdue.brightspace.com:443 HTTP/1.1
+[2025-12-01 06:30:33] Blocking request from client: forbidden word in request
+[2025-12-01 06:30:33] Tunnel closed for v20.events.data.microsoft.com:443
+[2025-12-01 06:30:33] Received request-line: CONNECT cashback-api-production.operacdn.com:443 HTTP/1.1
+[2025-12-01 06:30:33] Tunnel established to cashback-api-production.operacdn.com (23.64.112.5:443)
+[2025-12-01 06:30:41] Received request-line: CONNECT accounts.google.com:443 HTTP/1.1
+[2025-12-01 06:30:41] Tunnel established to accounts.google.com (142.251.4.84:443)
+[2025-12-01 06:31:32] Received request-line: CONNECT easylist-downloads.adblockplus.org:443 HTTP/1.1
+[2025-12-01 06:31:32] Tunnel established to easylist-downloads.adblockplus.org (23.54.76.52:443)
+[2025-12-01 06:32:23] Received request-line: CONNECT sdmntprcentralus.oaiusercontent.com:443 HTTP/1.1
+[2025-12-01 06:32:23] Tunnel established to sdmntprcentralus.oaiusercontent.com (172.64.144.52:443)
+[2025-12-01 06:32:24] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.0
+[2025-12-01 06:32:24] Tunnel established to mobile.events.data.microsoft.com (13.89.179.13:443)
+[2025-12-01 06:33:07] Received request-line: CONNECT main.vscode-cdn.net:443 HTTP/1.1
+[2025-12-01 06:33:07] Tunnel established to main.vscode-cdn.net (13.107.213.38:443)
+[2025-12-01 06:33:27] Tunnel closed for cashback-api-production.operacdn.com:443
+[2025-12-01 06:34:02] Tunnel closed for vscode-sync.trafficmanager.net:443
+[2025-12-01 06:34:13] Received request-line: CONNECT vscode-sync.trafficmanager.net:443 HTTP/1.1
+[2025-12-01 06:34:13] Tunnel established to vscode-sync.trafficmanager.net (40.71.11.167:443)
+[2025-12-01 06:34:14] Tunnel closed for mobile.events.data.microsoft.com:443
+[2025-12-01 06:48:03] Loaded 5 forbidden words and 3 forbidden sites from forbidden.txt
+[2025-12-01 06:48:03] Proxy listening on port 5465
+[2025-12-01 06:48:15] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
+[2025-12-01 06:48:15] Tunnel established to mobile.events.data.microsoft.com (52.168.117.174:443)
+[2025-12-01 06:48:18] Received request-line: CONNECT chatgpt.com:443 HTTP/1.1
+[2025-12-01 06:48:18] Tunnel established to chatgpt.com (104.18.32.47:443)
+[2025-12-01 06:48:26] Received request-line: CONNECT ab.chatgpt.com:443 HTTP/1.1
+[2025-12-01 06:48:26] Tunnel established to ab.chatgpt.com (172.64.155.209:443)
+[2025-12-01 06:48:28] Received request-line: CONNECT weather.opera-api2.com:443 HTTP/1.1
+[2025-12-01 06:48:28] Tunnel established to weather.opera-api2.com (107.167.96.30:443)
+[2025-12-01 06:48:31] Received request-line: CONNECT cashback-api-production.operacdn.com:443 HTTP/1.1
+[2025-12-01 06:48:31] Tunnel established to cashback-api-production.operacdn.com (23.64.112.5:443)
+[2025-12-01 06:48:32] Received request-line: CONNECT easylist-downloads.adblockplus.org:443 HTTP/1.1
+[2025-12-01 06:48:32] Tunnel established to easylist-downloads.adblockplus.org (23.54.76.52:443)
+[2025-12-01 06:48:36] Received request-line: CONNECT httpbin.org:443 HTTP/1.1
+[2025-12-01 06:48:36] Tunnel established to httpbin.org (3.219.87.227:443)
+[2025-12-01 06:48:38] Received request-line: CONNECT adblockplus.telemetry.eyeo.com:443 HTTP/1.1
+[2025-12-01 06:48:38] Tunnel established to adblockplus.telemetry.eyeo.com (34.110.196.231:443)
+[2025-12-01 06:48:40] Received request-line: CONNECT v10.events.data.microsoft.com:443 HTTP/1.1
+[2025-12-01 06:48:41] Tunnel established to v10.events.data.microsoft.com (13.70.79.200:443)
+[2025-12-01 06:48:42] Tunnel closed for v10.events.data.microsoft.com:443
+[2025-12-01 06:48:46] Received request-line: CONNECT sitecheck.opera.com:443 HTTP/1.1
+[2025-12-01 06:48:46] Tunnel established to sitecheck.opera.com (107.167.96.31:443)
+[2025-12-01 06:48:48] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 06:48:49] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 06:48:49] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 06:48:49] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 06:48:59] Tunnel closed for www.google.com:443
+[2025-12-01 06:49:02] Received request-line: CONNECT google.com:443 HTTP/1.1
+[2025-12-01 06:49:02] Tunnel established to google.com (172.217.4.206:443)
+[2025-12-01 06:49:04] Received request-line: CONNECT www.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:49:04] Tunnel established to www.gstatic.com (142.250.191.227:443)
+[2025-12-01 06:49:04] Received request-line: CONNECT ogads-pa.clients6.google.com:443 HTTP/1.1
+[2025-12-01 06:49:04] Received request-line: CONNECT waa-pa.clients6.google.com:443 HTTP/1.1
+[2025-12-01 06:49:04] Tunnel established to waa-pa.clients6.google.com (142.250.191.106:443)
+[2025-12-01 06:49:04] Tunnel established to ogads-pa.clients6.google.com (172.217.2.42:443)
+[2025-12-01 06:49:04] Received request-line: CONNECT waa-pa.clients6.google.com:443 HTTP/1.1
+[2025-12-01 06:49:04] Received request-line: CONNECT af.opera.com:443 HTTP/1.1
+[2025-12-01 06:49:04] Tunnel established to waa-pa.clients6.google.com (142.250.191.106:443)
+[2025-12-01 06:49:04] Tunnel established to af.opera.com (107.167.96.44:443)
+[2025-12-01 06:49:04] Received request-line: CONNECT accounts.google.com:443 HTTP/1.1
+[2025-12-01 06:49:04] Tunnel established to accounts.google.com (142.251.4.84:443)
+[2025-12-01 06:49:04] Received request-line: CONNECT play.google.com:443 HTTP/1.1
+[2025-12-01 06:49:04] Tunnel established to play.google.com (142.251.32.14:443)
+[2025-12-01 06:49:06] Received request-line: CONNECT encrypted-tbn0.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:49:06] Tunnel established to encrypted-tbn0.gstatic.com (142.250.191.174:443)
+[2025-12-01 06:49:06] Received request-line: CONNECT lh3.googleusercontent.com:443 HTTP/1.1
+[2025-12-01 06:49:06] Tunnel established to lh3.googleusercontent.com (142.250.190.65:443)
+[2025-12-01 06:49:07] Received request-line: CONNECT www.googleadservices.com:443 HTTP/1.1
+[2025-12-01 06:49:07] Tunnel established to www.googleadservices.com (142.250.190.2:443)
+[2025-12-01 06:49:09] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:49:09] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:49:09] Received request-line: CONNECT www.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:49:09] Tunnel established to www.gstatic.com (142.250.191.227:443)
+[2025-12-01 06:49:10] Received request-line: CONNECT www.youtube.com:443 HTTP/1.1
+[2025-12-01 06:49:10] Blocking CONNECT to forbidden site www.youtube.com
+[2025-12-01 06:49:13] Received request-line: CONNECT ogs.google.com:443 HTTP/1.1
+[2025-12-01 06:49:13] Tunnel established to ogs.google.com (142.250.190.46:443)
+[2025-12-01 06:49:13] Received request-line: CONNECT ssl.gstatic.com:443 HTTP/1.1
+[2025-12-01 06:49:13] Tunnel established to ssl.gstatic.com (172.217.5.3:443)
+[2025-12-01 06:49:13] Received request-line: CONNECT www.azlyrics.com:443 HTTP/1.1
+[2025-12-01 06:49:13] Tunnel established to www.azlyrics.com (5.79.76.225:443)
+[2025-12-01 06:49:14] Received request-line: CONNECT maxcdn.bootstrapcdn.com:443 HTTP/1.1
+[2025-12-01 06:49:14] Received request-line: CONNECT consent.cookiebot.com:443 HTTP/1.1
+[2025-12-01 06:49:14] Received request-line: CONNECT a.pub.network:443 HTTP/1.1
+[2025-12-01 06:49:14] Tunnel established to maxcdn.bootstrapcdn.com (104.18.11.207:443)
+[2025-12-01 06:49:14] Tunnel established to consent.cookiebot.com (23.33.22.14:443)
+[2025-12-01 06:49:14] Tunnel established to a.pub.network (104.18.20.206:443)
+[2025-12-01 06:49:14] Received request-line: CONNECT www.googletagmanager.com:443 HTTP/1.1
+[2025-12-01 06:49:14] Tunnel established to www.googletagmanager.com (172.217.5.8:443)
+[2025-12-01 06:49:15] Received request-line: CONNECT analytics.google.com:443 HTTP/1.1
+[2025-12-01 06:49:15] Received request-line: CONNECT stats.g.doubleclick.net:443 HTTP/1.1
+[2025-12-01 06:49:15] Tunnel established to analytics.google.com (216.239.34.181:443)
+[2025-12-01 06:49:15] Tunnel established to stats.g.doubleclick.net (142.251.182.155:443)
+[2025-12-01 06:49:16] Received request-line: CONNECT site-config.com:443 HTTP/1.1
+[2025-12-01 06:49:16] Tunnel established to site-config.com (35.190.125.54:443)
+[2025-12-01 06:49:21] Received request-line: CONNECT vscode-sync.trafficmanager.net:443 HTTP/1.1
+[2025-12-01 06:49:21] Tunnel established to vscode-sync.trafficmanager.net (40.71.11.167:443)
+[2025-12-01 06:49:34] Tunnel closed for weather.opera-api2.com:443
+[2025-12-01 06:49:36] Tunnel closed for httpbin.org:443
+[2025-12-01 06:50:15] Loaded 5 forbidden words and 4 forbidden sites from forbidden.txt
+[2025-12-01 06:50:15] Proxy listening on port 5465
+[2025-12-01 06:50:15] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
+[2025-12-01 06:50:15] Tunnel established to mobile.events.data.microsoft.com (20.44.10.123:443)
+[2025-12-01 06:50:15] Received request-line: CONNECT vscode-sync.trafficmanager.net:443 HTTP/1.1
+[2025-12-01 06:50:15] Tunnel established to vscode-sync.trafficmanager.net (40.71.11.167:443)
+[2025-12-01 06:50:16] Received request-line: CONNECT vscode-sync.trafficmanager.net:443 HTTP/1.1
+[2025-12-01 06:50:16] Tunnel established to vscode-sync.trafficmanager.net (40.71.11.167:443)
+[2025-12-01 06:50:21] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 06:50:22] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 06:50:22] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 06:50:22] Received request-line: CONNECT www.google.com:443 HTTP/1.1
+[2025-12-01 06:50:22] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 06:50:23] Received request-line: CONNECT sitecheck.opera.com:443 HTTP/1.1
+[2025-12-01 06:50:23] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 06:50:23] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 06:50:23] Received request-line: CONNECT www.ebay.com:443 HTTP/1.1
+[2025-12-01 06:50:23] Blocking CONNECT to forbidden site www.ebay.com
+[2025-12-01 06:50:23] Received request-line: CONNECT www.ebay.com:443 HTTP/1.1
+[2025-12-01 06:50:23] Blocking CONNECT to forbidden site www.ebay.com
+[2025-12-01 06:50:23] Received request-line: CONNECT www.ebay.com:443 HTTP/1.1
+[2025-12-01 06:50:23] Blocking CONNECT to forbidden site www.ebay.com
+[2025-12-01 06:50:23] Tunnel established to www.google.com (142.250.190.100:443)
+[2025-12-01 06:50:23] Tunnel established to sitecheck.opera.com (107.167.96.43:443)
+[2025-12-01 06:50:23] Received request-line: CONNECT cashback-api-production.operacdn.com:443 HTTP/1.1
+[2025-12-01 06:50:23] Tunnel established to cashback-api-production.operacdn.com (23.64.112.20:443)
+[2025-12-01 06:50:24] Received request-line: CONNECT www.ebay.com:443 HTTP/1.1
+[2025-12-01 06:50:24] Blocking CONNECT to forbidden site www.ebay.com
+[2025-12-01 06:50:24] Received request-line: CONNECT www.ebay.com:443 HTTP/1.1
+[2025-12-01 06:50:24] Blocking CONNECT to forbidden site www.ebay.com
+[2025-12-01 06:50:25] Received request-line: CONNECT chatgpt.com:443 HTTP/1.1
+[2025-12-01 06:50:25] Tunnel established to chatgpt.com (104.18.32.47:443)
+[2025-12-01 06:50:25] Received request-line: CONNECT ws.chatgpt.com:443 HTTP/1.1
+[2025-12-01 06:50:25] Tunnel established to ws.chatgpt.com (104.18.39.21:443)
+[2025-12-01 06:50:30] Received request-line: CONNECT analytics.google.com:443 HTTP/1.1
+[2025-12-01 06:50:30] Tunnel established to analytics.google.com (216.239.38.181:443)
+[2025-12-01 06:50:32] Received request-line: GET http://ipv6.msftconnecttest.com/connecttest.txt HTTP/1.1
+[2025-12-01 06:50:33] Tunnel closed for www.google.com:443
+[2025-12-01 06:50:33] Tunnel closed for www.google.com:443
+[2025-12-01 06:50:33] Tunnel closed for www.google.com:443
+[2025-12-01 06:50:36] Received request-line: CONNECT www.google-analytics.com:443 HTTP/1.1
+[2025-12-01 06:50:36] Received request-line: CONNECT purdue.brightspace.com:443 HTTP/1.1
+[2025-12-01 06:50:36] Blocking request from client: forbidden word in request
+[2025-12-01 06:50:36] Tunnel established to www.google-analytics.com (172.217.4.46:443)
