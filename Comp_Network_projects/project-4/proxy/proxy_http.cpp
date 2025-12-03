@@ -1,7 +1,4 @@
-/* proxy_http.cpp
-   Completed HTTP/HTTPS proxy that reads a single forbidden list file (forbidden.txt)
-   and blocks requests/responses accordingly.
-
+/*
    forbidden.txt rules:
      - Lines starting with "site:" (case-insensitive) are forbidden hostnames.
      - Other non-empty, non-# lines are forbidden keywords.
@@ -606,8 +603,7 @@ void *client_thread(void *arg)
 	}
 
 	// Quick check: if request-line (without query) or headers or body contain forbidden words -> 403
-	// We will strip query parameters from the request URI for the request check so query values (which are often echoed
-	// in the response) do not cause a 403 preemptively.
+	// We will strip query parameters from the request URI for the request check so query values (which are often echoed in the response) do not cause a 403 preemptively.
 	std::istringstream issRL(reqLine);
 	std::string method, uri, version;
 	if (!(issRL >> method >> uri >> version)) {
@@ -752,17 +748,8 @@ void *client_thread(void *arg)
 		}
 	}
 
-	// Now we must read the SERVER's response & inspect it for forbidden words
-	// We will buffer the full response (headers + raw body) in per-thread local buffers.
+	
 	// If any forbidden word is found in the response body -> return 503 to client instead of forwarding original.
-	// Steps:
-	//  1) read status-line
-	//  2) read headers
-	//  3) parse headers to determine body-length type (chunked, content-length, or connection-close)
-	//  4) read body accordingly into rawBody and decodedBody (decodedBody is the textual data for searching)
-	//  5) inspect decodedBody for forbidden words
-	//  6) send either original response (status+headers+rawBody) or 503 HTML
-
 	// 1) status line
 	std::string statusLine;
 	if (!recvLine(serverSock, statusLine)) {
