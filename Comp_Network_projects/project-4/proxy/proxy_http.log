@@ -241,3 +241,226 @@
 [2025-12-01 20:50:39] Tunnel established to main.vscode-cdn.net (13.107.213.51:443)
 [2025-12-01 20:50:58] Tunnel closed for s.yimg.com:443
 [2025-12-01 20:51:02] Tunnel closed for us.search.yahoo.com:443
+[2025-12-03 20:18:59] Loaded 5 forbidden words and 4 forbidden sites from forbidden.txt
+[2025-12-03 20:18:59] Proxy listening on port 5465
+[2025-12-03 20:19:44] Received request-line: CONNECT chatgpt.com:443 HTTP/1.1
+[2025-12-03 20:19:44] Tunnel established to chatgpt.com (104.18.32.47:443)
+[2025-12-03 20:19:46] Received request-line: CONNECT vscode-sync.trafficmanager.net:443 HTTP/1.1
+[2025-12-03 20:19:46] Tunnel established to vscode-sync.trafficmanager.net (40.71.11.167:443)
+[2025-12-03 20:19:49] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
+[2025-12-03 20:19:49] Received request-line: CONNECT us.search.yahoo.com:443 HTTP/1.1
+[2025-12-03 20:19:49] Tunnel established to mobile.events.data.microsoft.com (20.189.173.23:443)
+[2025-12-03 20:19:49] Tunnel established to us.search.yahoo.com (66.218.84.137:443)
+[2025-12-03 20:19:50] Received request-line: CONNECT optimizationguide-pa.googleapis.com:443 HTTP/1.1
+[2025-12-03 20:19:50] Received request-line: GET http://httpbin.org/anything?hello HTTP/1.1
+[2025-12-03 20:19:50] Tunnel established to optimizationguide-pa.googleapis.com (142.251.111.95:443)
+[2025-12-03 20:19:50] GET /anything?hello -> httpbin.org:80 (174.129.209.199)
+[2025-12-03 20:19:50] Completed request for httpbin.org:80 /anything?hello
+[2025-12-03 20:19:50] Received request-line: GET http://httpbin.org/favicon.ico HTTP/1.1
+[2025-12-03 20:19:50] Blocking request from client: forbidden word in request (headers/path/body)
+[2025-12-03 20:19:50] Received request-line: CONNECT android.clients.google.com:443 HTTP/1.1
+[2025-12-03 20:19:50] Tunnel established to android.clients.google.com (142.251.16.138:443)
+[2025-12-03 20:19:54] Received request-line: GET http://httpbin.org/anything?hello HTTP/1.1
+[2025-12-03 20:19:54] GET /anything?hello -> httpbin.org:80 (50.19.240.96)
+[2025-12-03 20:19:54] Completed request for httpbin.org:80 /anything?hello
+[2025-12-03 20:19:55] Received request-line: CONNECT www.googleapis.com:443 HTTP/1.1
+[2025-12-03 20:19:55] Tunnel established to www.googleapis.com (142.251.16.95:443)
+[2025-12-03 20:19:55] Received request-line: GET http://httpbin.org/anything?hello HTTP/1.1
+[2025-12-03 20:19:55] GET /anything?hello -> httpbin.org:80 (50.19.240.96)
+[2025-12-03 20:19:55] Completed request for httpbin.org:80 /anything?hello
+[2025-12-03 20:19:55] Received request-line: GET http://httpbin.org/favicon.ico HTTP/1.1
+[2025-12-03 20:19:55] Blocking request from client: forbidden word in request (headers/path/body)
+[2025-12-03 20:20:24] Received request-line: CONNECT clientservices.googleapis.com:443 HTTP/1.1
+[2025-12-03 20:20:24] Tunnel established to clientservices.googleapis.com (64.233.180.94:443)
+[2025-12-03 20:20:24] Received request-line: CONNECT clients4.google.com:443 HTTP/1.1
+[2025-12-03 20:20:24] Tunnel established to clients4.google.com (64.233.180.138:443)
+[2025-12-03 20:20:24] Received request-line: CONNECT update.googleapis.com:443 HTTP/1.1
+[2025-12-03 20:20:25] Tunnel established to update.googleapis.com (192.178.155.94:443)
+[2025-12-03 20:20:25] Received request-line: HEAD http://edgedl.me.gvt1.com/edgedl/chromewebstore/L2Nocm9tZV9leHRlbnNpb24vYmxvYnMvNzFkOTU2ODctM2JiNS00NDJhLTg2ZmEtYjM0ODZiM2YxNmVm/1.0.0.19_llkgjffcdpffmhiakmfcdcblohccpfmo.crx HTTP/1.1
+[2025-12-03 20:20:25] HEAD /edgedl/chromewebstore/L2Nocm9tZV9leHRlbnNpb24vYmxvYnMvNzFkOTU2ODctM2JiNS00NDJhLTg2ZmEtYjM0ODZiM2YxNmVm/1.0.0.19_llkgjffcdpffmhiakmfcdcblohccpfmo.crx -> edgedl.me.gvt1.com:80 (34.104.35.123)
+[2025-12-03 20:20:31] Received request-line: CONNECT data.iana.org:443 HTTP/1.1
+[2025-12-03 20:20:31] Tunnel established to data.iana.org (23.220.246.140:443)
+[2025-12-03 20:20:33] Received request-line: GET http://httpbin.org/response-headers?Content-Type=text/plain&foo=hello HTTP/1.1
+[2025-12-03 20:20:33] Received request-line: CONNECT threat.api.mcafee.com:443 HTTP/1.1
+[2025-12-03 20:20:33] Received request-line: CONNECT safebrowsing.google.com:443 HTTP/1.1
+[2025-12-03 20:20:33] GET /response-headers?Content-Type=text/plain&foo=hello -> httpbin.org:80 (174.129.209.199)
+[2025-12-03 20:20:33] Tunnel established to threat.api.mcafee.com (54.224.94.179:443)
+[2025-12-03 20:20:33] Tunnel established to safebrowsing.google.com (64.233.180.136:443)
+[2025-12-03 20:20:33] Completed request for httpbin.org:80 /response-headers?Content-Type=text/plain&foo=hello
+[2025-12-03 20:20:33] Received request-line: GET http://httpbin.org/favicon.ico HTTP/1.1
+[2025-12-03 20:20:33] Blocking request from client: forbidden word in request (headers/path/body)
+[2025-12-03 20:20:35] Tunnel closed for safebrowsing.google.com:443
+[2025-12-03 20:20:35] Tunnel closed for us.search.yahoo.com:443
+[2025-12-03 20:20:36] Tunnel closed for android.clients.google.com:443
+[2025-12-03 20:20:36] Tunnel closed for optimizationguide-pa.googleapis.com:443
+[2025-12-03 20:20:36] Tunnel closed for threat.api.mcafee.com:443
+[2025-12-03 20:20:36] Tunnel closed for clients4.google.com:443
+[2025-12-03 20:20:36] Tunnel closed for update.googleapis.com:443
+[2025-12-03 20:20:36] Tunnel closed for data.iana.org:443
+[2025-12-03 20:20:36] Tunnel closed for www.googleapis.com:443
+[2025-12-03 20:20:36] Tunnel closed for clientservices.googleapis.com:443
+[2025-12-03 20:21:06] Received request-line: CONNECT sync.opera.com:443 HTTP/1.1
+[2025-12-03 20:21:06] Tunnel established to sync.opera.com (185.26.182.111:443)
+[2025-12-03 20:21:13] Received request-line: GET http://httpbin.org/anything?hello HTTP/1.1
+[2025-12-03 20:21:13] GET /anything?hello -> httpbin.org:80 (54.83.21.156)
+[2025-12-03 20:21:18] Detected forbidden content in Content-Length response, sending 503
+[2025-12-03 20:21:46] Received request-line: GET http://httpbin.org/response-headers?Content-Type=text/plain&foo=hello HTTP/1.1
+[2025-12-03 20:21:46] GET /response-headers?Content-Type=text/plain&foo=hello -> httpbin.org:80 (3.219.87.227)
+[2025-12-03 20:21:47] Detected forbidden content in Content-Length response, sending 503
+[2025-12-03 20:22:05] Received request-line: GET http://ipv6.msftconnecttest.com/connecttest.txt HTTP/1.1
+[2025-12-03 20:22:11] Tunnel closed for sync.opera.com:443
+[2025-12-03 20:22:40] Received request-line: CONNECT substrate.office.com:443 HTTP/1.0
+[2025-12-03 20:22:40] Received request-line: CONNECT graph.microsoft.com:443 HTTP/1.0
+[2025-12-03 20:22:40] Tunnel established to substrate.office.com (52.96.79.210:443)
+[2025-12-03 20:22:40] Tunnel established to graph.microsoft.com (40.126.27.163:443)
+[2025-12-03 20:23:13] Received request-line: CONNECT httpbin.org:443 HTTP/1.1
+[2025-12-03 20:23:13] Tunnel established to httpbin.org (174.129.209.199:443)
+[2025-12-03 20:23:13] Received request-line: GET http://ocsp.r2m03.amazontrust.com/MFEwTzBNMEswSTAJBgUrDgMCGgUABBQqHI%2BsdmapawQncL1rpCEZZ8gTSAQUVdkYX9IczAHhWLS%2Bq9lVQgHXLgICEA4lWNSSco6cAaja3twF0T0%3D HTTP/1.1
+[2025-12-03 20:23:13] GET /MFEwTzBNMEswSTAJBgUrDgMCGgUABBQqHI%2BsdmapawQncL1rpCEZZ8gTSAQUVdkYX9IczAHhWLS%2Bq9lVQgHXLgICEA4lWNSSco6cAaja3twF0T0%3D -> ocsp.r2m03.amazontrust.com:80 (3.162.158.220)
+[2025-12-03 20:23:13] Completed request for ocsp.r2m03.amazontrust.com:80 /MFEwTzBNMEswSTAJBgUrDgMCGgUABBQqHI%2BsdmapawQncL1rpCEZZ8gTSAQUVdkYX9IczAHhWLS%2Bq9lVQgHXLgICEA4lWNSSco6cAaja3twF0T0%3D
+[2025-12-03 20:23:14] Tunnel closed for httpbin.org:443
+[2025-12-03 20:23:18] Received request-line: CONNECT httpbin.org:443 HTTP/1.1
+[2025-12-03 20:23:18] Tunnel established to httpbin.org (174.129.209.199:443)
+[2025-12-03 20:23:18] Tunnel closed for httpbin.org:443
+[2025-12-03 20:23:33] Received request-line: CONNECT httpbin.org:443 HTTP/1.1
+[2025-12-03 20:23:33] Tunnel established to httpbin.org (50.19.240.96:443)
+[2025-12-03 20:23:33] Tunnel closed for httpbin.org:443
+[2025-12-03 20:23:41] Received request-line: CONNECT main.vscode-cdn.net:443 HTTP/1.1
+[2025-12-03 20:23:41] Tunnel established to main.vscode-cdn.net (13.107.246.51:443)
+[2025-12-03 20:23:43] Received request-line: GET http://httpbin.org/anything?hello HTTP/1.1
+[2025-12-03 20:23:43] GET /anything?hello -> httpbin.org:80 (50.19.240.96)
+[2025-12-03 20:23:43] Completed request for httpbin.org:80 /anything?hello
+[2025-12-03 20:23:50] Tunnel closed for substrate.office.com:443
+[2025-12-03 20:23:50] Tunnel closed for graph.microsoft.com:443
+[2025-12-03 20:23:59] Received request-line: GET http://httpbin.org/anything?hello HTTP/1.1
+[2025-12-03 20:23:59] GET /anything?hello -> httpbin.org:80 (50.19.240.96)
+[2025-12-03 20:23:59] Completed request for httpbin.org:80 /anything?hello
+[2025-12-03 20:24:07] Received request-line: GET http://httpbin.org/response-headers?Content-Type=text/plain&foo=hello HTTP/1.1
+[2025-12-03 20:24:07] GET /response-headers?Content-Type=text/plain&foo=hello -> httpbin.org:80 (50.19.240.96)
+[2025-12-03 20:24:07] Completed request for httpbin.org:80 /response-headers?Content-Type=text/plain&foo=hello
+[2025-12-03 20:24:24] Received request-line: CONNECT autoupdate.opera.com:443 HTTP/1.1
+[2025-12-03 20:24:24] Tunnel established to autoupdate.opera.com (107.167.96.38:443)
+[2025-12-03 20:24:25] Received request-line: GET http://httpbin.org/anything?hello HTTP/1.1
+[2025-12-03 20:24:25] GET /anything?hello -> httpbin.org:80 (174.129.209.199)
+[2025-12-03 20:24:25] Completed request for httpbin.org:80 /anything?hello
+[2025-12-03 20:24:36] Received request-line: GET http://httpbin.org/anything?hello HTTP/1.1
+[2025-12-03 20:24:36] GET /anything?hello -> httpbin.org:80 (174.129.209.199)
+[2025-12-03 20:24:36] Completed request for httpbin.org:80 /anything?hello
+[2025-12-03 20:24:54] Received request-line: GET http://httpbin.org/anything?boom HTTP/1.1
+[2025-12-03 20:24:54] GET /anything?boom -> httpbin.org:80 (100.29.246.92)
+[2025-12-03 20:25:01] Received request-line: GET http://ipv6.msftncsi.com/connecttest.txt HTTP/1.1
+[2025-12-03 20:25:04] Detected forbidden content in Content-Length response, sending 503
+[2025-12-03 20:25:11] Tunnel closed for main.vscode-cdn.net:443
+[2025-12-03 20:25:14] Received request-line: CONNECT clientservices.googleapis.com:443 HTTP/1.1
+[2025-12-03 20:25:14] Received request-line: CONNECT www.googleapis.com:443 HTTP/1.1
+[2025-12-03 20:25:14] Received request-line: CONNECT accounts.google.com:443 HTTP/1.1
+[2025-12-03 20:25:14] Received request-line: CONNECT www.googleapis.com:443 HTTP/1.1
+[2025-12-03 20:25:14] Received request-line: CONNECT www.googleapis.com:443 HTTP/1.1
+[2025-12-03 20:25:14] Tunnel established to clientservices.googleapis.com (64.233.180.94:443)
+[2025-12-03 20:25:14] Tunnel established to www.googleapis.com (142.251.16.95:443)
+[2025-12-03 20:25:14] Tunnel established to www.googleapis.com (172.253.115.95:443)
+[2025-12-03 20:25:14] Tunnel established to www.googleapis.com (172.253.115.95:443)
+[2025-12-03 20:25:14] Tunnel established to accounts.google.com (172.253.122.84:443)
+[2025-12-03 20:25:14] Tunnel closed for www.googleapis.com:443
+[2025-12-03 20:25:14] Tunnel closed for www.googleapis.com:443
+[2025-12-03 20:25:14] Received request-line: CONNECT accounts.google.com:443 HTTP/1.1
+[2025-12-03 20:25:14] Tunnel established to accounts.google.com (172.253.122.84:443)
+[2025-12-03 20:25:14] Tunnel closed for clientservices.googleapis.com:443
+[2025-12-03 20:25:14] Tunnel closed for accounts.google.com:443
+[2025-12-03 20:25:14] Tunnel closed for accounts.google.com:443
+[2025-12-03 20:25:14] Tunnel closed for www.googleapis.com:443
+[2025-12-03 20:25:14] Received request-line: CONNECT accounts.google.com:443 HTTP/1.1
+[2025-12-03 20:25:14] Tunnel established to accounts.google.com (172.253.122.84:443)
+[2025-12-03 20:25:14] Received request-line: CONNECT accounts.doubleclick.net:443 HTTP/1.1
+[2025-12-03 20:25:14] Received request-line: CONNECT accounts.youtube.com:443 HTTP/1.1
+[2025-12-03 20:25:14] Tunnel established to accounts.youtube.com (192.178.155.113:443)
+[2025-12-03 20:25:14] Tunnel established to accounts.doubleclick.net (172.253.62.113:443)
+[2025-12-03 20:25:14] Received request-line: CONNECT darkreader.org:443 HTTP/1.1
+[2025-12-03 20:25:14] Tunnel established to darkreader.org (185.199.108.153:443)
+[2025-12-03 20:25:14] Received request-line: CONNECT accounts.google.com:443 HTTP/1.1
+[2025-12-03 20:25:14] Tunnel established to accounts.google.com (172.253.122.84:443)
+[2025-12-03 20:25:18] Received request-line: CONNECT update.googleapis.com:443 HTTP/1.1
+[2025-12-03 20:25:18] Tunnel established to update.googleapis.com (192.178.155.94:443)
+[2025-12-03 20:25:18] Received request-line: CONNECT mtalk.google.com:5228 HTTP/1.1
+[2025-12-03 20:25:18] Received request-line: CONNECT android.clients.google.com:443 HTTP/1.1
+[2025-12-03 20:25:18] Tunnel established to mtalk.google.com (192.178.218.188:5228)
+[2025-12-03 20:25:18] Tunnel established to android.clients.google.com (142.251.111.100:443)
+[2025-12-03 20:25:18] Tunnel closed for accounts.youtube.com:443
+[2025-12-03 20:25:18] Tunnel closed for accounts.google.com:443
+[2025-12-03 20:25:18] Tunnel closed for accounts.doubleclick.net:443
+[2025-12-03 20:25:18] Tunnel closed for darkreader.org:443
+[2025-12-03 20:25:18] Tunnel closed for accounts.google.com:443
+[2025-12-03 20:25:18] Tunnel closed for update.googleapis.com:443
+[2025-12-03 20:25:18] Tunnel closed for android.clients.google.com:443
+[2025-12-03 20:25:21] Received request-line: CONNECT safebrowsing.google.com:443 HTTP/1.1
+[2025-12-03 20:25:21] Received request-line: GET http://httpbin.org/anything?hello HTTP/1.1
+[2025-12-03 20:25:21] Tunnel established to safebrowsing.google.com (64.233.180.93:443)
+[2025-12-03 20:25:21] GET /anything?hello -> httpbin.org:80 (52.205.123.206)
+[2025-12-03 20:25:23] Detected forbidden content in Content-Length response, sending 503
+[2025-12-03 20:25:23] Received request-line: CONNECT optimizationguide-pa.googleapis.com:443 HTTP/1.1
+[2025-12-03 20:25:23] Received request-line: CONNECT optimizationguide-pa.googleapis.com:443 HTTP/1.1
+[2025-12-03 20:25:23] Received request-line: GET http://httpbin.org/anything?hello HTTP/1.1
+[2025-12-03 20:25:23] GET /anything?hello -> httpbin.org:80 (100.29.246.92)
+[2025-12-03 20:25:23] Tunnel established to optimizationguide-pa.googleapis.com (142.251.111.95:443)
+[2025-12-03 20:25:23] Tunnel established to optimizationguide-pa.googleapis.com (142.250.31.95:443)
+[2025-12-03 20:25:29] Tunnel closed for autoupdate.opera.com:443
+[2025-12-03 20:25:30] Received request-line: HEAD http://edgedl.me.gvt1.com/edgedl/chromewebstore/L2Nocm9tZV9leHRlbnNpb24vYmxvYnMvNzFkOTU2ODctM2JiNS00NDJhLTg2ZmEtYjM0ODZiM2YxNmVm/1.0.0.19_llkgjffcdpffmhiakmfcdcblohccpfmo.crx HTTP/1.1
+[2025-12-03 20:25:30] HEAD /edgedl/chromewebstore/L2Nocm9tZV9leHRlbnNpb24vYmxvYnMvNzFkOTU2ODctM2JiNS00NDJhLTg2ZmEtYjM0ODZiM2YxNmVm/1.0.0.19_llkgjffcdpffmhiakmfcdcblohccpfmo.crx -> edgedl.me.gvt1.com:80 (34.104.35.123)
+[2025-12-03 20:25:39] Received request-line: CONNECT android.clients.google.com:443 HTTP/1.1
+[2025-12-03 20:25:40] Tunnel established to android.clients.google.com (142.251.179.101:443)
+[2025-12-03 20:25:56] Detected forbidden content in Content-Length response, sending 503
+[2025-12-03 20:25:56] Received request-line: GET http://httpbin.org/favicon.ico HTTP/1.1
+[2025-12-03 20:25:56] Blocking request from client: forbidden word in request (headers/path/body)
+[2025-12-03 20:26:09] Tunnel closed for mtalk.google.com:5228
+[2025-12-03 20:26:09] Tunnel closed for safebrowsing.google.com:443
+[2025-12-03 20:26:09] Tunnel closed for optimizationguide-pa.googleapis.com:443
+[2025-12-03 20:26:09] Tunnel closed for android.clients.google.com:443
+[2025-12-03 20:26:09] Tunnel closed for optimizationguide-pa.googleapis.com:443
+[2025-12-03 20:37:24] Loaded 5 forbidden words and 4 forbidden sites from forbidden.txt
+[2025-12-03 20:37:24] Proxy listening on port 5465
+[2025-12-03 20:37:24] Received request-line: CONNECT marketplace.visualstudio.com:443 HTTP/1.1
+[2025-12-03 20:37:24] Received request-line: CONNECT www.vscode-unpkg.net:443 HTTP/1.1
+[2025-12-03 20:37:24] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
+[2025-12-03 20:37:24] Tunnel established to www.vscode-unpkg.net (13.107.213.51:443)
+[2025-12-03 20:37:24] Tunnel established to marketplace.visualstudio.com (150.171.73.16:443)
+[2025-12-03 20:37:24] Tunnel established to mobile.events.data.microsoft.com (20.189.173.25:443)
+[2025-12-03 20:37:25] Received request-line: CONNECT mobile.events.data.microsoft.com:443 HTTP/1.1
+[2025-12-03 20:37:25] Tunnel established to mobile.events.data.microsoft.com (20.189.173.25:443)
+[2025-12-03 20:37:28] Received request-line: CONNECT github.gallerycdn.vsassets.io:443 HTTP/1.1
+[2025-12-03 20:37:28] Tunnel established to github.gallerycdn.vsassets.io (23.220.246.155:443)
+[2025-12-03 20:37:28] Received request-line: CONNECT update.code.visualstudio.com:443 HTTP/1.1
+[2025-12-03 20:37:28] Tunnel established to update.code.visualstudio.com (13.107.246.51:443)
+[2025-12-03 20:37:28] Received request-line: CONNECT github.gallery.vsassets.io:443 HTTP/1.1
+[2025-12-03 20:37:28] Tunnel established to github.gallery.vsassets.io (150.171.73.16:443)
+[2025-12-03 20:37:31] Received request-line: CONNECT copilot-telemetry.githubusercontent.com:443 HTTP/1.1
+[2025-12-03 20:37:31] Tunnel established to copilot-telemetry.githubusercontent.com (140.82.113.22:443)
+[2025-12-03 20:37:32] Tunnel closed for copilot-telemetry.githubusercontent.com:443
+[2025-12-03 20:37:34] Received request-line: CONNECT github.gallerycdn.vsassets.io:443 HTTP/1.1
+[2025-12-03 20:37:34] Tunnel established to github.gallerycdn.vsassets.io (23.220.246.155:443)
+[2025-12-03 20:37:34] Received request-line: GET http://httpbin.org/hello HTTP/1.1
+[2025-12-03 20:37:34] Blocking request from client: forbidden word in request (headers/path/body)
+[2025-12-03 20:37:47] Received request-line: CONNECT chatgpt.com:443 HTTP/1.1
+[2025-12-03 20:37:47] Tunnel established to chatgpt.com (172.64.155.209:443)
+[2025-12-03 20:38:01] Received request-line: CONNECT api.github.com:443 HTTP/1.1
+[2025-12-03 20:38:01] Received request-line: CONNECT api.github.com:443 HTTP/1.1
+[2025-12-03 20:38:02] Tunnel established to api.github.com (140.82.112.6:443)
+[2025-12-03 20:38:02] Tunnel established to api.github.com (140.82.112.6:443)
+[2025-12-03 20:38:02] Received request-line: CONNECT copilot-telemetry.githubusercontent.com:443 HTTP/1.1
+[2025-12-03 20:38:02] Tunnel established to copilot-telemetry.githubusercontent.com (140.82.112.22:443)
+[2025-12-03 20:38:02] Received request-line: CONNECT vscode-sync.trafficmanager.net:443 HTTP/1.1
+[2025-12-03 20:38:02] Received request-line: CONNECT api.github.com:443 HTTP/1.1
+[2025-12-03 20:38:02] Received request-line: CONNECT main.vscode-cdn.net:443 HTTP/1.1
+[2025-12-03 20:38:02] Tunnel established to main.vscode-cdn.net (13.107.246.51:443)
+[2025-12-03 20:38:02] Tunnel established to vscode-sync.trafficmanager.net (40.71.11.167:443)
+[2025-12-03 20:38:02] Tunnel established to api.github.com (140.82.112.6:443)
+[2025-12-03 20:38:02] Received request-line: CONNECT api.individual.githubcopilot.com:443 HTTP/1.1
+[2025-12-03 20:38:02] Received request-line: CONNECT api.individual.githubcopilot.com:443 HTTP/1.1
+[2025-12-03 20:38:02] Tunnel established to api.individual.githubcopilot.com (140.82.112.22:443)
+[2025-12-03 20:38:02] Received request-line: CONNECT api.githubcopilot.com:443 HTTP/1.1
+[2025-12-03 20:38:02] Tunnel established to api.individual.githubcopilot.com (140.82.112.22:443)
+[2025-12-03 20:38:02] Tunnel established to api.githubcopilot.com (140.82.112.22:443)
+[2025-12-03 20:38:02] Tunnel closed for copilot-telemetry.githubusercontent.com:443
+[2025-12-03 20:38:03] Received request-line: CONNECT default.exp-tas.com:443 HTTP/1.1
+[2025-12-03 20:38:03] Tunnel established to default.exp-tas.com (13.107.5.93:443)
+[2025-12-03 20:38:03] Received request-line: CONNECT default.exp-tas.com:443 HTTP/1.1
+[2025-12-03 20:38:03] Tunnel established to default.exp-tas.com (13.107.5.93:443)
